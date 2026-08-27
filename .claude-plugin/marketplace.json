@@ -1,0 +1,26 @@
+{
+  "name": "creator-skills",
+  "owner": {
+    "name": "Tô Hải Đoàn",
+    "url": "https://github.com/creator-ceo"
+  },
+  "metadata": {
+    "description": "Bộ skill cho mô hình kinh doanh dựa trên thương hiệu cá nhân — gồm nhóm do Tô Hải Đoàn tự nghiên cứu và nhóm tổng hợp từ nguồn mở chất lượng cao",
+    "version": "1.0.0",
+    "repository": "https://github.com/creator-ceo/creator-skills"
+  },
+  "plugins": [
+    {
+      "name": "cua-doan",
+      "description": "8 skill do Tô Hải Đoàn tự nghiên cứu và xây dựng: dựng bộ não thứ 2 (onboard, nap-kho, kiem-chung), Bánh Xe Cuộc Đời, viết content đúng giọng, dựng ảnh quote, trang giải thích bằng hình, và soi quảng cáo Meta/Google. Viết bằng tiếng Việt, dành cho người làm thương hiệu cá nhân tại Việt Nam.",
+      "source": "./cua-doan",
+      "strict": false
+    },
+    {
+      "name": "tong-hop",
+      "description": "41 skill marketing tổng hợp từ nguồn mở MIT chất lượng cao (marketingskills của Corey Haines, 45.8k sao): thiết kế offer, định giá, copywriting, email, lead magnet, launch, cộng đồng, tâm lý marketing, nghiên cứu khách hàng, quảng cáo, SEO, PR và đo lường. Bằng tiếng Anh.",
+      "source": "./tong-hop",
+      "strict": false
+    }
+  ]
+}

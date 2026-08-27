@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+
+# ⛔ KHOÁ API — không bao giờ commit. Chỉ file mẫu rỗng được lên repo.
+**/.khoa/*
+!**/.khoa/mau.env
+*.env
+!**/mau.env
+
+# Đầu ra khi chạy thật — của mỗi người mỗi khác
+**/bo-may/du-lieu/
+**/bo-may/de-xuat/
+**/bo-may/nhat-ky.jsonl

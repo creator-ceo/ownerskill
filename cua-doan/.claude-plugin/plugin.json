@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "cua-doan",
+  "displayName": "Skill của Tô Hải Đoàn",
+  "version": "1.0.0",
+  "description": "8 skill do Tô Hải Đoàn tự nghiên cứu và xây dựng cho mô hình thương hiệu cá nhân: dựng và nuôi bộ não thứ 2, Bánh Xe Cuộc Đời, viết content đúng giọng, dựng ảnh quote, trang giải thích bằng hình, soi quảng cáo Meta/Google.",
+  "author": {
+    "name": "Tô Hải Đoàn"
+  },
+  "license": "MIT",
+  "keywords": [
+    "thuong-hieu-ca-nhan",
+    "second-brain",
+    "content",
+    "tieng-viet",
+    "creator"
+  ]
+}
