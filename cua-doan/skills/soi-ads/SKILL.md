@@ -13,7 +13,30 @@ Skill này **được phép tiêu tiền của bạn**. Không skill nào khác 
 >
 > Không suy ra từ việc bạn từng duyệt hôm qua. Không suy ra từ câu *"cứ tối ưu giúp anh"*. Phải là một câu đồng ý, sau khi đã nhìn thấy danh sách hành động cụ thể.
 
-Mọi lệnh dưới đây chạy từ thư mục skill này. Luật đầy đủ của bộ máy ở `bo-may/CLAUDE.md` — đọc khi định sửa gì trong `bo-may/`.
+Luật đầy đủ của bộ máy ở `bo-may/CLAUDE.md` — đọc khi định sửa gì trong `bo-may/`.
+
+---
+
+## ⚠️ Lần đầu dùng — CHÉP BỘ MÁY RA NGOÀI trước khi làm gì khác
+
+Skill này được cài dưới dạng plugin, nên `bo-may/` nằm trong thư mục cache của Claude Code. **Bản cập nhật plugin sau sẽ ghi đè thư mục đó** — cuốn theo `luat.json` bạn đã điền, khoá API trong `.khoa/`, và cả `nhat-ky.jsonl` ghi lịch sử agent đã làm gì.
+
+Nên việc đầu tiên là chép bộ máy ra thư mục làm việc của bạn:
+
+```bash
+cp -R "$CLAUDE_PLUGIN_ROOT/skills/soi-ads/bo-may" ./ads
+```
+
+Từ đó về sau **mọi lệnh chạy trong `./ads`**, không chạy trong thư mục plugin. Ở các bước dưới, chỗ nào ghi `bo-may/` thì đọc là `ads/`.
+
+Rồi thêm hai dòng này vào `.gitignore` của bạn — khoá API không bao giờ được commit:
+
+```
+ads/.khoa/*
+!ads/.khoa/mau.env
+```
+
+📌 Đã chép rồi thì bỏ qua mục này. Kiểm bằng cách xem thư mục `ads/` đã có chưa.
 
 ---
 
