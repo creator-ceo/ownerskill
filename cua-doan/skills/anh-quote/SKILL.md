@@ -206,7 +206,9 @@ Bạn duyệt rồi thì:
 
 **6. Font viết tay trên máy bạn không dùng được cho kiểu giấy.** Đã render thử cả 5 font UTM có chữ "hand/script/brush" trong tên: toàn chữ ký hoa mỹ hoặc brush lem, không phải nét viết tay đều. Kiểu `giay-viet-tay` dùng **Playpen Sans** (đã nhúng). Patrick Hand cũng nhúng sẵn, mảnh hơn, giống bút bi — đổi bằng một dòng `--font-chinh`.
 
-**7. Poppins không dùng cho tiếng Việt.** Brand Guide ghi Poppins là font chính, nhưng chính guide cũng ghi nó vẽ sai dấu nặng/dấu hỏi khi viết hoa. Ảnh quote toàn tiếng Việt → dùng **Be Vietnam Pro** (đã nhúng sẵn trong `fonts/`, không phụ thuộc font cài trên máy). Font UTM trên máy bạn chỉ dùng làm font nhấn, và phải nhớ nó chỉ có trên máy bạn.
+**7. Poppins không dùng cho tiếng Việt.** Nhiều bộ nhận diện chọn Poppins làm font chính, nhưng bản gốc vẽ sai dấu nặng và dấu hỏi khi viết HOA. Ảnh quote toàn tiếng Việt → dùng **Be Vietnam Pro** (đã nhúng sẵn trong `fonts/`, không phụ thuộc font cài trên máy).
+
+⚠️ **Font cài trên máy bạn thì chỉ có trên máy bạn.** Muốn dùng font nhận diện riêng thì nhúng nó vào `fonts/` như các font đang có — không thì ảnh render ở máy khác sẽ ra font khác mà không ai báo lỗi. Trước khi chốt một font, gõ thử `ữ ự ệ ặ ộ ỗ ẫ ở Đ` ở cả chữ thường lẫn chữ HOA rồi **nhìn bằng mắt**.
 
 **8. Đường dẫn `anhNen` viết tương đối với `anh-quote/`.** `dung.mjs` có tìm ở vài gốc khác nhau và báo rõ đã tìm ở đâu, nhưng viết đúng ngay từ đầu vẫn nhanh hơn.
 
