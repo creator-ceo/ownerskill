@@ -21,6 +21,22 @@ git clone --depth 1 -q "$NGUON" "$TAM/nguon"
 
 cd "$TAM/nguon"
 echo "   phiên bản: $(python3 -c "import json;print(json.load(open('.claude-plugin/marketplace.json'))['metadata']['version'])" 2>/dev/null || echo '?')"
+echo "   commit:    $(git log -1 --format='%h %ci %an')"
+
+# ── SOI AN TOÀN TRƯỚC KHI THAY ───────────────────────────────────
+# Repo bên thứ ba có thể đổi chủ, bị chiếm, hoặc thêm nội dung xấu giữa hai
+# lần cập nhật. Bản đang nằm trong repo này đã được soi tay; bản vừa tải về
+# thì CHƯA. Không soi mà thay thẳng là tự mở lại đúng cửa vừa đóng.
+echo
+if ! "$GOC/scripts/soi-an-toan.sh" "$TAM/nguon/skills"; then
+  echo
+  echo "⛔ DỪNG — bản mới có chỗ đáng ngờ (xem ⚠️ ở trên)."
+  echo "   Đọc tận nơi trước đã. Vẫn muốn cập nhật thì chạy lại với:"
+  echo "       BO_QUA_SOI=1 $0"
+  [ "${BO_QUA_SOI:-0}" = "1" ] || exit 2
+  echo "   ⚠️  BO_QUA_SOI=1 — bỏ qua cảnh báo theo yêu cầu."
+fi
+echo
 
 thieu=0
 for s in "${CHON[@]}"; do

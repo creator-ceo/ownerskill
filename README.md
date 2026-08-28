@@ -114,6 +114,36 @@ Ví dụ một lượt làm việc thật:
 
 ---
 
+## An toàn — vì sao cài skill lạ là chuyện đáng cân nhắc
+
+**Skill không phải phần mềm. Nó là văn bản ra lệnh cho AI** — và con AI đó đang ngồi trong máy bạn với quyền đọc file, chạy lệnh, gọi API. Cài skill của người lạ nghĩa là để họ viết chỉ thị cho nó.
+
+41 skill nhóm `tong-hop` đã được soi trước khi đưa vào gói:
+
+| Soi gì | Kết quả |
+|---|---|
+| File chạy được (`.sh`, `.py`, `.js`…) | **0** — toàn bộ chỉ là `.md` |
+| Hook · MCP server · LSP *(thứ tự chạy, không cần bạn gõ gì)* | **0** |
+| Lệnh phá hoại, leo quyền, tải-rồi-chạy | **0** |
+| Endpoint gửi dữ liệu ra ngoài | **0** |
+| Lệnh đọc `~/.ssh`, `.aws/credentials`, keychain | **0** |
+| Chỉ thị ngầm (prompt injection) | 1 chỗ khớp mẫu — đã đọc tận nơi, là skill **dạy cách CHỐNG** injection |
+| Đối chiếu với bản gốc trên GitHub | **41/41 khớp bit-for-bit** |
+
+Bạn tự soi lại được, đừng tin lời tôi:
+
+```bash
+./scripts/soi-an-toan.sh tong-hop
+```
+
+Chạy được trên **bất kỳ** thư mục skill nào — kể cả skill bạn tải từ nơi khác.
+
+### Ba điều máy quét KHÔNG che được
+
+1. **Sạch theo máy quét ≠ an toàn tuyệt đối.** Skill vẫn là chỉ thị cho AI. Một skill hoàn toàn "sạch" vẫn có thể dạy AI làm việc theo cách bạn không muốn. Không gì thay được việc đọc `SKILL.md` của skill bạn dùng nhiều nhất.
+2. **Bản cập nhật tương lai là bản chưa ai soi.** Repo bên thứ ba có thể đổi chủ hoặc bị chiếm. Vì thế skill được **chép cứng vào repo này** thay vì tải lúc chạy — và `cap-nhat-nguon.sh` **tự soi rồi dừng** nếu bản mới có gì đáng ngờ.
+3. **`/soi-ads` tiêu tiền thật.** Đây là rủi ro lớn nhất trong cả gói, và nó nằm ở nhóm `cua-doan` chứ không phải nhóm người ngoài. Nó khoá cứng cho tới khi bạn tự điền `luat.json`, và không bao giờ áp thay đổi nếu bạn chưa gật **trong chính cuộc hội thoại đó**.
+
 ## Bản quyền
 
 - **Nhóm `cua-doan`** — © Tô Hải Đoàn, giấy phép [MIT](LICENSE).
