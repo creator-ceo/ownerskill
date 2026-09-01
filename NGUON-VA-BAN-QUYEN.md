@@ -4,11 +4,23 @@ Gói này gộp hai thứ có nguồn gốc khác nhau. Trang này ghi rõ cái 
 
 ---
 
-## Nhóm `cua-doan/` — 8 skill
+## Nhóm `cua-doan/` — 10 skill
 
 **© Tô Hải Đoàn.** Giấy phép **MIT** (xem [LICENSE](LICENSE)).
 
-Tự nghiên cứu và xây dựng, không lấy từ nguồn nào. Bạn được dùng, sửa, và phân phối lại — chỉ cần giữ dòng ghi công trong file `LICENSE`.
+**9 trong 10 skill** do Đoàn tự nghiên cứu và xây dựng, không lấy từ nguồn nào. Bạn được dùng, sửa, và phân phối lại — chỉ cần giữ dòng ghi công trong file `LICENSE`.
+
+Skill thứ 10 (`/soi-doi-thu`) là bản phái sinh — xem ngay dưới.
+
+### ⚠️ Một skill trong nhóm này KHÔNG phải của Đoàn
+
+`/soi-doi-thu` là **bản Việt hoá phái sinh** từ `competitor-profiling` của Corey Haines (MIT). Nó nằm ở nhóm `cua-doan/` vì cần đi cặp với `/soi-hinh-mau` — hai skill trỏ sang nhau để không giành trigger; tách ra hai nhóm thì cặp đó gãy khi học viên chỉ cài một nhóm.
+
+Hai chỗ đổi thật so với bản gốc, không chỉ là dịch:
+- **Chạy được không cần công cụ trả phí.** Bản gốc bắt buộc Firecrawl + DataForSEO và không có đường lui; bản này đọc trực tiếp, và chỉ ra rằng với mô hình nhân hiệu thì **bình luận và cộng đồng** mới là chỗ đáng đào — không công cụ SEO nào đọc hộ được.
+- **Soi người làm nhân hiệu**, không soi công ty SaaS. Bỏ các ô Funding / HQ / Domain rank / Integrations; thêm mục **khe hở** (nhóm khách nào họ đang bỏ) và mục cách bán 1-1 / webinar / nhóm kín.
+
+Ghi công đầy đủ ở cuối chính file `soi-doi-thu/SKILL.md`.
 
 ### Thứ đã CỐ Ý không đưa vào gói
 
@@ -32,6 +44,16 @@ Vài skill trong nhóm này ở bản gốc trỏ vào hạ tầng riêng của 
 | `luat/dau-hieu-ai-viet.md` | 4 tầng dấu hiệu văn AI |
 | `luat/hook.md` | 8 kiểu hook + kỷ luật dùng hook |
 | `luat/cau-chu.md` | Khuôn cần tránh, luật câu chữ |
+
+`/soi-hinh-mau` mang theo `luat/` gồm 359 dòng luật modeling, rút sau 5+ vòng soi thật:
+
+| File | Nội dung |
+|---|---|
+| `luat/loi-modeling.md` | Lõi phổ quát — 4 tiêu chí chọn, luật lọc theo bằng chứng |
+| `luat/soi-noi-dung.md` | Soi thu hút — 5 lớp, 7 loại bằng chứng |
+| `luat/soi-offer.md` | Soi chuyển đổi — 12 mục offer + 4 lớp phễu |
+
+Nhân vật trong `khuon/hinh-mau-mau.md` là **hư cấu** — kết quả nghiên cứu thật của Đoàn (`wiki/models/`, 390KB) **không** nằm trong gói.
 
 ⚠️ Trong các file này có **ví dụ, con số và tên người của Đoàn** — chúng ở đó để minh hoạ luật. Đừng bê chúng vào bài của bạn: đó là vi phạm chính luật cấm bịa mà chúng đang dạy.
 
@@ -91,7 +113,7 @@ Cài thẳng từ nguồn nên luôn đúng bản quyền và luôn là bản m�
 
 Claude chọn skill bằng cách đọc **mô tả của mọi skill đang bật**. Bật càng nhiều thì càng dễ chọn nhầm.
 
-49 skill là con số đã cân nhắc, không phải giới hạn kỹ thuật. Nếu bạn thấy Claude hay chọn sai, hãy tắt bớt nhóm bạn ít dùng:
+51 skill là con số đã cân nhắc, không phải giới hạn kỹ thuật. Nếu bạn thấy Claude hay chọn sai, hãy tắt bớt nhóm bạn ít dùng:
 
 ```bash
 claude plugin disable tong-hop

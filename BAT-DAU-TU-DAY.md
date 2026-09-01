@@ -30,7 +30,7 @@ Nó chỉ **thêm địa chỉ kho** vào máy bạn, chưa cài gì cả.
 
 ## Bước 3 — Cài skill
 
-Dán dòng này để cài 8 skill của Tô Hải Đoàn:
+Dán dòng này để cài 10 skill của Tô Hải Đoàn:
 
 ```bash
 claude plugin install cua-doan@creator-skills
@@ -83,6 +83,8 @@ Giờ mở Claude Code ở thư mục bạn muốn làm việc, gõ dấu `/` �
 | Biến một câu thành ảnh đăng | `/anh-quote` |
 | Giải thích một thứ khó bằng hình | `/giai-thich-de-hieu` |
 | Soi quảng cáo Facebook / Google | `/soi-ads` |
+| Soi một người đi trước để **học theo** | `/soi-hinh-mau` |
+| Soi **đối thủ** đang tranh khách với mình | `/soi-doi-thu` |
 
 Không nhớ tên skill cũng không sao — **cứ nói bằng lời thường**. Nói *"viết giúp tôi bài về lần tôi mất khách lớn nhất"* thì Claude tự gọi `/viet-content`.
 

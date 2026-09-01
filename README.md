@@ -1,12 +1,12 @@
 # Creator Skills
 
-**49 skill cho người kinh doanh dựa trên thương hiệu cá nhân.** Cài vào Claude Code một lần, dùng mãi.
+**51 skill cho người kinh doanh dựa trên thương hiệu cá nhân.** Cài vào Claude Code một lần, dùng mãi.
 
 Gói này chia làm **hai nhóm tách bạch**, và sự tách bạch đó là cố ý:
 
 | Nhóm | Số skill | Là gì | Ngôn ngữ |
 |---|---|---|---|
-| ⭐ **`cua-doan`** | 8 | Do **Tô Hải Đoàn** tự nghiên cứu, tự dùng cho công việc thật, rồi đóng gói lại | Tiếng Việt |
+| ⭐ **`cua-doan`** | 10 | Do **Tô Hải Đoàn** tự nghiên cứu, tự dùng cho công việc thật, rồi đóng gói lại | Tiếng Việt |
 | **`tong-hop`** | 41 | Tuyển chọn từ nguồn mở MIT chất lượng cao, giữ nguyên không sửa | Tiếng Anh |
 
 Bạn cài được một nhóm, hoặc cả hai.
@@ -35,7 +35,7 @@ Mở Claude Code lên, gõ `/` — bạn sẽ thấy các skill mới trong danh
 
 ---
 
-## ⭐ Nhóm 1 — 8 skill của Tô Hải Đoàn
+## ⭐ Nhóm 1 — 10 skill của Tô Hải Đoàn
 
 Đây là phần không mua được ở đâu khác: quy trình thật, đã chạy thật, có ghi lại cả những chỗ từng làm sai.
 
@@ -56,6 +56,15 @@ Mở Claude Code lên, gõ `/` — bạn sẽ thấy các skill mới trong danh
 | `/anh-quote` | Biến một câu thành ảnh đăng. Bộ render tự chứa, font nhúng sẵn, không cần cài gì |
 | `/giai-thich-de-hieu` | Biến khái niệm khó thành **một trang có hình** — người chưa biết gì đọc 60 giây là hiểu |
 | `/soi-ads` | Soi và tối ưu quảng cáo Meta + Google. Có lớp chặn cứng, **không tiêu tiền khi bạn chưa gật** |
+
+### Nghiên cứu người khác — hai việc khác hẳn nhau
+
+| Skill | Họ là ai với bạn | Câu hỏi lõi |
+|---|---|---|
+| `/soi-hinh-mau` | Người bạn **học theo** | *Lấy gì? Bỏ gì?* — 3 tầng luật, 359 dòng, rút sau 5+ vòng soi thật |
+| `/soi-doi-thu` | Người **tranh khách** với bạn | *Khác biệt ở đâu? Họ hở chỗ nào?* |
+
+Gộp hai việc này làm một là hỏng cả hai. Mỗi skill tự chỉ sang skill kia khi bị gọi nhầm.
 
 **Thứ tự nên chạy:** `/banh-xe-cuoc-doi` → `/onboard` → `/kiem-chung` → rồi mới tới nhóm làm thành phẩm.
 
