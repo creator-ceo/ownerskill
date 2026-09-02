@@ -38,6 +38,13 @@ Một người có thể vừa là hình mẫu vừa là đối thủ — nhưng
 | `luat/soi-offer.md` | Soi chuyển đổi — 12 mục offer + 4 lớp phễu |
 | `khuon/hinh-mau-mau.md` | Khuôn rỗng + một ví dụ đã điền *(nhân vật hư cấu)* |
 
+📡 **Skill này còn dạy dựng nhiệm vụ THEO DÕI hình mẫu chạy hằng ngày.** Theo dõi không phải một skill — nó là **nhiệm vụ theo lịch**, và skill có mục hướng dẫn dựng, kèm bốn luật rút từ một nhiệm vụ đã chạy thật:
+
+1. Chưa soi sâu một lần thì **đừng dựng** — không có bộ khung thì không có gì để so
+2. **Chỉ báo khi họ ĐỔI**, không báo mỗi bài mới — đây là chỗ 9/10 nhiệm vụ kiểu này chết
+3. Nhiệm vụ **dừng ở `raw/` + đề xuất**, không tự ghi `wiki/`
+4. Chọn kênh **lấy được** (RSS), đừng cố đi đường vòng vào kênh bị chặn
+
 ⚠️ `/soi-doi-thu` **không phải skill của Đoàn** — nó là bản Việt hoá phái sinh từ `competitor-profiling` của Corey Haines (MIT). Nó nằm ở nhóm này vì cần đi cặp với `/soi-hinh-mau` để hai skill không giành nhau. Ghi công đầy đủ trong chính file skill.
 
 ## Thứ các skill này KHÔNG làm
