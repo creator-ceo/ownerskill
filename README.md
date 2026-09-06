@@ -35,6 +35,18 @@ Mở Claude Code lên, gõ `/` — bạn sẽ thấy các skill mới trong danh
 
 ---
 
+## Ai viết bộ này, và nhắn ở đâu khi kẹt
+
+Nhóm `cua-doan/` do **Tô Hải Đoàn** viết — người làm nội dung và xây thương hiệu cá nhân tại Việt Nam.
+
+Đây là quy trình tôi dùng cho công việc của chính mình mỗi ngày, không phải bộ skill dựng ra để phát. Vì thế nó có nhiều luật trông kỳ cục cho tới khi bạn gặp đúng tình huống nó sinh ra để chặn — phần lớn được rút từ chỗ tôi đã làm hỏng một lần.
+
+Bạn dùng và sửa thoải mái, giấy phép MIT.
+
+**Cài không được, chạy ra kết quả lạ, hoặc muốn được hướng dẫn dùng cho đúng việc của bạn** thì nhắn tôi ở đây: **[facebook.com/tohaidoan](https://www.facebook.com/tohaidoan/)**
+
+---
+
 ## ⭐ Nhóm 1 — 13 skill của Tô Hải Đoàn
 
 Đây là phần không mua được ở đâu khác: quy trình thật, đã chạy thật, có ghi lại cả những chỗ từng làm sai.

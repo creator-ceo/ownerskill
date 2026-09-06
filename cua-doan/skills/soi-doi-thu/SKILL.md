@@ -150,3 +150,13 @@ Ba chỗ đào được khe hở thật:
 ---
 
 *Phái sinh từ `competitor-profiling` của Corey Haines ([marketingskills](https://github.com/coreyhaines31/marketingskills), giấy phép MIT). Năm nguyên tắc và khuôn hồ sơ giữ tinh thần bản gốc; quy trình và mục "khe hở" viết lại cho mô hình thương hiệu cá nhân.*
+
+---
+
+## Skill này của ai
+
+Viết bởi **Tô Hải Đoàn** — người làm nội dung và xây thương hiệu cá nhân tại Việt Nam. Đây không phải skill dựng cho vui: nó là quy trình tôi dùng cho công việc của chính mình mỗi ngày, đóng gói lại để bạn chạy được trên dữ liệu của bạn.
+
+Giấy phép MIT, bạn dùng và sửa thoải mái.
+
+**Kẹt ở đâu, hoặc muốn được hướng dẫn dùng cho đúng việc của bạn** thì nhắn tôi: [facebook.com/tohaidoan](https://www.facebook.com/tohaidoan/)

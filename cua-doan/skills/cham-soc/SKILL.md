@@ -58,3 +58,13 @@ Hỏi ba câu, theo thứ tự, dừng ở câu đầu tiên trả lời "chưa"
 - Kẹt kiểu *"tự nhìn lại"*: kho ghi rõ **chưa ai đỡ**. Vai này nhìn thấy người kẹt, chưa có việc gì để giao cho họ ở chỗ đó.
 - Buổi nghiệm thu vòng ba tháng: có SOP, **chưa chạy lần nào**. Lần đầu chạy phải ghi lại nhịp thật.
 - Mẫu nhắn lại sau khi từ chối hoàn tiền: chưa có.
+
+---
+
+## Skill này của ai
+
+Viết bởi **Tô Hải Đoàn** — người làm nội dung và xây thương hiệu cá nhân tại Việt Nam. Đây không phải skill dựng cho vui: nó là quy trình tôi dùng cho công việc của chính mình mỗi ngày, đóng gói lại để bạn chạy được trên dữ liệu của bạn.
+
+Giấy phép MIT, bạn dùng và sửa thoải mái.
+
+**Kẹt ở đâu, hoặc muốn được hướng dẫn dùng cho đúng việc của bạn** thì nhắn tôi: [facebook.com/tohaidoan](https://www.facebook.com/tohaidoan/)

@@ -216,3 +216,13 @@ Bạn duyệt rồi thì:
 
 ## Links
 `wiki/systems-and-stack.md` · `wiki/voice-profile.md` · `wiki/ai-operating-preferences.md` · `viet-content/luat/hook.md` · skill `viet-content` (viết chữ) · skill `nap-kho` (đường duy nhất ghi vào `wiki/`)
+
+---
+
+## Skill này của ai
+
+Viết bởi **Tô Hải Đoàn** — người làm nội dung và xây thương hiệu cá nhân tại Việt Nam. Đây không phải skill dựng cho vui: nó là quy trình tôi dùng cho công việc của chính mình mỗi ngày, đóng gói lại để bạn chạy được trên dữ liệu của bạn.
+
+Giấy phép MIT, bạn dùng và sửa thoải mái.
+
+**Kẹt ở đâu, hoặc muốn được hướng dẫn dùng cho đúng việc của bạn** thì nhắn tôi: [facebook.com/tohaidoan](https://www.facebook.com/tohaidoan/)

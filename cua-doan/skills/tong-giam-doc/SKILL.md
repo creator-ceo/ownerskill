@@ -232,3 +232,13 @@ Cách chống chỉ có một: **mỗi tháng bắt buộc ra đúng một mục
 `/onboard` · `/banh-xe-cuoc-doi` · `/nap-kho` · `/kiem-chung` — nửa dựng, chạy trước vai này.
 `/kham-benh` — **chẩn đoán, chạy 3 tháng một lần. Vai này KHÔNG khám thay nó.**
 `/viet-content` · `/soi-doi-thu` · `/soi-hinh-mau` · `/anh-quote` · `/giai-thich-de-hieu` — các vai nhận việc.
+
+---
+
+## Skill này của ai
+
+Viết bởi **Tô Hải Đoàn** — người làm nội dung và xây thương hiệu cá nhân tại Việt Nam. Đây không phải skill dựng cho vui: nó là quy trình tôi dùng cho công việc của chính mình mỗi ngày, đóng gói lại để bạn chạy được trên dữ liệu của bạn.
+
+Giấy phép MIT, bạn dùng và sửa thoải mái.
+
+**Kẹt ở đâu, hoặc muốn được hướng dẫn dùng cho đúng việc của bạn** thì nhắn tôi: [facebook.com/tohaidoan](https://www.facebook.com/tohaidoan/)

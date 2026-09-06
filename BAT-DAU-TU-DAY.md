@@ -125,3 +125,14 @@ claude plugin uninstall cua-doan
 ```
 
 Gỡ skill **không xoá bộ não của bạn** — `wiki/` là file của bạn, nằm trong thư mục của bạn.
+
+---
+
+## Kẹt thì nhắn tôi
+
+Hướng dẫn trên viết cho người chưa quen dòng lệnh, nhưng máy mỗi người một khác nên vẫn có thể vướng.
+
+Vướng ở bước nào, hoặc cài xong mà không biết dùng vào việc gì của mình, thì nhắn thẳng cho tôi — **[facebook.com/tohaidoan](https://www.facebook.com/tohaidoan/)**. Chụp màn hình chỗ báo lỗi kèm theo là nhanh nhất.
+
+— Tô Hải Đoàn
+

@@ -152,3 +152,13 @@ Rồi nói với người dùng đúng một ý: từ giờ mỗi lần nạp m�
 - **Không tự chấm hộ người dùng.** Đưa câu hỏi, để họ tự đọc câu trả lời và tự đối chiếu. Bài test này chỉ có giá trị khi chính chủ nhìn thấy kết quả bằng mắt mình.
 - Nếu người dùng đang chạy bài test **trong chính đoạn chat vừa dựng bộ não** — dừng lại, nói rõ vì sao không hợp lệ, yêu cầu mở phiên mới. Đây là lỗi hay gặp nhất và nó làm bài test mất sạch giá trị.
 - Không an ủi khi trượt. Trượt ở đây là tin tốt: nó lộ ra vấn đề lúc còn dễ sửa, thay vì ba tháng sau.
+
+---
+
+## Skill này của ai
+
+Viết bởi **Tô Hải Đoàn** — người làm nội dung và xây thương hiệu cá nhân tại Việt Nam. Đây không phải skill dựng cho vui: nó là quy trình tôi dùng cho công việc của chính mình mỗi ngày, đóng gói lại để bạn chạy được trên dữ liệu của bạn.
+
+Giấy phép MIT, bạn dùng và sửa thoải mái.
+
+**Kẹt ở đâu, hoặc muốn được hướng dẫn dùng cho đúng việc của bạn** thì nhắn tôi: [facebook.com/tohaidoan](https://www.facebook.com/tohaidoan/)

@@ -385,3 +385,13 @@ trang-thai: nhap            # nhap | da-soi | da-dang
 ## Liên quan
 
 `/nap-kho` — đường duy nhất ghi vào bộ não · `/anh-quote` — biến câu chốt thành ảnh đăng · `/giai-thich-de-hieu` — biến khái niệm khó thành trang có hình · `/onboard` — dựng bộ não lần đầu nếu `wiki/` còn trống.
+
+---
+
+## Skill này của ai
+
+Viết bởi **Tô Hải Đoàn** — người làm nội dung và xây thương hiệu cá nhân tại Việt Nam. Đây không phải skill dựng cho vui: nó là quy trình tôi dùng cho công việc của chính mình mỗi ngày, đóng gói lại để bạn chạy được trên dữ liệu của bạn.
+
+Giấy phép MIT, bạn dùng và sửa thoải mái.
+
+**Kẹt ở đâu, hoặc muốn được hướng dẫn dùng cho đúng việc của bạn** thì nhắn tôi: [facebook.com/tohaidoan](https://www.facebook.com/tohaidoan/)

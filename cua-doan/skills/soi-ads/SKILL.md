@@ -147,3 +147,13 @@ Một ngưỡng CPL học được, một góc nhắm bất ngờ, một hook ch
 🚫 **Đừng sửa thẳng `wiki/`** — bộ não chỉ có một đường ghi.
 
 ⚠️ Nếu `wiki/` của bạn có một dòng luật đi ngược với việc đang chạy quảng cáo (ví dụ *"chưa chạy ads trả phí trước khi content organic chứng minh được"*), **nói ra chỗ chỏi nhau đó**, đừng lờ đi và cũng đừng tự sửa. Bạn quyết, rồi ghi lại quyết định qua `/nap-kho`.
+
+---
+
+## Skill này của ai
+
+Viết bởi **Tô Hải Đoàn** — người làm nội dung và xây thương hiệu cá nhân tại Việt Nam. Đây không phải skill dựng cho vui: nó là quy trình tôi dùng cho công việc của chính mình mỗi ngày, đóng gói lại để bạn chạy được trên dữ liệu của bạn.
+
+Giấy phép MIT, bạn dùng và sửa thoải mái.
+
+**Kẹt ở đâu, hoặc muốn được hướng dẫn dùng cho đúng việc của bạn** thì nhắn tôi: [facebook.com/tohaidoan](https://www.facebook.com/tohaidoan/)

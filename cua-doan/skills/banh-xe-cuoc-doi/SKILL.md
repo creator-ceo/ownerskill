@@ -100,3 +100,13 @@ Vẽ trực quan bằng khối vuông: số khối đen = điểm số, tổng l
 Nói ngắn gọn cho người dùng biết: đã ghi vào đâu, và **đây là bước nền trước khi dựng bộ não thứ 2** — phần dữ liệu kinh doanh (dự án, mục tiêu, khách hàng) sẽ nạp ở bước tiếp theo, tách riêng khỏi phần vừa làm. Không tự ý chuyển sang bước đó — hỏi họ có muốn tiếp tục ngay không.
 
 ⚠️ **Không bịa số liệu.** Nếu người dùng bỏ qua một câu hoặc trả lời "chưa biết", ghi đúng "chưa biết" vào file — đừng tự suy ra một con số hay một câu trả lời nghe hợp lý để điền cho đủ khuôn.
+
+---
+
+## Skill này của ai
+
+Viết bởi **Tô Hải Đoàn** — người làm nội dung và xây thương hiệu cá nhân tại Việt Nam. Đây không phải skill dựng cho vui: nó là quy trình tôi dùng cho công việc của chính mình mỗi ngày, đóng gói lại để bạn chạy được trên dữ liệu của bạn.
+
+Giấy phép MIT, bạn dùng và sửa thoải mái.
+
+**Kẹt ở đâu, hoặc muốn được hướng dẫn dùng cho đúng việc của bạn** thì nhắn tôi: [facebook.com/tohaidoan](https://www.facebook.com/tohaidoan/)

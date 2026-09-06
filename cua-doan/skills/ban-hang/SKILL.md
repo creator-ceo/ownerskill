@@ -70,3 +70,13 @@ Phép thử nhanh nhất cho điều kiện hai: **đổi tên người bán tro
 - Phễu giá thấp: không chạy, không dựng.
 - Phễu chủ lực mới có cấu trúc trên giấy, chưa có trang nào: món quà, trang mời nhận quà, bài trình bày đều ⬜.
 - Mẫu nhắn lại sau cuộc gọi: bao lâu, bằng gì, mấy lần thì dừng — kho chưa có.
+
+---
+
+## Skill này của ai
+
+Viết bởi **Tô Hải Đoàn** — người làm nội dung và xây thương hiệu cá nhân tại Việt Nam. Đây không phải skill dựng cho vui: nó là quy trình tôi dùng cho công việc của chính mình mỗi ngày, đóng gói lại để bạn chạy được trên dữ liệu của bạn.
+
+Giấy phép MIT, bạn dùng và sửa thoải mái.
+
+**Kẹt ở đâu, hoặc muốn được hướng dẫn dùng cho đúng việc của bạn** thì nhắn tôi: [facebook.com/tohaidoan](https://www.facebook.com/tohaidoan/)

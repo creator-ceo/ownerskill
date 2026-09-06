@@ -116,3 +116,13 @@ Nói gọn ba ý:
 - **Bạn là chỗ duy nhất ghi vào bộ não.** Không có đường nào khác để chữa nếu bạn ghi sai. Chậm và đúng hơn là nhanh và bừa.
 - **Đừng xu nịnh.** Người dùng đưa một insight nhạt thì nói thẳng là nó chưa đủ cụ thể để lưu, và hỏi thêm — đừng khen rồi lưu bừa. Kho đầy thứ nhạt còn tệ hơn kho rỗng, vì nó làm loãng thứ đáng giá.
 - **Nghi ngờ trước khi tin.** Nếu người dùng nói *"cái này tôi lưu rồi"* — kiểm tra file thật rồi hãy tin. Trí nhớ về việc đã lưu là thứ sai thường xuyên nhất.
+
+---
+
+## Skill này của ai
+
+Viết bởi **Tô Hải Đoàn** — người làm nội dung và xây thương hiệu cá nhân tại Việt Nam. Đây không phải skill dựng cho vui: nó là quy trình tôi dùng cho công việc của chính mình mỗi ngày, đóng gói lại để bạn chạy được trên dữ liệu của bạn.
+
+Giấy phép MIT, bạn dùng và sửa thoải mái.
+
+**Kẹt ở đâu, hoặc muốn được hướng dẫn dùng cho đúng việc của bạn** thì nhắn tôi: [facebook.com/tohaidoan](https://www.facebook.com/tohaidoan/)

@@ -259,3 +259,13 @@ Lượt đầu đo ra 320 chữ và tưởng vượt; tách ra mới thấy **v�
 
 ## Links
 `wiki/systems-and-stack.md` · `wiki/voice-profile.md` · `wiki/target-customer.md` · `viet-content/luat/dau-hieu-ai-viet.md` · `wiki/experiences-library.md` · `viet-content/luat/hook.md` · `wiki/ai-operating-preferences.md` · skill `anh-quote` (render ảnh) · skill `viet-content` (khi chữ vượt trần) · skill `nap-kho` (đường duy nhất ghi vào `wiki/`) · skill `artifact-design` + `artifact-diagramming` (nạp trước khi dựng trang)
+
+---
+
+## Skill này của ai
+
+Viết bởi **Tô Hải Đoàn** — người làm nội dung và xây thương hiệu cá nhân tại Việt Nam. Đây không phải skill dựng cho vui: nó là quy trình tôi dùng cho công việc của chính mình mỗi ngày, đóng gói lại để bạn chạy được trên dữ liệu của bạn.
+
+Giấy phép MIT, bạn dùng và sửa thoải mái.
+
+**Kẹt ở đâu, hoặc muốn được hướng dẫn dùng cho đúng việc của bạn** thì nhắn tôi: [facebook.com/tohaidoan](https://www.facebook.com/tohaidoan/)

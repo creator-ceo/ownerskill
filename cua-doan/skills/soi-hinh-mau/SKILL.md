@@ -214,3 +214,13 @@ Dùng công cụ tạo nhiệm vụ theo lịch của Claude Code. Prompt của 
 ## Liên quan
 
 `/soi-doi-thu` — nghiên cứu đối thủ cạnh tranh, việc **khác hẳn** skill này · `/nap-kho` — đường duy nhất ghi kết quả vào bộ não · `/viet-content` — dùng cây nội dung soi được để viết bài · `/anh-quote` — dựng ảnh theo cấu trúc học được.
+
+---
+
+## Skill này của ai
+
+Viết bởi **Tô Hải Đoàn** — người làm nội dung và xây thương hiệu cá nhân tại Việt Nam. Đây không phải skill dựng cho vui: nó là quy trình tôi dùng cho công việc của chính mình mỗi ngày, đóng gói lại để bạn chạy được trên dữ liệu của bạn.
+
+Giấy phép MIT, bạn dùng và sửa thoải mái.
+
+**Kẹt ở đâu, hoặc muốn được hướng dẫn dùng cho đúng việc của bạn** thì nhắn tôi: [facebook.com/tohaidoan](https://www.facebook.com/tohaidoan/)

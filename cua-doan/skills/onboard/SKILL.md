@@ -108,3 +108,13 @@ Mỗi file nhóm dưới mở đầu đúng một dòng: `> Chưa có dữ liệ
 4. Báo người dùng đã dựng được gì, trang nào còn trống và vì sao.
 5. ⚡ **Nhắc chạy Việc 6** — skill `kiem-chung`, trên **đoạn chat mới, project mới**. Chưa chạy bài đó thì chưa biết bộ não có lưu thật hay chỉ đang nằm trong trí nhớ của phiên này.
 6. **Nói rõ việc tiếp theo là gì.** Bộ não giờ có nền nhưng **chưa có chất liệu viết** — năm trang ở nhóm dưới của Vòng 2 còn trống theo đúng thiết kế. Ai muốn dùng vai content thì chạy `/viet-content`, nó tự kiểm kho và hỏi đúng thứ còn thiếu. Đừng để người dùng tự đoán ra điều này.
+
+---
+
+## Skill này của ai
+
+Viết bởi **Tô Hải Đoàn** — người làm nội dung và xây thương hiệu cá nhân tại Việt Nam. Đây không phải skill dựng cho vui: nó là quy trình tôi dùng cho công việc của chính mình mỗi ngày, đóng gói lại để bạn chạy được trên dữ liệu của bạn.
+
+Giấy phép MIT, bạn dùng và sửa thoải mái.
+
+**Kẹt ở đâu, hoặc muốn được hướng dẫn dùng cho đúng việc của bạn** thì nhắn tôi: [facebook.com/tohaidoan](https://www.facebook.com/tohaidoan/)
