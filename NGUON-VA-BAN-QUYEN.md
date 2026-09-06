@@ -4,11 +4,11 @@ Gói này gộp hai thứ có nguồn gốc khác nhau. Trang này ghi rõ cái 
 
 ---
 
-## Nhóm `cua-doan/` — 11 skill
+## Nhóm `cua-doan/` — 13 skill
 
 **© Tô Hải Đoàn.** Giấy phép **MIT** (xem [LICENSE](LICENSE)).
 
-**10 trong 11 skill** do Đoàn tự nghiên cứu và xây dựng, không lấy từ nguồn nào. Bạn được dùng, sửa, và phân phối lại — chỉ cần giữ dòng ghi công trong file `LICENSE`.
+**12 trong 13 skill** do Đoàn tự nghiên cứu và xây dựng, không lấy từ nguồn nào. Bạn được dùng, sửa, và phân phối lại — chỉ cần giữ dòng ghi công trong file `LICENSE`.
 
 Skill còn lại (`/soi-doi-thu`) là bản phái sinh — xem ngay dưới.
 

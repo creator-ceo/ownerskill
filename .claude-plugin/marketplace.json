@@ -6,13 +6,13 @@
   },
   "metadata": {
     "description": "Bộ skill cho mô hình kinh doanh dựa trên thương hiệu cá nhân — gồm nhóm do Tô Hải Đoàn tự nghiên cứu và nhóm tổng hợp từ nguồn mở chất lượng cao",
-    "version": "1.2.0",
+    "version": "1.4.0",
     "repository": "https://github.com/creator-ceo/creator-skills"
   },
   "plugins": [
     {
       "name": "cua-doan",
-      "description": "11 skill do Tô Hải Đoàn tự nghiên cứu và xây dựng: vai Tổng giám đốc điều phối đội nhân sự A.I, dựng bộ não thứ 2 (onboard, nap-kho, kiem-chung), Bánh Xe Cuộc Đời, viết content đúng giọng, dựng ảnh quote, trang giải thích bằng hình, soi quảng cáo Meta/Google, soi hình mẫu để học theo, soi đối thủ cạnh tranh. Viết bằng tiếng Việt, dành cho người làm thương hiệu cá nhân tại Việt Nam.",
+      "description": "13 skill do Tô Hải Đoàn tự nghiên cứu và xây dựng: ba vai trong đội nhân sự A.I (Tổng giám đốc điều phối, Bán hàng, Chăm sóc), dựng bộ não thứ 2 (onboard, nap-kho, kiem-chung), Bánh Xe Cuộc Đời, viết content đúng giọng, dựng ảnh quote, trang giải thích bằng hình, soi quảng cáo Meta/Google, soi hình mẫu để học theo, soi đối thủ cạnh tranh. Viết bằng tiếng Việt, dành cho người làm thương hiệu cá nhân tại Việt Nam.",
       "source": "./cua-doan",
       "strict": false
     },

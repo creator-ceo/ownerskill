@@ -35,7 +35,7 @@ Mở Claude Code lên, gõ `/` — bạn sẽ thấy các skill mới trong danh
 
 ---
 
-## ⭐ Nhóm 1 — 10 skill của Tô Hải Đoàn
+## ⭐ Nhóm 1 — 13 skill của Tô Hải Đoàn
 
 Đây là phần không mua được ở đâu khác: quy trình thật, đã chạy thật, có ghi lại cả những chỗ từng làm sai.
 
