@@ -21,6 +21,7 @@ Cộng ba trang vai này đọc để quyết: `wiki/goals.md` · `wiki/business
 
 ⚠️ **Thiếu nền thì nói thẳng là chưa điều phối được**, và việc tiếp theo là chạy `/onboard`, không phải cố chọn bừa một quy trình. Chọn sai quy trình là hỏng cả tháng của người ta.
 
+
 ## Vai này có hai nửa
 
 | Nửa | Khi nào | Gồm gì |
@@ -94,7 +95,7 @@ Trước khi hỏi câu nào, **đọc bộ não để tự biết đang ở đ�
 | `wiki/banh-xe-cuoc-doi.md` | Đã có bản chấm chưa, lần gần nhất bao lâu rồi |
 | `wiki/goals.md` | Mục tiêu và nút thắt lớn nhất đang khai là gì |
 | `wiki/nhip-thang.md` *(nếu có)* | Tháng gần nhất đã chốt quy trình nào, đã nghiệm thu chưa |
-| `wiki/business-metrics.md` | Có số kinh doanh nào đang theo dõi không |
+| `wiki/goals.md` §số | Có số kinh doanh nào đang theo dõi không |
 
 Rồi chọn đúng một trong bốn việc dưới đây, **nói ra là đang làm việc nào và vì sao**:
 
@@ -118,7 +119,7 @@ Rồi chọn đúng một trong bốn việc dưới đây, **nói ra là đang 
 
 Đã có một skill làm trọn việc chẩn đoán: tiếp nhận, hỏi bệnh, khám, chẩn đoán phân biệt, kê đơn hai ngăn, rồi soạn đề xuất cho `/nap-kho` ghi vào trang soi chỗ tắc. Vai này **không dựng lại bộ câu hỏi thứ hai**.
 
-Vì sao dứt khoát: hai bộ khám là **hai kết quả khác nhau cho cùng một người**, và không có gì báo khi chúng lệch. Người dùng khám bằng đường này ra khâu tắc X, khám bằng đường kia ra khâu Y, rồi tin cái nào? Cùng đúng cái bẫy đã ghi cho bảng bí danh ở `diem-danh/README.md`.
+Vì sao dứt khoát: hai bộ khám là **hai kết quả khác nhau cho cùng một người**, và không có gì báo khi chúng lệch. Người dùng khám bằng đường này ra khâu tắc X, khám bằng đường kia ra khâu Y, rồi tin cái nào? Hai danh sách cùng mô tả một thứ, không cái nào tự nói mình là bản nào — người đọc sau bốc nhầm.
 
 **Ranh giới hai skill, thuộc lòng:**
 
