@@ -1,13 +1,27 @@
-# Content Writing Guidelines — Tô Hải Đoàn
+# Ví dụ: một bộ luật viết RIÊNG trông thế nào — bản của Tô Hải Đoàn
 
-> 📎 **Đọc file này thế nào.** Đây là luật nghề của Tô Hải Đoàn, đóng gói nguyên văn để bạn dùng.
-> Các liên kết dạng `[[tên-trang]]` trỏ tới những trang trong bộ não **của Đoàn**. Trang nào bộ não của bạn chưa có thì **bỏ qua liên kết đó** — đừng đoán nội dung của nó, và đừng bịa ra cho đủ. Muốn có trang tương đương thì tự dựng bằng `/nap-kho`.
-> Các ví dụ, con số và tên người trong file là **của Đoàn**, dùng để minh hoạ luật. 🚫 Tuyệt đối không bê chúng vào bài của bạn — đó là vi phạm chính luật cấm bịa ở đây.
+> ⚠️ **File này KHÔNG phải luật bạn phải theo.** Nó là **bản của Đoàn**, phát kèm làm ví dụ mẫu, để bạn thấy một bộ luật riêng trông ra sao rồi dựng bản của mình.
+>
+> Luật bạn **phải** theo nằm ở `luat/loi-nghe.md` — 10 luật lõi nghề, áp cho mọi người viết bất kể ngách. File này là tầng khác: **giọng riêng**, và giọng thì không ai áp cho ai được.
 
+## Đọc file này thế nào
 
-> Bộ quy tắc viết content. Dùng làm danh sách kiểm trước khi publish.
-> Được cập nhật từ thực tế 20+ bài viết mẫu (06/2026) — bài mẫu là chuẩn giọng, không phải instruction gốc.
-> Raw gốc: `raw/instruction-viet-content.md`
+Trong đây có hai loại, trộn lẫn nhau, và bạn phải phân biệt được:
+
+| Loại | Ví dụ trong file | Bạn làm gì |
+|---|---|---|
+| **Phổ quát** — đã nằm sẵn trong `loi-nghe.md` | cấm khuôn mòn *"X nghe có vẻ tốt, nhưng thực ra..."* · cấm từ mơ hồ kiểu AI · câu ngắn nhấn sau câu dài · danh sách tối đa 3–4 điểm | không cần chép lại, lõi nghề đã ép rồi |
+| 🔴 **Riêng của Đoàn** — đánh dấu 🔴 ngay tại dòng | xưng *tôi* gọi *bạn* · cấm *"tụi mình"*, *"ảnh"* · không dùng dấu gạch ngang · giữ nguyên chữ *viral* | **thay bằng luật của bạn**, hoặc bỏ hẳn |
+
+⛔ **Đừng bê nguyên phần 🔴 vào bài của bạn.** Người quen viết *"mình / anh em"* mà theo bản này sẽ bị nắn về *"tôi / bạn"* — mất đúng thứ làm giọng bạn là của bạn. Đó là lý do file này bị gỡ khỏi danh sách đọc bắt buộc.
+
+## Dựng bản của bạn thế nào
+
+Đừng ngồi viết ra một bộ luật từ đầu — bạn chưa biết mình có luật gì đâu. Cách đúng là **để nó lớn dần từ việc viết thật**: mỗi lần bạn sửa tay một chỗ AI viết ra, hỏi *"vì sao mình sửa chỗ này?"* — câu trả lời đó chính là một luật.
+
+Gom được vài luật thì chạy `/nap-kho` ghi vào `wiki/content-writing-guidelines.md`. Từ đó `/viet-content` sẽ đọc nó như đọc file này.
+
+---
 
 ---
 
@@ -22,11 +36,11 @@
 
 ## Giọng và đại từ
 
-- **Tự xưng "tôi", gọi người đọc là "bạn"** — đây là giọng thực tế trong toàn bộ bài viết.
+- 🔴 **Tự xưng "tôi", gọi người đọc là "bạn"** — đây là giọng thực tế trong toàn bộ bài viết. *(Riêng của Đoàn. Bạn xưng gì là quyền của bạn.)*
 - Khi viết template cho người khác dùng (ví dụ bộ launch): dùng "mình ↔ bạn" để họ dễ điều chỉnh.
 - Khi viết cho team/thương hiệu: xưng tên team/thương hiệu, không đứng tên cá nhân trừ khi được yêu cầu rõ.
 - Không lặp đại từ quá dày trong một đoạn.
-- **Cấm tuyệt đối:** "tụi mình", "ảnh".
+- 🔴 **Cấm tuyệt đối:** "tụi mình", "ảnh". *(Riêng của Đoàn — gu vùng miền. Người ngách khác dùng bình thường.)*
 
 ---
 
@@ -34,9 +48,9 @@
 
 - Mỗi câu trọn ý, cụ thể hoá. Viết *"anh ấy im lặng suốt hơn một tiếng"* không viết *"anh ấy im"*.
 - Câu ngắn để nhấn sau câu dài — nhưng không xếp 3 câu ngắn cùng kiểu liên tiếp (giật kiểu máy).
-- **Từ ngữ:** dùng từ thuần Việt, bỏ tiếng Anh và từ khó. Ngoại lệ: giữ nguyên "viral".
+- **Từ ngữ:** dùng từ thuần Việt, bỏ tiếng Anh và từ khó. 🔴 Ngoại lệ *"viral"* là của Đoàn — ngách bạn có từ mượn riêng thì tự khai.
 - **Cấm từ mơ hồ kiểu AI:** "một khung sẵn", "trên một mặt phẳng", "cùng đứng", "lệch nhịp", "lệch pha". Thay bằng hình ảnh thực và ví dụ cụ thể.
-- Không dùng dấu gạch ngang (—).
+- 🔴 Không dùng dấu gạch ngang (—). *(Riêng của Đoàn, và là luật CHỦ Ý — dữ liệu cho thấy anh vẫn dùng ở vài bài dài, anh vẫn giữ cấm.)*
 
 ---
 

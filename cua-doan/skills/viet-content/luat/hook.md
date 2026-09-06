@@ -173,4 +173,4 @@ Họ hàng gần với *"It's not X, it's Y"* (33% theo MagicPost) — cùng m�
 ---
 
 ## Links
-`luat/loi-nghe.md` · `luat/cau-chu.md` · `wiki/voice-profile.md` · [[post-performance-framework]] · [[story-selection-protocol]] · [[content-modeling-playbook]] · [[target-customer]] · [[audience-insights]] · [[projects/creator-os]] · [[models/matt-gray]]
+`luat/loi-nghe.md` · `luat/vi-du-luat-rieng.md` · `wiki/voice-profile.md` · [[post-performance-framework]] · [[story-selection-protocol]] · [[content-modeling-playbook]] · [[target-customer]] · [[audience-insights]] · [[projects/creator-os]] · [[models/matt-gray]]

@@ -226,4 +226,4 @@ Chép vào `creator-dna/src/lib/ai-tells.ts`. Chia hai mức vì lý do thật: 
 
 ## Links
 
-`luat/loi-nghe.md` · `luat/cau-chu.md` · `wiki/voice-profile.md` · `luat/hook.md` · [[projects/creator-os]] · [[teachings/thoi-mien-bang-ngon-tu]]
+`luat/loi-nghe.md` · `luat/vi-du-luat-rieng.md` · `wiki/voice-profile.md` · `luat/hook.md` · [[projects/creator-os]] · [[teachings/thoi-mien-bang-ngon-tu]]

@@ -5,7 +5,7 @@
 > Các ví dụ, con số và tên người trong file là **của Đoàn**, dùng để minh hoạ luật. 🚫 Tuyệt đối không bê chúng vào bài của bạn — đó là vi phạm chính luật cấm bịa ở đây.
 
 
-> **Đây KHÔNG phải quy tắc riêng của Đoàn.** Đây là lớp luật viết phổ quát áp cho **mọi user** của [[projects/creator-os]], bất kể ngách. Bản cá nhân của Đoàn nằm ở `luat/cau-chu.md` và `wiki/voice-profile.md`.
+> **Đây KHÔNG phải quy tắc riêng của Đoàn.** Đây là lớp luật viết phổ quát áp cho **mọi user** của [[projects/creator-os]], bất kể ngách. Bản cá nhân của Đoàn nằm ở `luat/vi-du-luat-rieng.md` (phát kèm làm **ví dụ**, không phải luật bạn phải theo) và `wiki/voice-profile.md`.
 > Chốt: 2026-07-29, qua một phiên phản biện đối chiếu với [[personal-mission]] · [[values-and-principles]] · [[contrarian-beliefs]] · [[target-customer]] · [[goals]].
 > Trạng thái: **đang thử nghiệm** — Đoàn duyệt để thử, chưa qua kiểm chứng bằng bài thật.
 
@@ -14,7 +14,7 @@
 
 Trước 2026-07-29, tool Creator OS có 13 ô nhập ở `/write` thì **11 ô lo nội dung** (viết cái gì, chứng minh bằng chuyện nào, cho ai) và chỉ **2 ô lo cách viết** — cả hai đều mặc định rỗng. Riêng Story bank được cấp ngân sách 120.000 ký tự trong prompt, còn kỹ thuật viết được cấp 0 ký tự.
 
-Hệ quả: chất lượng câu chữ phó mặc cho model nền. Mà văn mặc định của model đúng là thứ `luat/cau-chu.md` đang cấm. Triệu chứng dễ thấy nhất trong tool: **hook sắc, thân bài nhạt** — vì lớp hook đã có 8 kiểu với hướng dẫn nghề thật (`lib/hooks.ts`), còn thân bài thì không có gì.
+Hệ quả: chất lượng câu chữ phó mặc cho model nền. Mà văn mặc định của model đúng là thứ lớp luật này đang cấm. Triệu chứng dễ thấy nhất trong tool: **hook sắc, thân bài nhạt** — vì lớp hook đã có 8 kiểu với hướng dẫn nghề thật (`lib/hooks.ts`), còn thân bài thì không có gì.
 
 ---
 
@@ -158,7 +158,7 @@ Không luật nào là suy đoán. Bảng này để phiên sau kiểm lại đ�
 |---|---|
 | Lời mở "người đọc đang bận nghĩ chuyện khác" | [[teachings/tu-huyet-cam-xuc]] (Roy Garn) — thứ **duy nhất** trong cả cuốn qua được bộ lọc hai tầng. Cố ý để dạng lời mở chứ không thành một luật riêng: nó không bảo phải làm gì, nó đổi giả định mà cả mười luật kia đứng lên |
 | A1 | Đoàn trả lời trực tiếp 2026-07-29 · khớp `wiki/voice-profile.md` PHẦN 8 *"Bài có đang khuyên hay đang kể?"* (dạng câu hỏi, không phải lệnh cấm) |
-| A2 | `luat/cau-chu.md` nguyên tắc gốc 3 · [[values-and-principles]] mục *"Tư Duy Nguyên Nhân Gốc Rễ"*. **Vế "trả lời điều người đọc đang cãi" bổ sung 2026-07-29** từ [[teachings/thoi-mien-bang-ngon-tu]] — bản rút đầu tiên chỉ lấy nửa sau của nguyên tắc gốc 3 (*bám vào lý do đằng sau*) và bỏ mất nửa trước (*đa chiều, có phản biện*) |
+| A2 | `luat/vi-du-luat-rieng.md` nguyên tắc gốc 3 · [[values-and-principles]] mục *"Tư Duy Nguyên Nhân Gốc Rễ"*. **Vế "trả lời điều người đọc đang cãi" bổ sung 2026-07-29** từ [[teachings/thoi-mien-bang-ngon-tu]] — bản rút đầu tiên chỉ lấy nửa sau của nguyên tắc gốc 3 (*bám vào lý do đằng sau*) và bỏ mất nửa trước (*đa chiều, có phản biện*) |
 | B1 | Masterfile PHẦN 4 *"Số liệu thật"* + *"Nhân vật phụ gọi tên"* · vế cấm bịa từ [[ai-operating-preferences]] Hard Don't số 5 |
 | B2 | [[values-and-principles]] nguyên tắc bất biến 1 *"Làm điều mình nói"*, hạ xuống cấp độ bài viết · Đoàn xác nhận 2026-07-29 là điều kiện để cho phép giật tít |
 | B3 | Guidelines nguyên tắc gốc 2 · khớp *"Định (Tĩnh tâm): tập trung sâu vào ít"* |
@@ -332,7 +332,7 @@ Thứ tự thắng ở đầu trang **không đổi**: khung vẫn thắng đặ
 
 ## Quan hệ với các trang khác
 
-- `luat/cau-chu.md` — bản **cá nhân của Đoàn**. Lõi nghề rút từ đây nhưng đã lọc bỏ phần chỉ thuộc về Đoàn. Hai file cùng tồn tại, khác đối tượng áp dụng.
+- `luat/vi-du-luat-rieng.md` — bản **cá nhân của Đoàn**, phát kèm làm **ví dụ mẫu**. Lõi nghề rút từ đây và đã lọc bỏ phần chỉ thuộc về Đoàn, nên file đó **không còn nằm trong danh sách đọc bắt buộc** *(gỡ 2026-09-06)*: để nguyên trong danh sách là phát giọng của Đoàn kèm nghề, đúng thứ dòng đầu skill cấm.
 - `wiki/voice-profile.md` PHẦN 8 — danh sách kiểm 7 điểm trước khi publish, **của riêng Đoàn** (có mục đại từ "tôi/bạn"). Trùng khoảng 5/10 luật. Giữ nguyên, chỉ thêm dòng trỏ qua đây.
 - [[content-modeling-playbook]] — tiêu chí chọn bài mẫu. Không đụng nhau: playbook lo *chọn nguyên liệu*, file này lo *cách viết*.
 - `.claude/skills/viet-content/SKILL.md` — quy trình viết bài cho Đoàn. Đọc file này thay vì chép.
@@ -348,4 +348,4 @@ File này lo phần **thân bài**. Ba trang dưới lo ba khâu còn lại, cù
 
 ## Links
 
-`luat/cau-chu.md` · `wiki/voice-profile.md` · `luat/hook.md` · [[story-selection-protocol]] · [[post-performance-framework]] · [[voice-profile]] · [[projects/creator-os]] · [[content-modeling-playbook]] · [[contrarian-beliefs]] · [[values-and-principles]] · [[target-customer]] · [[personal-mission]] · [[goals]]
+`luat/vi-du-luat-rieng.md` · `wiki/voice-profile.md` · `luat/hook.md` · [[story-selection-protocol]] · [[post-performance-framework]] · [[voice-profile]] · [[projects/creator-os]] · [[content-modeling-playbook]] · [[contrarian-beliefs]] · [[values-and-principles]] · [[target-customer]] · [[personal-mission]] · [[goals]]

@@ -3,6 +3,8 @@ name: viet-content
 description: Dùng khi bạn nhờ viết hoặc xử lý nội dung đăng ra ngoài — bài Facebook, caption, hook, kịch bản video ngắn/dài, shotlist, email, bài bán hàng, mindmap từ một trang bộ não. Kể cả khi chỉ nói "viết bài về X", "làm content", "hôm nay đăng gì", "đặt hook cho bài này", "soi giúp bài này", "viết lại cho đúng giọng", "gợi ý ý tưởng", hay dán một bài cũ vào nhờ chỉnh. Cũng dùng khi gõ /viet-content.
 ---
 
+> 🧩 **Vai trong đội nhân sự A.I: Content.** Tổng giám đốc giao việc *viết bài, kịch bản, ý tưởng, hook* cho vai này. Vai không phải một skill riêng — nó là nhãn để `/tong-giam-doc` biết giao việc gì cho skill nào.
+
 # Viết content — phương pháp Tô Hải Đoàn
 
 > Đây là quy trình viết mà Tô Hải Đoàn dùng cho chính mình, đóng gói lại để bạn chạy được trên bộ não thứ 2 của **bạn**.
@@ -16,11 +18,72 @@ description: Dùng khi bạn nhờ viết hoặc xử lý nội dung đăng ra n
 | 10 luật lõi nghề + 7 khung viết (`luat/loi-nghe.md`) | Câu chuyện thật (`experiences-library.md`) |
 | 8 kiểu hook (`luat/hook.md`) | Khách hàng (`target-customer.md`) |
 | 4 tầng dấu hiệu văn AI (`luat/dau-hieu-ai-viet.md`) | Quan điểm ngược dòng (`contrarian-beliefs.md`) |
-| Luật câu chữ (`luat/cau-chu.md`) | Giá trị, nguyên tắc (`values-and-principles.md`) |
+| Ví dụ một bộ luật riêng (`luat/vi-du-luat-rieng.md`) | Giá trị, nguyên tắc (`values-and-principles.md`) |
 
 **Vì sao tách như vậy:** luật nghề thì ai viết cũng dùng chung, nên nó đi kèm skill. Còn giọng và chuyện là **của riêng bạn** và bạn sẽ sửa liên tục — chép chúng vào skill là có hai bản, và bản trong skill sẽ âm thầm lạc hậu.
 
-🚫 **Đừng viết bài bằng giọng Tô Hải Đoàn.** Skill này dạy *nghề*, không phát *giọng*. Giọng của bạn nằm ở `wiki/voice-profile.md` — chưa có thì dựng nó trước bằng `/onboard`, hoặc nạp 5–10 bài bạn đã viết qua `/nap-kho`.
+🚫 **Đừng viết bài bằng giọng Tô Hải Đoàn.** Skill này dạy *nghề*, không phát *giọng*. Giọng của bạn nằm ở `wiki/voice-profile.md` — chưa có thì đi qua Cửa vào ngay dưới đây.
+
+---
+
+## ⛩ CỬA VÀO — kiểm kho TRƯỚC khi làm bất cứ việc gì
+
+> Bước này chạy **mỗi lượt**, trước cả Bước 0. Bỏ qua nó là cách nhanh nhất để trả về một bài đúng luật mà rỗng tuếch.
+
+Đọc thử bốn file. Đếm xem có mấy file **tồn tại VÀ có nội dung thật** (không còn `[ngoặc vuông]`, không phải dòng "chưa có dữ liệu"):
+
+`wiki/voice-profile.md` · `wiki/experiences-library.md` · `wiki/target-customer.md` · `wiki/contrarian-beliefs.md`
+
+### Ba mức, ba cách hành xử khác hẳn nhau
+
+**🔴 Kho trống — 0 hoặc 1 trên 4. KHÔNG VIẾT.**
+
+Nói thẳng: chưa viết được bài mang giọng của họ, vì chưa có gì để mang. Rồi đưa đúng **một** việc tiếp theo, không đưa danh sách:
+
+- Chưa có `voice-profile` → *"Dán vào đây 5 tới 10 bài bạn đã đăng thật. Tôi rút hồ sơ giọng, rồi mới viết được bài nghe ra bạn."*
+- Chưa có gì cả, kể cả trang nền → *"Chạy `/onboard` trước đã."*
+
+⚡ Đây là **từ chối có đường đi tiếp**, khác hẳn từ chối cụt. Từ chối cụt làm người mới kết luận công cụ này vô dụng; câu trên làm họ biết phải làm gì trong mười phút tới.
+
+**🟡 Kho mỏng — 2 hoặc 3 trên 4. Viết được, nhưng nói trước cái gì sẽ yếu.**
+
+Nêu ngay đầu câu trả lời, một dòng, không vòng vo. Ví dụ: *"Có giọng rồi nhưng kho chuyện còn trống, nên bài này đi bằng quan điểm chứ chưa kể được chuyện thật của bạn."*
+
+Rồi viết. Chỗ nào cần chất liệu chưa có thì để `[cần chuyện thật của bạn về X]` — đúng luật cấm bịa ở Bước 1, và người đọc thấy ngay phải lấp gì.
+
+**🟢 Kho đủ — 4 trên 4.** Chạy tiếp như bình thường, không nói gì thêm.
+
+### 📥 Nạp ngay trong lượt này — đường vòng cho người mới
+
+Không bắt người ta đi chỗ khác rồi quay lại. Nếu họ dán tài liệu vào ngay:
+
+| Họ dán | Rút ra | Ghi vào |
+|---|---|---|
+| 5–10 bài đã đăng thật | đại từ · tông giọng · kiểu mở bài · câu cửa miệng · ẩn dụ · cách dùng số | `voice-profile` |
+| Ghi chép buổi chia sẻ, transcript | câu chuyện ngôi thứ nhất, đủ khuôn 5 bước | `experiences-library` |
+| Lời chứng thực, số liệu kết quả | giữ **nguyên văn** trích dẫn | `customer-wins` |
+| Trích dẫn tác giả / nghiên cứu | câu + nguồn đầy đủ | `quoted-authority` |
+| **Tên / link 1–2 người bạn đang học** | không rút ở đây — chạy `/soi-hinh-mau` | `models/<tên>` |
+
+Rút xong thì **dùng luôn trong lượt này**, rồi mời chạy `/nap-kho` để lưu thật vào bộ não.
+
+### ⭐ Lần setup ĐẦU TIÊN phải hỏi thêm hình mẫu
+
+Bốn thứ trên là **chất liệu của bạn**. Hình mẫu là thứ thứ năm, và nó khác loại: nó cho **cách kể**, không cho chất liệu.
+
+Hỏi thẳng một câu: *"Bạn đang học cách làm nội dung của ai? Cho tôi 1–2 cái tên hoặc link."* Rồi chạy `/soi-hinh-mau` cho từng người, nạp qua `/nap-kho` thành `wiki/models/<tên>.md`.
+
+⚠️ **Chưa có hình mẫu KHÔNG chặn việc viết** — khác bốn thứ trên. Thiếu nó thì mạch bài lấy từ **7 khung mặc định** thay vì từ người mình đang học, và bài vẫn ra. Nhưng phải **hỏi ở lần setup đầu**, đừng để người ta dùng cả tháng rồi mới biết có tầng này.
+
+🚫 **Skill này KHÔNG tự ghi vào `wiki/`** — luật cũ, không có ngoại lệ. Bản rút ở đây sống trong lượt chạy; muốn nó thành tài sản thì phải qua `/nap-kho`.
+
+⚡ Nhờ vậy lần dùng đầu tiên đổi từ *bị từ chối* thành *có bài dùng được, cộng thêm một tài sản mới trong não*.
+
+### Vì sao có cửa này
+
+Bẫy đã ghi sẵn trong kho, ở khoá "Nạp nguyên liệu": ***"Người vào tool khi kho còn rỗng sẽ điền qua loa rồi kết luận tool viết dở."***
+
+Các luật ở Bước 3 và Bước 6 chặn rất tốt việc **bịa**, nhưng chúng chỉ chặn ở đầu ra. Không có cửa này thì người mới đi trọn bảy bước để nhận về một lời từ chối ở cuối, và không biết vì sao.
 
 ---
 
@@ -104,8 +167,7 @@ Trục thứ hai, **độc lập với tầng ngôn ngữ**. Một bài T0 vẫn
 | 10 luật lõi nghề + 7 khung viết | `luat/loi-nghe.md` *(kèm skill)* | Luật viết phổ quát. Đây là tầng thắng cao nhất |
 | 4 tầng dấu hiệu văn AI | `luat/dau-hieu-ai-viet.md` *(kèm skill)* | Đọc **trước khi viết**, không chỉ lúc soi lại — biết trước cái gì làm lộ văn AI thì viết tránh được ngay từ câu đầu |
 | 8 kiểu hook | `luat/hook.md` *(kèm skill)* | Hook là dòng đầu tiên có chữ của bài, không phải trường riêng |
-| Luật câu chữ | `luat/cau-chu.md` *(kèm skill)* | Khuôn cần tránh |
-| **Giọng của bạn** | `wiki/voice-profile.md` | Nguồn sự thật duy nhất về giọng. Mâu thuẫn với bất kỳ chỗ nào khác thì **nó thắng** |
+| **Giọng của bạn** | `wiki/voice-profile.md` | Nguồn sự thật duy nhất về giọng. Mâu thuẫn với bất kỳ chỗ nào khác thì **nó thắng**. ⚠️ **File không tồn tại hoặc còn rỗng → quay lại Cửa vào**, đừng đi tiếp rồi viết bằng giọng mặc định của máy |
 
 **Đọc thêm tuỳ việc:**
 
@@ -113,6 +175,10 @@ Trục thứ hai, **độc lập với tầng ngôn ngữ**. Một bài T0 vẫn
 - `wiki/target-customer.md` — khi cần chạm nỗi đau cụ thể
 - `wiki/offer-ladder.md` — khi là bài bán hàng
 - `raw/` — bài bạn đã đăng, nguyên văn. **Bài thật đáng tin hơn mọi mô tả về bài thật.** Khi phân vân "câu này nghe có giống mình không", đối chiếu ở đây
+- ⭐ **`wiki/models/`** — hình mẫu bạn đang học. Đây là **Tầng 4** trong thứ tự thắng, và là thứ hay bị bỏ quên nhất. Lấy ba thứ: **mạch bài** họ hay dùng · **cách làm được mạch đó** (chỗ nào là điểm lật, cái gì giữ tới cuối) · và mục **"KHÔNG được chép"** của chính trang đó. Có trang nào thì đọc, không có thì bỏ qua và nói ra là đang viết không có hình mẫu
+- `wiki/hook-library.md` — hook đã dùng và kết quả thật. Đọc trước khi sinh hook mới, để không đẻ lại cái đã dùng
+- `wiki/content-library.md` — bài đã đăng gom dần. Đọc khi cần tránh viết trùng ý một bài cũ
+- `wiki/content-writing-guidelines.md` — **luật viết riêng của BẠN**, nếu đã dựng. Có thì nó thắng mọi thứ trừ 10 luật lõi nghề. Chưa có thì xem `luat/vi-du-luat-rieng.md` để biết một bộ như vậy trông thế nào — ⛔ **file đó là bản của Đoàn, đọc để tham khảo, đừng theo**
 
 Đọc file thật bằng Read. Đừng nhớ lại từ phiên trước — chúng thay đổi.
 
@@ -169,6 +235,10 @@ Muốn người đọc LÀM gì  →  họ cần TIN điều gì  →  BÀI HỌ
 **Khung là mạch của bài — chuỗi chặng đi từ đầu tới cuối.** Nó nằm ở tầng 2 trong thứ tự thắng 4 tầng: **lõi nghề > khung viết > giọng cá nhân > đặc trưng hình mẫu.**
 
 Đọc bảng *Tầng 2 — 7 khung viết* trong `luat/loi-nghe.md`, chọn đúng **một** khung, bám trọn bài, **không trộn hai mạch**.
+
+⚡ **Khung KHÔNG chỉ có 7 cái.** Nếu bộ não có `wiki/models/`, thì **mạch của hình mẫu cũng là một lựa chọn khung** — và khi chọn nó, nó *là* khung chứ không còn là tham khảo. Mạch của hình mẫu thường chi tiết hơn 7 khung dựng sẵn, vì nó rút từ bài thật của một người thật.
+
+🚫 **Ranh giới cứng khi mượn mạch hình mẫu:** mượn **cách kể**, không mượn **chất liệu**. Chuyện, số liệu, tên người vẫn phải của bạn — luật B1 và C5. Và đọc mục *"KHÔNG được chép"* trong chính trang hình mẫu đó trước khi mượn.
 
 > Đây không phải luật cho đẹp. Đã đo và kết luận: *cho AI tự do thì nhận về bảy biến thể của cùng một mạch, khác nhau vài chữ.* Ép theo khung mới ra mạch thật sự khác.
 
@@ -238,7 +308,7 @@ Soi theo **hai trục riêng, đừng gộp làm một** — một bài hoàn to
 
    ⚠️ Tầng 4 kéo ngược chiều với luật B2/B3 (cắt hết ý không phục vụ thông điệp). Khi B2/B3 đòi cắt sạch, chủ động **giữ lại ít nhất một chi tiết thật không phục vụ thông điệp** — miễn nó có thật. Không có thì bỏ trống, đừng bịa ra cho đủ vị.
 
-3. **Luật câu chữ** ở `luat/cau-chu.md`.
+3. **Luật viết riêng của bạn** ở `wiki/content-writing-guidelines.md`, nếu đã dựng. Chưa có thì bỏ qua điểm này — đừng lấy `luat/vi-du-luat-rieng.md` thay thế, đó là luật của Đoàn.
 
 Ghi kết quả **từng điểm của cả hai trục** vào mục "Tự soi" — từng điểm đạt hay chưa và vì sao. Không ghi gọn "đã kiểm tra".
 
@@ -305,7 +375,7 @@ trang-thai: nhap            # nhap | da-soi | da-dang
 
 ## Luật riêng của vài loại việc hay gặp
 
-- **`hook`** — ép **mỗi kiểu đúng 1 hook**, đủ 8 kiểu, ghi rõ tên kiểu trước mỗi hook. Xin "8 hook hay" mà không ép kiểu thì ra 8 biến thể của cùng một ý. Kiểu nào bài không đỡ nổi (không có số thật → kiểu *Con số*; không có sai lầm của chính bạn → kiểu *Thú nhận*) thì **ghi thẳng là bỏ và nói lý do**, đừng bịa cho đủ 8.
+- **`hook`** — **đọc `wiki/hook-library.md` trước** (hook đã dùng + kết quả thật) để không đẻ lại cái đã có; có `wiki/models/` thì bóc **hook thật từ bài mẫu**, đó là chỗ duy nhất hình mẫu cho dữ liệu thật thay vì bản phân tích đã cô lại. Sinh xong, hook nào đăng rồi và có số thì **đề xuất `/nap-kho` ghi ngược vào `hook-library`** — không đóng vòng này thì thư viện hook mãi mãi rỗng. Ép **mỗi kiểu đúng 1 hook**, đủ 8 kiểu, ghi rõ tên kiểu trước mỗi hook. Xin "8 hook hay" mà không ép kiểu thì ra 8 biến thể của cùng một ý. Kiểu nào bài không đỡ nổi (không có số thật → kiểu *Con số*; không có sai lầm của chính bạn → kiểu *Thú nhận*) thì **ghi thẳng là bỏ và nói lý do**, đừng bịa cho đủ 8.
 - **`soi`** — chỉ ra **chỗ hỏng và cách sửa**, tuyệt đối **không chấm điểm**. Mỗi lỗi trích đúng câu bị lỗi. Lý do không chấm điểm nằm ở `luat/hook.md` mục *"Vì sao KHÔNG chấm điểm hook bằng AI"* — AI chấm bài của chính nó là con số tự khen.
 - **`y-tuong`** — ý viết được ngay, không phải chủ đề chung chung. Bám quan điểm cốt lõi ở `wiki/contrarian-beliefs.md`; **không** gợi ý theo trending.
 - **`viet-lai` · `tai-su-dung`** — đổi **cách kể** cho hợp định dạng đích, không phải cắt ngắn bài cũ.
