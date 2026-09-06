@@ -85,7 +85,7 @@ Hai nhóm, khác nhau ở chỗ *ai sẽ lấp*:
 
 | Nhóm | Trang | Ai lấp |
 |---|---|---|
-| Sinh ra từ vận hành | `audience-insights` · `business-metrics` · `content-library` · `hook-library` · `competitors` · `expertise` | chính người dùng, khi có dữ liệu thật |
+| Sinh ra từ vận hành | `audience-insights` · `business-metrics` · `content-library` · `hook-library` · `competitors` · `expertise` · `positioning` | chính người dùng, khi có dữ liệu thật |
 | **Chất liệu viết** | `voice-profile` · `experiences-library` · `customer-wins` · `quoted-authority` · `video-production-setup` | **vai content**, qua `/viet-content` |
 
 Kèm thư mục rỗng: `models/` `learnings/` `projects/` `people/`

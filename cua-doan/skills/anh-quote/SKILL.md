@@ -7,6 +7,12 @@ description: Dùng khi bạn muốn làm ẢNH có chữ để đăng — ảnh 
 
 # Ảnh quote — Tô Hải Đoàn
 
+## ⛩ CÀI VAI NÀY
+
+**Nền cố định:** mục nhận diện trong `wiki/systems-and-stack.md` (màu, font, tỷ lệ) · `wiki/ai-operating-preferences.md`. **Thiếu phần nhận diện là hỏng nặng nhất** — ảnh vẫn đẹp nhưng không phải của thương hiệu bạn, và bạn chỉ nhận ra sau khi đã đăng vài tấm. Chưa có thì hỏi thẳng: *"Màu chính, màu nhấn, và font tiêu đề của bạn là gì?"*
+
+**Biến thiên mỗi phiên:** câu cần lên ảnh · kiểu ảnh · đăng ở đâu.
+
 ## Skill này chứa gì và KHÔNG chứa gì
 
 Chứa **quy trình dựng ảnh** và **bộ máy render**. Không chứa luật giọng văn, không chứa danh sách từ cấm, không chứa màu/font brand.

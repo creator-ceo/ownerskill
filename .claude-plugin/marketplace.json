@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Bộ skill cho mô hình kinh doanh dựa trên thương hiệu cá nhân — gồm nhóm do Tô Hải Đoàn tự nghiên cứu và nhóm tổng hợp từ nguồn mở chất lượng cao",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "repository": "https://github.com/creator-ceo/creator-skills"
   },
   "plugins": [

@@ -10,6 +10,14 @@ description: Dùng khi bạn muốn HỌC THEO một người đi trước — s
 > Đóng gói từ hệ modeling Đoàn tự dùng: 4 tiêu chí chọn, luật lọc theo bằng chứng, 3 lát cắt, và luật *lấy gì · bỏ gì*.
 > Rút ra sau 5+ vòng chạy thật trên hình mẫu Việt lẫn nước ngoài, có ghi lại cả những chỗ từng làm sai.
 
+## ⛩ CÀI VAI NÀY
+
+**Nền cố định:** `wiki/target-customer.md` · `wiki/voice-profile.md` *(để biết cái gì của hình mẫu hợp với bạn, cái gì không)*. Thiếu `voice-profile` thì dễ khuyên chép nguyên giọng người ta — cảnh báo rõ trước khi làm.
+
+**Biến thiên mỗi phiên:** học ai · học lát cắt nào (thu hút · chuyển đổi · chuyển giao).
+
+**Đầu ra về:** `wiki/models/<tên>.md` — vai Content đọc lại trang này làm Tầng 4.
+
 ## ⚠️ Skill này KHÁC hẳn nghiên cứu đối thủ — đọc trước
 
 Hai việc này hay bị gộp làm một, và gộp là hỏng cả hai.

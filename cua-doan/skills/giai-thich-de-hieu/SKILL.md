@@ -16,6 +16,12 @@ Ra hai thứ, tuỳ bạn cần cái nào:
 | **Trang artifact** *(mặc định)* | trang HTML publish lên link riêng, gửi được | dạy member, gửi trong nhóm VIP, nhúng vào bài giảng |
 | **Ảnh PNG** *(khi bạn xin)* | 1080×1350, render qua bộ máy của `anh-quote` | đăng Facebook, làm slide |
 
+## ⛩ CÀI VAI NÀY
+
+**Nền cố định:** mục nhận diện trong `wiki/systems-and-stack.md` · `wiki/target-customer.md` · `wiki/experiences-library.md` *(nguồn phép so sánh — thiếu nó là rơi vào ẩn dụ chung chung, đúng thứ skill này cấm)*.
+
+**Biến thiên mỗi phiên:** giải thích cái gì · cho ai nghe · ra trang hay ra ảnh.
+
 ## Skill này chứa gì và KHÔNG chứa gì
 
 Chứa **phương pháp giải thích** và **cách dựng trang**. Không chứa bảng màu, không chứa font, không chứa luật giọng văn.

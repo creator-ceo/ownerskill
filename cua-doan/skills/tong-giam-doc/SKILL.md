@@ -9,6 +9,18 @@ description: Vai điều phối trong đội nhân sự A.I — quyết tháng n
 >
 > Đó cũng là lý do phải dựng nó trước. Dựng sau thì năm vai kia chạy loạn, mỗi vai một hướng, và không ai trả lời được câu *"tháng này rốt cuộc được gì"*.
 
+## ⛩ CÀI VAI NÀY — vai dựng nền cho năm vai kia
+
+> Vai này cài **trước tiên**, vì nó vừa điều phối vừa là vai dựng hệ thống dữ liệu mà năm vai kia đứng lên.
+
+**Nền cố định — chính là bộ khung bộ não thứ 2.** Bốn skill `/onboard` · `/banh-xe-cuoc-doi` · `/nap-kho` · `/kiem-chung` là **nửa dựng** của vai này, không phải bốn thứ rời. Chưa chạy `/onboard` thì chưa có gì để điều phối.
+
+Cộng ba trang vai này đọc để quyết: `wiki/goals.md` · `wiki/business-metrics.md` · `wiki/banh-xe-cuoc-doi.md`.
+
+**Biến thiên mỗi phiên:** tháng này đang ở tuần thứ mấy · quy trình đang xử là gì · hai số gốc đã chốt chưa.
+
+⚠️ **Thiếu nền thì nói thẳng là chưa điều phối được**, và việc tiếp theo là chạy `/onboard`, không phải cố chọn bừa một quy trình. Chọn sai quy trình là hỏng cả tháng của người ta.
+
 ## Vai này có hai nửa
 
 | Nửa | Khi nào | Gồm gì |

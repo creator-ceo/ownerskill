@@ -10,6 +10,14 @@ description: Dùng khi bạn muốn nghiên cứu ĐỐI THỦ CẠNH TRANH — 
 > Bản tiếng Việt cho mô hình thương hiệu cá nhân, phái sinh từ skill `competitor-profiling` của **Corey Haines** ([marketingskills](https://github.com/coreyhaines31/marketingskills), MIT).
 > Hai chỗ đổi thật so với bản gốc: **chạy được không cần công cụ trả phí**, và **soi người làm nhân hiệu** chứ không soi công ty SaaS.
 
+## ⛩ CÀI VAI NÀY
+
+**Nền cố định:** `wiki/target-customer.md` *(soi đối thủ cho tệp nào)* · `wiki/positioning.md` *(mình đang đứng đâu mà so)*. Thiếu thì vẫn soi được, nhưng ra bản mô tả đối thủ chứ không ra **khe hở cho bạn** — nói rõ chỗ đó thay vì giao một bản nghe đầy đủ mà vô dụng.
+
+**Biến thiên mỗi phiên:** soi ai · soi để làm gì (học cách họ thu hút, hay tìm chỗ họ bỏ trống).
+
+**Đầu ra về:** `wiki/competitors.md`.
+
 ## ⚠️ Skill này KHÁC hẳn soi hình mẫu — đọc trước
 
 | | **Đối thủ** *(skill này)* | **Hình mẫu** *(`/soi-hinh-mau`)* |
