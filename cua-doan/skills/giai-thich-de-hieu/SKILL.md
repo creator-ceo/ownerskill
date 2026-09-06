@@ -3,6 +3,8 @@ name: giai-thich-de-hieu
 description: Dùng khi bạn muốn biến một thứ khó hiểu thành một TRANG GIẢI THÍCH BẰNG HÌNH — ít chữ, sơ đồ có cơ chế, người chưa biết gì cũng hiểu. Kể cả khi chỉ nói "giải thích cái này cho dễ hiểu", "vẽ ra cho tôi xem cơ chế của X", "dạy member cái này thế nào cho dễ", "làm sơ đồ cho khái niệm này", "biến bài giảng này thành hình", "cái này giải thích cho người mới sao đây". Cũng dùng khi bạn dán đường dẫn một trang trong wiki/teachings/, wiki/models/, wiki/learnings/ kèm câu "làm thành trang giải thích", hoặc gõ /giai-thich-de-hieu <chủ đề>.
 ---
 
+> 🧩 **Vai trong đội nhân sự A.I: Thiết kế.** Tổng giám đốc giao việc *ảnh chữ, trang giải thích, slide* cho vai này. Vai không phải một skill riêng — nó là nhãn để `/tong-giam-doc` biết giao việc gì cho skill nào.
+
 # Giải thích dễ hiểu — Tô Hải Đoàn
 
 Biến một khái niệm khó thành **một trang có hình** mà người chưa biết gì đọc 60 giây là hiểu.

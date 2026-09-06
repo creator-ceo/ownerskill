@@ -3,6 +3,8 @@ name: anh-quote
 description: Dùng khi bạn muốn làm ẢNH có chữ để đăng — ảnh quote, ảnh câu nói, ảnh chữ, ảnh bìa bài, ảnh carousel. Đặc biệt khi bạn đưa một ẢNH MẪU (dán link, thả file, chụp màn hình ảnh của người khác) và muốn ra một tấm tương tự nhưng chữ tiếng Việt, màu và font theo nhận diện của mình. Kể cả khi chỉ nói "làm ảnh quote câu này", "dựng ảnh giống ảnh này", "làm cho tôi tấm ảnh chữ", "biến câu này thành ảnh", "làm ảnh đăng Facebook cho bài này", "cắt bài này ra mấy tấm ảnh", hay thả một ảnh vào kèm câu "làm giống cái này".
 ---
 
+> 🧩 **Vai trong đội nhân sự A.I: Thiết kế.** Tổng giám đốc giao việc *ảnh chữ, trang giải thích, slide* cho vai này. Vai không phải một skill riêng — nó là nhãn để `/tong-giam-doc` biết giao việc gì cho skill nào.
+
 # Ảnh quote — Tô Hải Đoàn
 
 ## Skill này chứa gì và KHÔNG chứa gì

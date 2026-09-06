@@ -4,13 +4,15 @@ Gói này gộp hai thứ có nguồn gốc khác nhau. Trang này ghi rõ cái 
 
 ---
 
-## Nhóm `cua-doan/` — 10 skill
+## Nhóm `cua-doan/` — 11 skill
 
 **© Tô Hải Đoàn.** Giấy phép **MIT** (xem [LICENSE](LICENSE)).
 
-**9 trong 10 skill** do Đoàn tự nghiên cứu và xây dựng, không lấy từ nguồn nào. Bạn được dùng, sửa, và phân phối lại — chỉ cần giữ dòng ghi công trong file `LICENSE`.
+**10 trong 11 skill** do Đoàn tự nghiên cứu và xây dựng, không lấy từ nguồn nào. Bạn được dùng, sửa, và phân phối lại — chỉ cần giữ dòng ghi công trong file `LICENSE`.
 
-Skill thứ 10 (`/soi-doi-thu`) là bản phái sinh — xem ngay dưới.
+Skill còn lại (`/soi-doi-thu`) là bản phái sinh — xem ngay dưới.
+
+*(Thêm 2026-09-04: `/tong-giam-doc` — vai điều phối đội nhân sự A.I. Tự viết, không lấy từ nguồn nào.)*
 
 ### ⚠️ Một skill trong nhóm này KHÔNG phải của Đoàn
 

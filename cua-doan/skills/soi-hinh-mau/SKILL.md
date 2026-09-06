@@ -3,6 +3,8 @@ name: soi-hinh-mau
 description: Dùng khi bạn muốn HỌC THEO một người đi trước — soi cách họ làm nội dung, cách họ bán, cách họ giữ khách — rồi rút ra lấy gì và bỏ gì cho mình. Kể cả khi chỉ nói "phân tích người này giúp tôi", "soi kênh của anh A", "người này làm content thế nào", "học theo ai bây giờ", "modeling người này", "bóc tách phễu của họ", "họ bán kiểu gì", "dựng cây nội dung từ kênh này", hay dán một link Facebook/YouTube/LinkedIn kèm câu "xem người này làm gì hay". Cũng dùng khi muốn THEO DÕI một hình mẫu đều đặn — "mỗi ngày check kênh của họ giúp tôi", "theo dõi xem họ có đổi cách làm không", "lấy ý tưởng từ họ làm nguyên liệu" — skill có mục hướng dẫn dựng nhiệm vụ chạy theo lịch. Cũng dùng khi gõ /soi-hinh-mau. 🚫 KHÔNG dùng skill này để nghiên cứu ĐỐI THỦ CẠNH TRANH (so sánh, tìm điểm yếu, dựng bảng khác biệt, trang "A vs B") — việc đó dùng /soi-doi-thu.
 ---
 
+> 🧩 **Vai trong đội nhân sự A.I: Nghiên cứu thị trường.** Tổng giám đốc giao việc *tìm hiểu khách, đối thủ, hình mẫu* cho vai này. Vai không phải một skill riêng — nó là nhãn để `/tong-giam-doc` biết giao việc gì cho skill nào.
+
 # Soi hình mẫu — phương pháp Tô Hải Đoàn
 
 > Đóng gói từ hệ modeling Đoàn tự dùng: 4 tiêu chí chọn, luật lọc theo bằng chứng, 3 lát cắt, và luật *lấy gì · bỏ gì*.

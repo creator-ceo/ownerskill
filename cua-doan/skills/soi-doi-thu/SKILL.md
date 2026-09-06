@@ -3,6 +3,8 @@ name: soi-doi-thu
 description: Dùng khi bạn muốn nghiên cứu ĐỐI THỦ CẠNH TRANH — người đang tranh cùng một khách với bạn — để tìm khác biệt, tìm khe hở, dựng bảng so sánh. Kể cả khi chỉ nói "đối thủ của tôi là ai", "soi giúp đối thủ này", "họ bán gì, giá bao nhiêu", "mình khác họ chỗ nào", "họ mạnh yếu ra sao", "dựng bảng so sánh với X", "ai đang tranh khách với mình", "thị trường này có những ai". Cũng dùng khi gõ /soi-doi-thu. 🚫 KHÔNG dùng skill này để HỌC THEO một người đi trước (lấy gì bỏ gì, dựng cây nội dung, bóc cấu trúc để bắt chước) — việc đó dùng /soi-hinh-mau.
 ---
 
+> 🧩 **Vai trong đội nhân sự A.I: Nghiên cứu thị trường.** Tổng giám đốc giao việc *tìm hiểu khách, đối thủ, hình mẫu* cho vai này. Vai không phải một skill riêng — nó là nhãn để `/tong-giam-doc` biết giao việc gì cho skill nào.
+
 # Soi đối thủ
 
 > Bản tiếng Việt cho mô hình thương hiệu cá nhân, phái sinh từ skill `competitor-profiling` của **Corey Haines** ([marketingskills](https://github.com/coreyhaines31/marketingskills), MIT).
