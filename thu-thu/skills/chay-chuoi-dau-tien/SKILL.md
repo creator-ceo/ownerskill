@@ -19,7 +19,7 @@ Mỗi vai là một gói riêng, có lệnh thiết lập riêng. Thứ tự g�
 | 4 | ✍️ Content | `content` | `/cai-content` | Nạp giọng và chuyện, lập kế hoạch, viết bài đầu tiên | Một bài được bạn duyệt |
 | 5 | 🎞️ Editor | `editor` | `/cai-editor` | Cài công cụ, ghi cách bạn quay, dựng clip thử | Một video được bạn duyệt |
 
-Cài gói: `claude plugin install <tên gói>@creator-skills`. Các vai Bán hàng (`ban-hang`), Chăm sóc (`cham-soc`), Phát triển sản phẩm (`phat-trien-san-pham`) cài thêm khi cần.
+Cài gói: `claude plugin install <tên gói>@ownerskill`. Các vai Bán hàng (`ban-hang`), Chăm sóc (`cham-soc`), Phát triển sản phẩm (`phat-trien-san-pham`) cài thêm khi cần.
 
 Bước 4 và 5 chỉ cần khi mục tiêu của bạn là làm nội dung. Mục tiêu khác thì Tổng giám đốc sẽ chỉ vai nào chạy tiếp.
 
@@ -50,14 +50,14 @@ Skill này có nhắc tới các lệnh dưới đây. Chúng nằm trong gói k
 
 | Lệnh | Gói | Cài |
 |---|---|---|
-| `/cai-content` | `content` | `claude plugin install content@creator-skills` |
-| `/viet-content` | `content` | `claude plugin install content@creator-skills` |
-| `/cai-editor` | `editor` | `claude plugin install editor@creator-skills` |
-| `/dung-video` | `editor` | `claude plugin install editor@creator-skills` |
-| `/xuong-video` | `editor` | `claude plugin install editor@creator-skills` |
-| `/cai-nghien-cuu` | `nghien-cuu` | `claude plugin install nghien-cuu@creator-skills` |
-| `/cai-tong-giam-doc` | `tong-giam-doc` | `claude plugin install tong-giam-doc@creator-skills` |
-| `/dieu-hanh` | `tong-giam-doc` | `claude plugin install tong-giam-doc@creator-skills` |
+| `/cai-content` | `content` | `claude plugin install content@ownerskill` |
+| `/viet-content` | `content` | `claude plugin install content@ownerskill` |
+| `/cai-editor` | `editor` | `claude plugin install editor@ownerskill` |
+| `/dung-video` | `editor` | `claude plugin install editor@ownerskill` |
+| `/xuong-video` | `editor` | `claude plugin install editor@ownerskill` |
+| `/cai-nghien-cuu` | `nghien-cuu` | `claude plugin install nghien-cuu@ownerskill` |
+| `/cai-tong-giam-doc` | `tong-giam-doc` | `claude plugin install tong-giam-doc@ownerskill` |
+| `/dieu-hanh` | `tong-giam-doc` | `claude plugin install tong-giam-doc@ownerskill` |
 
 ## Skill này của ai
 

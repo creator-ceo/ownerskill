@@ -9,7 +9,7 @@ Vai này làm hai việc: hiểu khách thật của bạn, và lấp các trang
 
 ## Cửa vào — kiểm kho
 
-**Cần có kho.** Kiểm thư mục `wiki/` đã có và lệnh `/nap-kho` dùng được. Chưa có thì dừng và nói: *"Vai này đọc và ghi qua kho của vai Thủ thư. Cài gói đó trước: `claude plugin install thu-thu@creator-skills`, rồi gõ `/cai-thu-thu`."* Không làm tiếp.
+**Cần có kho.** Kiểm thư mục `wiki/` đã có và lệnh `/nap-kho` dùng được. Chưa có thì dừng và nói: *"Vai này đọc và ghi qua kho của vai Thủ thư. Cài gói đó trước: `claude plugin install thu-thu@ownerskill`, rồi gõ `/cai-thu-thu`."* Không làm tiếp.
 
 ## Việc 1 — Chọn một nhóm khách
 
@@ -47,9 +47,9 @@ Skill này có nhắc tới các lệnh dưới đây. Chúng nằm trong gói k
 
 | Lệnh | Gói | Cài |
 |---|---|---|
-| `/cai-thu-thu` | `thu-thu` | `claude plugin install thu-thu@creator-skills` |
-| `/nap-kho` | `thu-thu` | `claude plugin install thu-thu@creator-skills` |
-| `/cai-tong-giam-doc` | `tong-giam-doc` | `claude plugin install tong-giam-doc@creator-skills` |
+| `/cai-thu-thu` | `thu-thu` | `claude plugin install thu-thu@ownerskill` |
+| `/nap-kho` | `thu-thu` | `claude plugin install thu-thu@ownerskill` |
+| `/cai-tong-giam-doc` | `tong-giam-doc` | `claude plugin install tong-giam-doc@ownerskill` |
 
 ## Skill này của ai
 

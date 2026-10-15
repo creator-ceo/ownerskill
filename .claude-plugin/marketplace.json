@@ -1,5 +1,5 @@
 {
-  "name": "creator-skills",
+  "name": "ownerskill",
   "owner": {
     "name": "Tô Hải Đoàn",
     "url": "https://github.com/creator-ceo"
@@ -7,7 +7,7 @@
   "metadata": {
     "description": "Bộ skill cho người làm thương hiệu cá nhân, chia theo từng vai trong đội nhân sự A.I (Thủ thư, Nghiên cứu, Tổng giám đốc, Content, Editor, Bán hàng, Chăm sóc, Phát triển sản phẩm), mỗi vai cài riêng được, cộng nhóm marketing tổng hợp từ nguồn mở",
     "version": "2.0.0",
-    "repository": "https://github.com/creator-ceo/creator-skills"
+    "repository": "https://github.com/creator-ceo/ownerskill"
   },
   "plugins": [
     {

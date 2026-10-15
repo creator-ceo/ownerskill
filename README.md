@@ -1,4 +1,4 @@
-# Creator Skills
+# Ownerskill
 
 **63 skill cho người làm thương hiệu cá nhân, chia theo từng vai trong một đội nhân sự A.I.** Mỗi vai là một gói riêng, bạn chọn vai cần và cài riêng từng vai.
 
@@ -14,17 +14,17 @@ Gói chia làm hai nhóm tách bạch, và sự tách bạch đó là cố ý:
 Thêm kho một lần:
 
 ```bash
-claude plugin marketplace add creator-ceo/creator-skills
+claude plugin marketplace add creator-ceo/ownerskill
 ```
 
 Rồi cài **đúng vai bạn cần**, mỗi vai một dòng. Vai Thủ thư cài trước, vì các vai khác đọc và ghi vào kho của nó:
 
 ```bash
-claude plugin install thu-thu@creator-skills
+claude plugin install thu-thu@ownerskill
 ```
 
 ```bash
-claude plugin install content@creator-skills
+claude plugin install content@ownerskill
 ```
 
 Mỗi vai có một lệnh thiết lập riêng (`/cai-thu-thu`, `/cai-content`…). Gõ lệnh đó một lần sau khi cài để vai biết về bạn. Rồi dùng skill của vai hằng ngày.

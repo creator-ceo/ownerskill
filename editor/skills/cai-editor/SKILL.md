@@ -9,7 +9,7 @@ Vai này dựng clip bạn tự quay thành video hoàn chỉnh, và giữ kho c
 
 ## Cửa vào — kiểm máy và các bước trước
 
-1. **Cần có kho.** Kiểm thư mục `wiki/` đã có và lệnh `/nap-kho` dùng được. Chưa có thì dừng và nói: *"Vai này đọc và ghi qua kho của vai Thủ thư. Cài gói đó trước: `claude plugin install thu-thu@creator-skills`, rồi gõ `/cai-thu-thu`."* Không làm tiếp. Vai Content (gói `content`) là nơi viết kịch bản. Chưa có thì vẫn cài được, nhưng bạn sẽ tự mang kịch bản của mình vào.
+1. **Cần có kho.** Kiểm thư mục `wiki/` đã có và lệnh `/nap-kho` dùng được. Chưa có thì dừng và nói: *"Vai này đọc và ghi qua kho của vai Thủ thư. Cài gói đó trước: `claude plugin install thu-thu@ownerskill`, rồi gõ `/cai-thu-thu`."* Không làm tiếp. Vai Content (gói `content`) là nơi viết kịch bản. Chưa có thì vẫn cài được, nhưng bạn sẽ tự mang kịch bản của mình vào.
 2. **Kiểm máy:** vai này hiện **chỉ chạy trên Mac chip Apple (M1 trở lên)**, vì bước nghe lời nói dùng công cụ riêng của chip này. Máy khác thì nói thẳng: *"Máy này chưa dựng được video bằng bộ skill này. Bạn vẫn dùng được các vai trước, và có thể dựng video bằng phần mềm khác từ kịch bản Content viết."* Rồi dừng.
 
 ## Việc 1 — Cài công cụ
@@ -42,9 +42,9 @@ Skill này có nhắc tới các lệnh dưới đây. Chúng nằm trong gói k
 
 | Lệnh | Gói | Cài |
 |---|---|---|
-| `/cai-thu-thu` | `thu-thu` | `claude plugin install thu-thu@creator-skills` |
-| `/chay-chuoi-dau-tien` | `thu-thu` | `claude plugin install thu-thu@creator-skills` |
-| `/nap-kho` | `thu-thu` | `claude plugin install thu-thu@creator-skills` |
+| `/cai-thu-thu` | `thu-thu` | `claude plugin install thu-thu@ownerskill` |
+| `/chay-chuoi-dau-tien` | `thu-thu` | `claude plugin install thu-thu@ownerskill` |
+| `/nap-kho` | `thu-thu` | `claude plugin install thu-thu@ownerskill` |
 
 ## Skill này của ai
 

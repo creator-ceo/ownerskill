@@ -74,10 +74,10 @@ Skill này có nhắc tới các lệnh dưới đây. Chúng nằm trong gói k
 
 | Lệnh | Gói | Cài |
 |---|---|---|
-| `/cai-content` | `content` | `claude plugin install content@creator-skills` |
-| `/cai-editor` | `editor` | `claude plugin install editor@creator-skills` |
-| `/cai-nghien-cuu` | `nghien-cuu` | `claude plugin install nghien-cuu@creator-skills` |
-| `/cai-tong-giam-doc` | `tong-giam-doc` | `claude plugin install tong-giam-doc@creator-skills` |
+| `/cai-content` | `content` | `claude plugin install content@ownerskill` |
+| `/cai-editor` | `editor` | `claude plugin install editor@ownerskill` |
+| `/cai-nghien-cuu` | `nghien-cuu` | `claude plugin install nghien-cuu@ownerskill` |
+| `/cai-tong-giam-doc` | `tong-giam-doc` | `claude plugin install tong-giam-doc@ownerskill` |
 
 ## Skill này của ai
 

@@ -21,7 +21,7 @@ Xong thì gõ `claude` để kiểm tra. Thấy Claude chào là được.
 Dán dòng này vào Terminal:
 
 ```bash
-claude plugin marketplace add creator-ceo/creator-skills
+claude plugin marketplace add creator-ceo/ownerskill
 ```
 
 Nó chỉ **thêm địa chỉ kho** vào máy bạn, chưa cài gì cả.
@@ -33,13 +33,13 @@ Nó chỉ **thêm địa chỉ kho** vào máy bạn, chưa cài gì cả.
 Mỗi vai là một gói riêng. **Vai Thủ thư cài trước**, vì các vai khác đọc và ghi vào kho của nó:
 
 ```bash
-claude plugin install thu-thu@creator-skills
+claude plugin install thu-thu@ownerskill
 ```
 
 Rồi cài thêm vai bạn cần, mỗi vai một dòng. Ví dụ vai Content:
 
 ```bash
-claude plugin install content@creator-skills
+claude plugin install content@ownerskill
 ```
 
 Các vai khác: `nghien-cuu` · `tong-giam-doc` · `editor` · `ban-hang` · `cham-soc` · `phat-trien-san-pham`. Gói marketing tiếng Anh: `tong-hop`. Thay tên vai vào dòng lệnh trên.

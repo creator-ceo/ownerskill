@@ -246,17 +246,17 @@ Skill này có nhắc tới các lệnh dưới đây. Chúng nằm trong gói k
 
 | Lệnh | Gói | Cài |
 |---|---|---|
-| `/ban-hang` | `ban-hang` | `claude plugin install ban-hang@creator-skills` |
-| `/cham-soc` | `cham-soc` | `claude plugin install cham-soc@creator-skills` |
-| `/viet-content` | `content` | `claude plugin install content@creator-skills` |
-| `/anh-quote` | `editor` | `claude plugin install editor@creator-skills` |
-| `/cai-nghien-cuu` | `nghien-cuu` | `claude plugin install nghien-cuu@creator-skills` |
-| `/soi-doi-thu` | `nghien-cuu` | `claude plugin install nghien-cuu@creator-skills` |
-| `/soi-hinh-mau` | `nghien-cuu` | `claude plugin install nghien-cuu@creator-skills` |
-| `/giai-thich-de-hieu` | `phat-trien-san-pham` | `claude plugin install phat-trien-san-pham@creator-skills` |
-| `/cai-thu-thu` | `thu-thu` | `claude plugin install thu-thu@creator-skills` |
-| `/kiem-chung` | `thu-thu` | `claude plugin install thu-thu@creator-skills` |
-| `/nap-kho` | `thu-thu` | `claude plugin install thu-thu@creator-skills` |
+| `/ban-hang` | `ban-hang` | `claude plugin install ban-hang@ownerskill` |
+| `/cham-soc` | `cham-soc` | `claude plugin install cham-soc@ownerskill` |
+| `/viet-content` | `content` | `claude plugin install content@ownerskill` |
+| `/anh-quote` | `editor` | `claude plugin install editor@ownerskill` |
+| `/cai-nghien-cuu` | `nghien-cuu` | `claude plugin install nghien-cuu@ownerskill` |
+| `/soi-doi-thu` | `nghien-cuu` | `claude plugin install nghien-cuu@ownerskill` |
+| `/soi-hinh-mau` | `nghien-cuu` | `claude plugin install nghien-cuu@ownerskill` |
+| `/giai-thich-de-hieu` | `phat-trien-san-pham` | `claude plugin install phat-trien-san-pham@ownerskill` |
+| `/cai-thu-thu` | `thu-thu` | `claude plugin install thu-thu@ownerskill` |
+| `/kiem-chung` | `thu-thu` | `claude plugin install thu-thu@ownerskill` |
+| `/nap-kho` | `thu-thu` | `claude plugin install thu-thu@ownerskill` |
 
 ---
 

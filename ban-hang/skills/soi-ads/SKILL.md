@@ -154,8 +154,8 @@ Skill này có nhắc tới các lệnh dưới đây. Chúng nằm trong gói k
 
 | Lệnh | Gói | Cài |
 |---|---|---|
-| `/viet-content` | `content` | `claude plugin install content@creator-skills` |
-| `/nap-kho` | `thu-thu` | `claude plugin install thu-thu@creator-skills` |
+| `/viet-content` | `content` | `claude plugin install content@ownerskill` |
+| `/nap-kho` | `thu-thu` | `claude plugin install thu-thu@ownerskill` |
 
 ---
 

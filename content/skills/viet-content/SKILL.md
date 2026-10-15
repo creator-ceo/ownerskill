@@ -41,7 +41,7 @@ description: Dùng khi bạn nhờ viết hoặc xử lý nội dung đăng ra n
 Nói thẳng: chưa viết được bài mang giọng của họ, vì chưa có gì để mang. Rồi đưa đúng **một** việc tiếp theo, không đưa danh sách:
 
 - Chưa có `voice-profile` → *"Dán vào đây 5 tới 10 bài bạn đã đăng thật. Tôi rút hồ sơ giọng, rồi mới viết được bài nghe ra bạn."*
-- Chưa có gì cả, kể cả trang nền → *"Cài gói `thu-thu` (`claude plugin install thu-thu@creator-skills`) và chạy `/cai-thu-thu` trước đã."*
+- Chưa có gì cả, kể cả trang nền → *"Cài gói `thu-thu` (`claude plugin install thu-thu@ownerskill`) và chạy `/cai-thu-thu` trước đã."*
 
 ⚡ Đây là **từ chối có đường đi tiếp**, khác hẳn từ chối cụt. Từ chối cụt làm người mới kết luận công cụ này vô dụng; câu trên làm họ biết phải làm gì trong mười phút tới.
 
@@ -393,12 +393,12 @@ Skill này có nhắc tới các lệnh dưới đây. Chúng nằm trong gói k
 
 | Lệnh | Gói | Cài |
 |---|---|---|
-| `/anh-quote` | `editor` | `claude plugin install editor@creator-skills` |
-| `/soi-hinh-mau` | `nghien-cuu` | `claude plugin install nghien-cuu@creator-skills` |
-| `/giai-thich-de-hieu` | `phat-trien-san-pham` | `claude plugin install phat-trien-san-pham@creator-skills` |
-| `/cai-thu-thu` | `thu-thu` | `claude plugin install thu-thu@creator-skills` |
-| `/nap-kho` | `thu-thu` | `claude plugin install thu-thu@creator-skills` |
-| `/dieu-hanh` | `tong-giam-doc` | `claude plugin install tong-giam-doc@creator-skills` |
+| `/anh-quote` | `editor` | `claude plugin install editor@ownerskill` |
+| `/soi-hinh-mau` | `nghien-cuu` | `claude plugin install nghien-cuu@ownerskill` |
+| `/giai-thich-de-hieu` | `phat-trien-san-pham` | `claude plugin install phat-trien-san-pham@ownerskill` |
+| `/cai-thu-thu` | `thu-thu` | `claude plugin install thu-thu@ownerskill` |
+| `/nap-kho` | `thu-thu` | `claude plugin install thu-thu@ownerskill` |
+| `/dieu-hanh` | `tong-giam-doc` | `claude plugin install tong-giam-doc@ownerskill` |
 
 ---
 

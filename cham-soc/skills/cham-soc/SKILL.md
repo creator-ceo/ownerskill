@@ -89,7 +89,7 @@ Skill này có nhắc tới các lệnh dưới đây. Chúng nằm trong gói k
 
 | Lệnh | Gói | Cài |
 |---|---|---|
-| `/dieu-hanh` | `tong-giam-doc` | `claude plugin install tong-giam-doc@creator-skills` |
+| `/dieu-hanh` | `tong-giam-doc` | `claude plugin install tong-giam-doc@ownerskill` |
 
 ---
 

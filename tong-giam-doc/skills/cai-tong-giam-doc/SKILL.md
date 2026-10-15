@@ -9,7 +9,7 @@ Vai này trả lời một câu: **tập trung vào đâu**. Nó cần có kho (
 
 ## Cửa vào — kiểm kho và hiểu khách
 
-**Cần có kho.** Kiểm thư mục `wiki/` đã có và lệnh `/nap-kho` dùng được. Chưa có thì dừng và nói: *"Vai này đọc và ghi qua kho của vai Thủ thư. Cài gói đó trước: `claude plugin install thu-thu@creator-skills`, rồi gõ `/cai-thu-thu`."* Không làm tiếp.
+**Cần có kho.** Kiểm thư mục `wiki/` đã có và lệnh `/nap-kho` dùng được. Chưa có thì dừng và nói: *"Vai này đọc và ghi qua kho của vai Thủ thư. Cài gói đó trước: `claude plugin install thu-thu@ownerskill`, rồi gõ `/cai-thu-thu`."* Không làm tiếp.
 
 **Nên có chân dung khách** (`wiki/target-customer.md`, do vai Nghiên cứu dựng, gói `nghien-cuu`). Chưa có thì nói: *"Chưa có chân dung khách thì chốt đích dễ sai. Bạn muốn cài vai Nghiên cứu trước, hay chốt ngay?"* Chốt ngay thì hỏi thêm ba câu và ghi qua `/nap-kho`: khách là ai, họ đang đau điều gì, họ đã mua gì ở bạn.
 
@@ -56,12 +56,12 @@ Skill này có nhắc tới các lệnh dưới đây. Chúng nằm trong gói k
 
 | Lệnh | Gói | Cài |
 |---|---|---|
-| `/ban-hang` | `ban-hang` | `claude plugin install ban-hang@creator-skills` |
-| `/cham-soc` | `cham-soc` | `claude plugin install cham-soc@creator-skills` |
-| `/cai-content` | `content` | `claude plugin install content@creator-skills` |
-| `/cai-thu-thu` | `thu-thu` | `claude plugin install thu-thu@creator-skills` |
-| `/kiem-chung` | `thu-thu` | `claude plugin install thu-thu@creator-skills` |
-| `/nap-kho` | `thu-thu` | `claude plugin install thu-thu@creator-skills` |
+| `/ban-hang` | `ban-hang` | `claude plugin install ban-hang@ownerskill` |
+| `/cham-soc` | `cham-soc` | `claude plugin install cham-soc@ownerskill` |
+| `/cai-content` | `content` | `claude plugin install content@ownerskill` |
+| `/cai-thu-thu` | `thu-thu` | `claude plugin install thu-thu@ownerskill` |
+| `/kiem-chung` | `thu-thu` | `claude plugin install thu-thu@ownerskill` |
+| `/nap-kho` | `thu-thu` | `claude plugin install thu-thu@ownerskill` |
 
 ## Skill này của ai
 

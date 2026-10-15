@@ -233,8 +233,8 @@ Skill này có nhắc tới các lệnh dưới đây. Chúng nằm trong gói k
 
 | Lệnh | Gói | Cài |
 |---|---|---|
-| `/ban-hang` | `ban-hang` | `claude plugin install ban-hang@creator-skills` |
-| `/nap-kho` | `thu-thu` | `claude plugin install thu-thu@creator-skills` |
+| `/ban-hang` | `ban-hang` | `claude plugin install ban-hang@ownerskill` |
+| `/nap-kho` | `thu-thu` | `claude plugin install thu-thu@ownerskill` |
 
 ---
 

@@ -9,7 +9,7 @@ Vai này viết bài, lập kế hoạch tháng và viết kịch bản video. N
 
 ## Cửa vào — kiểm kho, khách và mục tiêu
 
-**Cần có kho.** Kiểm thư mục `wiki/` đã có và lệnh `/nap-kho` dùng được. Chưa có thì dừng và nói: *"Vai này đọc và ghi qua kho của vai Thủ thư. Cài gói đó trước: `claude plugin install thu-thu@creator-skills`, rồi gõ `/cai-thu-thu`."* Không làm tiếp.
+**Cần có kho.** Kiểm thư mục `wiki/` đã có và lệnh `/nap-kho` dùng được. Chưa có thì dừng và nói: *"Vai này đọc và ghi qua kho của vai Thủ thư. Cài gói đó trước: `claude plugin install thu-thu@ownerskill`, rồi gõ `/cai-thu-thu`."* Không làm tiếp.
 
 **Nên có chân dung khách** (`wiki/target-customer.md`) **và mục tiêu** (`wiki/goals.md`), do vai Nghiên cứu và Tổng giám đốc dựng. Thiếu thì không dừng, nhưng nói rõ bài ra sẽ chung chung hơn, rồi hỏi tối thiểu: *"Bài này viết cho ai?"* và *"Bạn muốn người đọc làm gì sau khi đọc?"* Ghi hai câu trả lời qua `/nap-kho` vào hai trang trên. Mục tiêu đã chốt không liên quan nội dung thì hỏi bạn có thật sự muốn cài vai này lúc này không.
 
@@ -43,10 +43,10 @@ Skill này có nhắc tới các lệnh dưới đây. Chúng nằm trong gói k
 
 | Lệnh | Gói | Cài |
 |---|---|---|
-| `/cai-editor` | `editor` | `claude plugin install editor@creator-skills` |
-| `/cai-thu-thu` | `thu-thu` | `claude plugin install thu-thu@creator-skills` |
-| `/kiem-chung` | `thu-thu` | `claude plugin install thu-thu@creator-skills` |
-| `/nap-kho` | `thu-thu` | `claude plugin install thu-thu@creator-skills` |
+| `/cai-editor` | `editor` | `claude plugin install editor@ownerskill` |
+| `/cai-thu-thu` | `thu-thu` | `claude plugin install thu-thu@ownerskill` |
+| `/kiem-chung` | `thu-thu` | `claude plugin install thu-thu@ownerskill` |
+| `/nap-kho` | `thu-thu` | `claude plugin install thu-thu@ownerskill` |
 
 ## Skill này của ai
 

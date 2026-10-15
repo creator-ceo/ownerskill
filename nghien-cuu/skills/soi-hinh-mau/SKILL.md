@@ -229,10 +229,10 @@ Skill này có nhắc tới các lệnh dưới đây. Chúng nằm trong gói k
 
 | Lệnh | Gói | Cài |
 |---|---|---|
-| `/viet-content` | `content` | `claude plugin install content@creator-skills` |
-| `/anh-quote` | `editor` | `claude plugin install editor@creator-skills` |
-| `/nap-kho` | `thu-thu` | `claude plugin install thu-thu@creator-skills` |
-| `/dieu-hanh` | `tong-giam-doc` | `claude plugin install tong-giam-doc@creator-skills` |
+| `/viet-content` | `content` | `claude plugin install content@ownerskill` |
+| `/anh-quote` | `editor` | `claude plugin install editor@ownerskill` |
+| `/nap-kho` | `thu-thu` | `claude plugin install thu-thu@ownerskill` |
+| `/dieu-hanh` | `tong-giam-doc` | `claude plugin install tong-giam-doc@ownerskill` |
 
 ---
 
