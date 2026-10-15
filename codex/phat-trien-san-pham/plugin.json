@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "phat-trien-san-pham",
+  "version": "1.0.0",
+  "description": "Vai Phát triển sản phẩm: viết bài giảng, slide, kịch bản quay bài học và bài tập ($lam-khoa-hoc), biến khái niệm khó thành một trang có hình ($giai-thich-de-hieu). Cần vai Thủ thư.",
+  "author": {
+    "name": "Tô Hải Đoàn"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/creator-ceo/ownerskill",
+  "keywords": [
+    "khoa-hoc",
+    "giai-thich",
+    "tieng-viet"
+  ]
+}

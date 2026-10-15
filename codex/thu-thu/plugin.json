@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "thu-thu",
+  "version": "1.0.0",
+  "description": "Vai Thủ thư: giữ kho tài liệu của bạn. Dựng thư mục kho, ghi mọi thứ vào kho qua một đường duy nhất ($nap-kho), kiểm xem đã lưu thật chưa ($kiem-chung), và $chay-chuoi-dau-tien cho biết bạn đang ở bước nào khi dựng đội. Cài đầu tiên, các vai khác đọc từ kho này. Gõ $cai-thu-thu để thiết lập.",
+  "author": {
+    "name": "Tô Hải Đoàn"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/creator-ceo/ownerskill",
+  "keywords": [
+    "kho",
+    "second-brain",
+    "tieng-viet"
+  ]
+}

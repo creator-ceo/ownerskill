@@ -1,0 +1,8 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "tong-hop",
+  "version": "1.0.0",
+  "description": "41 skill marketing tổng hợp từ nguồn mở MIT chất lượng cao (marketingskills của Corey Haines, 45.8k sao): thiết kế offer, định giá, copywriting, email, lead magnet, launch, cộng đồng, tâm lý marketing, nghiên cứu khách hàng, quảng cáo, SEO, PR và đo lường. Bằng tiếng Anh.",
+  "license": "MIT",
+  "repository": "https://github.com/creator-ceo/ownerskill"
+}

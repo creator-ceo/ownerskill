@@ -1,0 +1,116 @@
+{
+  "name": "ownerskill",
+  "interface": {
+    "displayName": "Ownerskill"
+  },
+  "plugins": [
+    {
+      "name": "thu-thu",
+      "source": {
+        "source": "local",
+        "path": "./codex/thu-thu"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "nghien-cuu",
+      "source": {
+        "source": "local",
+        "path": "./codex/nghien-cuu"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "tong-giam-doc",
+      "source": {
+        "source": "local",
+        "path": "./codex/tong-giam-doc"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "content",
+      "source": {
+        "source": "local",
+        "path": "./codex/content"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "editor",
+      "source": {
+        "source": "local",
+        "path": "./codex/editor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "ban-hang",
+      "source": {
+        "source": "local",
+        "path": "./codex/ban-hang"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "cham-soc",
+      "source": {
+        "source": "local",
+        "path": "./codex/cham-soc"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "phat-trien-san-pham",
+      "source": {
+        "source": "local",
+        "path": "./codex/phat-trien-san-pham"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "tong-hop",
+      "source": {
+        "source": "local",
+        "path": "./tong-hop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

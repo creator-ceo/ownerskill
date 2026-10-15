@@ -11,23 +11,29 @@ Gói chia làm hai nhóm tách bạch, và sự tách bạch đó là cố ý:
 
 ## Cài trong 2 phút
 
-Thêm kho một lần:
+Bộ này chạy được trên **hai công cụ**, mỗi công cụ một cách cài và một file hướng dẫn riêng:
+
+| Bạn dùng | Đọc hướng dẫn | Gọi skill bằng |
+|---|---|---|
+| **Claude Code** | [CAI-CHO-CLAUDE-CODE.md](CAI-CHO-CLAUDE-CODE.md) | `/tên-skill` |
+| **Codex** | [CAI-CHO-CODEX.md](CAI-CHO-CODEX.md) | `$tên-skill` |
+
+**Claude Code**: thêm kho một lần, rồi cài đúng vai bạn cần, mỗi vai một dòng.
 
 ```bash
 claude plugin marketplace add creator-ceo/ownerskill
 ```
-
-Rồi cài **đúng vai bạn cần**, mỗi vai một dòng. Vai Thủ thư cài trước, vì các vai khác đọc và ghi vào kho của nó:
-
 ```bash
 claude plugin install thu-thu@ownerskill
 ```
 
+**Codex**: thêm kho một lần, rồi cài vai trong `/plugins`.
+
 ```bash
-claude plugin install content@ownerskill
+codex plugin marketplace add creator-ceo/ownerskill
 ```
 
-Mỗi vai có một lệnh thiết lập riêng (`/cai-thu-thu`, `/cai-content`…). Gõ lệnh đó một lần sau khi cài để vai biết về bạn. Rồi dùng skill của vai hằng ngày.
+Vai Thủ thư cài trước, vì các vai khác đọc và ghi vào kho của nó. Mỗi vai có một lệnh thiết lập riêng (`/cai-thu-thu`, `/cai-content`… hoặc `$cai-thu-thu`… trên Codex). Gọi lệnh đó một lần sau khi cài để vai biết về bạn. Bảng dưới ghi tên lệnh theo kiểu Claude Code.
 
 | Gói | Vai | Skill | Làm gì |
 |---|---|---|---|
@@ -40,7 +46,7 @@ Mỗi vai có một lệnh thiết lập riêng (`/cai-thu-thu`, `/cai-content`�
 | `cham-soc` | 🤝 Chăm sóc | `/cham-soc` | Lo người đã trả tiền tới khi ra kết quả |
 | `phat-trien-san-pham` | 📦 Phát triển sản phẩm | `/lam-khoa-hoc` · `/giai-thich-de-hieu` | Bài giảng, slide, bài tập, trang giải thích bằng hình |
 
-> 💡 Chưa quen dòng lệnh? Đọc [BAT-DAU-TU-DAY.md](BAT-DAU-TU-DAY.md) — từng bước một.
+> 💡 Chưa quen dòng lệnh? Mỗi file hướng dẫn ở trên đi từng bước một.
 
 ---
 

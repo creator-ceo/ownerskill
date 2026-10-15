@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "editor",
+  "version": "1.0.0",
+  "description": "Vai Editor: dựng clip ngồi nói thành video có phụ đề và xuất sang CapCut ($dung-video), lập kho cảnh quay để tra B-roll ($xuong-video), biến câu thành ảnh đăng ($anh-quote). Cần vai Thủ thư. Dựng người ngồi nói hiện chỉ chạy trên Mac chip Apple và cần cài ffmpeg. Gõ $cai-editor để thiết lập.",
+  "author": {
+    "name": "Tô Hải Đoàn"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/creator-ceo/ownerskill",
+  "keywords": [
+    "video",
+    "capcut",
+    "anh",
+    "tieng-viet"
+  ]
+}

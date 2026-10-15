@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ban-hang",
+  "version": "1.0.0",
+  "description": "Vai Bán hàng: dựng offer, trang bán, email bán, kịch bản gọi hoặc cả phễu ($ban-hang), và soi quảng cáo Meta, Google ($soi-ads, có lớp chặn không tiêu tiền khi bạn chưa gật). Cần vai Thủ thư.",
+  "author": {
+    "name": "Tô Hải Đoàn"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/creator-ceo/ownerskill",
+  "keywords": [
+    "ban-hang",
+    "phe",
+    "quang-cao",
+    "tieng-viet"
+  ]
+}

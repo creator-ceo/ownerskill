@@ -1,0 +1,176 @@
+<!doctype html>
+<meta charset="utf-8" />
+<title>Khung gốc — ảnh quote</title>
+
+<!-- ═══════════════════════════════════════════════════════════════════════
+     KHUNG GỐC. Mọi file trong anh-quote/kieu/ đều là bản sao của file này,
+     sửa lại phần "PHẦN RIÊNG CỦA KIỂU". Đừng sửa file này khi làm một kiểu
+     mới — copy nó ra rồi sửa bản copy, để khung luôn còn nguyên làm chuẩn.
+
+     Sửa gì được: khối :root (màu, lề, cỡ chữ), khối .nen (hình nền), và
+     thêm CSS của riêng kiểu ở cuối. Phần dựng chữ + co chữ bên dưới là
+     bộ máy chung — sửa vào đó là hỏng mọi kiểu khác.
+     ═══════════════════════════════════════════════════════════════════ -->
+
+<script type="application/json" id="noi-dung">
+{
+  "nhan": "NHÃN NHỎ PHÍA TRÊN",
+  "chinh": "Câu quote đặt ở đây. Bọc *dấu sao* quanh cụm chữ muốn tô màu nhấn.",
+  "ghiChu": "— Tên của bạn",
+  "chan": "",
+  "canChu": "trai",
+  "coChuToiDa": 96
+}
+</script>
+
+<style>
+  /* Font nhúng từ thư mục skill — __THU_MUC_FONT__ được dung.mjs thay bằng
+     đường dẫn tuyệt đối lúc render, nên ảnh không phụ thuộc font cài trên máy. */
+  @font-face { font-family: 'Be Vietnam Pro'; font-weight: 400; src: url('__THU_MUC_FONT__/BeVietnamPro-Regular.ttf'); }
+  @font-face { font-family: 'Be Vietnam Pro'; font-weight: 500; src: url('__THU_MUC_FONT__/BeVietnamPro-Medium.ttf'); }
+  @font-face { font-family: 'Be Vietnam Pro'; font-weight: 600; src: url('__THU_MUC_FONT__/BeVietnamPro-SemiBold.ttf'); }
+  @font-face { font-family: 'Be Vietnam Pro'; font-weight: 700; src: url('__THU_MUC_FONT__/BeVietnamPro-Bold.ttf'); }
+  @font-face { font-family: 'Be Vietnam Pro'; font-weight: 800; src: url('__THU_MUC_FONT__/BeVietnamPro-ExtraBold.ttf'); }
+  @font-face { font-family: 'Be Vietnam Pro'; font-weight: 900; src: url('__THU_MUC_FONT__/BeVietnamPro-Black.ttf'); }
+
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 100%; height: 100%; overflow: hidden; }
+  body { font-family: var(--font-chinh); background: var(--nen); color: var(--muc); }
+
+  .khung { position: relative; width: 100vw; height: 100vh; overflow: hidden; }
+
+  /* Lớp nền: kiểu nào cần ảnh thật thì đặt <img class="anh-nen"> vào đây */
+  .nen { position: absolute; inset: 0; background: var(--nen); }
+  .anh-nen { width: 100%; height: 100%; object-fit: cover; display: block; }
+  /* Lớp phủ tối/sáng — chỉ bật khi có ảnh nền, để chữ luôn đọc được */
+  .phu { position: absolute; inset: 0; }
+
+  .noi-dung {
+    position: relative;
+    height: 100%;
+    padding: var(--le);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+  }
+  .noi-dung[data-can='giua'] { align-items: center; text-align: center; }
+  .noi-dung[data-can='trai'] { align-items: flex-start; text-align: left; }
+
+  .nhan {
+    font-size: 30px; font-weight: 700; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--phu-mau); opacity: 0.6;
+  }
+
+  /* Câu quote. Cỡ chữ do script bên dưới tự tính, không đặt cứng ở đây. */
+  .chinh {
+    font-weight: var(--dam-chinh);
+    line-height: var(--dan-dong);
+    letter-spacing: var(--xit-chu);
+    text-wrap: balance;   /* Chrome tự chia dòng cho cân, không để dòng cuối cụt 1 chữ */
+    white-space: pre-wrap; /* tôn trọng chỗ xuống dòng tay bằng \n trong JSON */
+  }
+  .chinh em { font-style: normal; color: var(--nhan-mau); }
+
+  .ghi-chu { font-size: 34px; font-weight: 500; color: var(--phu-mau); opacity: 0.75; }
+
+  .chan {
+    position: absolute; left: var(--le); right: var(--le); bottom: calc(var(--le) * 0.62);
+    font-size: 28px; font-weight: 600; letter-spacing: 0.04em;
+    color: var(--phu-mau); opacity: 0.55;
+  }
+  .noi-dung[data-can='giua'] ~ .chan { text-align: center; }
+
+  /* Phần rỗng thì ẩn hẳn, không để lại khoảng trống thừa */
+  [hidden] { display: none !important; }
+  /* ─────────── PHẦN RIÊNG CỦA KIỂU: đổi mấy con số/màu này là ra kiểu khác ─────────── */
+  :root {
+    --nen: #faf9f6;          /* nền giấy brand */
+    --muc: #1a1a1a;          /* màu chữ chính */
+    --nhan-mau: #dd1717;     /* màu cụm chữ trong *dấu sao* — đỏ brand */
+    --phu-mau: #1a1a1a;      /* màu chữ phụ (nhãn trên, ghi chú, chân) */
+    --le: 110px;             /* lề an toàn quanh ảnh */
+    --font-chinh: 'Be Vietnam Pro', sans-serif;
+    --dam-chinh: 800;        /* độ đậm câu quote */
+    --dan-dong: 1.22;        /* giãn dòng câu quote */
+    --xit-chu: -0.025em;     /* siết chữ, cho khối chữ đặc lại */
+  }
+  /* ──────────────────────────────────────────────────────────────────────────────── */
+</style>
+
+<div class="khung">
+  <div class="nen"></div>
+  <div class="phu"></div>
+  <div class="noi-dung">
+    <div class="nhan"></div>
+    <div class="chinh"></div>
+    <div class="ghi-chu"></div>
+  </div>
+  <div class="chan"></div>
+</div>
+
+<script>
+  // ═══════ BỘ MÁY CHUNG — mọi kiểu dùng chung, đừng sửa khi làm kiểu mới ═══════
+  const nd = JSON.parse(document.getElementById('noi-dung').textContent)
+
+  const thoat = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+  // *cụm chữ* -> tô màu nhấn. Escape trước rồi mới chèn thẻ, để chữ của sếp
+  // có dấu < > cũng không phá vỡ HTML.
+  const danhDau = (s) => thoat(s).replace(/\*([^*]+)\*/g, '<em>$1</em>')
+
+  const $ = (sel) => document.querySelector(sel)
+  const dat = (sel, html) => {
+    const el = $(sel)
+    el.innerHTML = html || ''
+    el.hidden = !html
+  }
+
+  $('.noi-dung').dataset.can = nd.canChu === 'giua' ? 'giua' : 'trai'
+  dat('.nhan', thoat(nd.nhan))
+  dat('.chinh', danhDau(nd.chinh))
+  dat('.ghi-chu', thoat(nd.ghiChu))
+  dat('.chan', thoat(nd.chan))
+
+  if (nd.anhNen) {
+    $('.nen').innerHTML = '<img class="anh-nen" src="__ANH_NEN__" alt="">'
+  }
+
+  // Co chữ cho vừa khung: tìm cỡ chữ lớn nhất mà khối chữ vẫn không tràn.
+  // Làm bằng chia đôi khoảng (12 vòng) thay vì giảm dần 1px — câu dài ngắn
+  // chênh nhau mấy chục lần vẫn hội tụ trong chớp mắt và ra cùng một kết quả.
+  function coChuVuaKhung() {
+    const chinh = $('.chinh')
+    if (!chinh.textContent.trim()) return
+
+    const hop = $('.noi-dung')
+    const anhEm = [...hop.children].filter((el) => el !== chinh && !el.hidden)
+    const khoangCach = parseFloat(getComputedStyle(hop).gap) * anhEm.length
+    const caoChoPhep =
+      hop.clientHeight -
+      parseFloat(getComputedStyle(hop).paddingTop) * 2 -
+      anhEm.reduce((t, el) => t + el.offsetHeight, 0) -
+      khoangCach
+
+    let thap = 18
+    let cao = Number(nd.coChuToiDa) || 96
+    let hopLe = thap
+
+    for (let i = 0; i < 12; i++) {
+      const giua = (thap + cao) / 2
+      chinh.style.fontSize = giua + 'px'
+      const vua = chinh.scrollHeight <= caoChoPhep && chinh.scrollWidth <= chinh.clientWidth + 1
+      if (vua) {
+        hopLe = giua
+        thap = giua
+      } else {
+        cao = giua
+      }
+    }
+    chinh.style.fontSize = hopLe + 'px'
+  }
+
+  // Chờ font tải xong mới đo — đo lúc còn font tạm thì cỡ chữ sẽ sai.
+  // Gán ra window để dung.mjs chờ đúng lời hứa này rồi mới chụp, thay vì chờ theo đồng hồ.
+  window.saMSanSang = document.fonts.ready.then(coChuVuaKhung)
+</script>

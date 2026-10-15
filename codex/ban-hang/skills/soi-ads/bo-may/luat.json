@@ -1,0 +1,76 @@
+{
+  "meta_ban": {
+    "moTa": "Luật vận hành của agent quảng cáo. MỌI ngưỡng và giới hạn nằm ở đây, KHÔNG hardcode trong .mjs.",
+    "taoNgay": "2026-08-20",
+    "doiLanCuoi": "2026-08-20",
+    "mucTieu": "Kéo lead vào webinar / lead magnet (do bạn chốt khi cài)"
+  },
+
+  "phienBanApi": {
+    "meta": "v23.0",
+    "google": "v21",
+    "ghiChu": "Meta lên phiên bản ~3 tháng/lần, Google ~4 tháng/lần. Bản cũ bị khai tử sau ~2 năm. Khi API trả lỗi 'unsupported version' thì sửa ĐÚNG hai dòng trên, không sửa code."
+  },
+
+  "taiKhoan": {
+    "meta": { "adAccountId": null, "ghiChu": "dạng act_1234567890" },
+    "google": { "customerId": null, "loginCustomerId": null, "ghiChu": "10 chữ số, KHÔNG dấu gạch. loginCustomerId là tài khoản MCC nếu có, để null nếu không." }
+  },
+
+  "gioiHanCung": {
+    "ghiChu": "Lớp chặn. `ap.mjs` từ chối chạy nếu một hành động vi phạm bất kỳ dòng nào dưới đây. Sửa file này = nới quyền cho agent, nên coi mỗi lần sửa là một quyết định thật.",
+
+    "chiTieuNgayToiDaVnd": { "meta": null, "google": null },
+    "tongChiTieuNgayToiDaVnd": null,
+
+    "doiNganSachToiDaPhanTram": 20,
+    "nganSachSanToiThieuVnd": null,
+    "nganSachSanToiDaVnd": null,
+
+    "soHanhDongToiDaMoiLan": 10,
+
+    "duocPhep": [
+      "tam_dung_quang_cao",
+      "bat_lai_quang_cao",
+      "tam_dung_nhom_quang_cao",
+      "tang_ngan_sach",
+      "giam_ngan_sach"
+    ],
+
+    "camTuyetDoi": [
+      "tao_chien_dich",
+      "tao_nhom_quang_cao",
+      "tao_quang_cao",
+      "xoa_bat_ky_thu_gi",
+      "doi_doi_tuong_nham",
+      "doi_noi_dung_quang_cao",
+      "doi_trang_dich",
+      "doi_muc_tieu_chien_dich",
+      "doi_phuong_thuc_thanh_toan",
+      "doi_quyen_truy_cap"
+    ],
+
+    "khungGioDuocGhi": { "tu": 6, "den": 22, "ghiChu": "Giờ Việt Nam. Ngoài khung này agent chỉ đọc, không ghi — để mọi thay đổi đều rơi vào lúc bạn còn thức mà can thiệp được." },
+
+    "soNgayDuLieuToiThieu": 3,
+    "chiTieuToiThieuTruocKhiKetVnd": null,
+    "ghiChuBangChung": "Hai dòng trên chặn cái sai phổ biến nhất của mọi agent tối ưu ads: giết một quảng cáo khi nó mới tiêu vài chục nghìn. Thiếu bằng chứng thì KHÔNG kết luận, dù số trông có xấu."
+  },
+
+  "nguongDanhGia": {
+    "ghiChu": "Ngưỡng để CHẤM, khác với gioiHanCung là để CHẶN. Mục tiêu hiện tại là lead vào webinar, nên đơn vị lõi là CPL (chi phí mỗi lead).",
+    "cplMucTieuVnd": null,
+    "cplXauGapMay": 2.0,
+    "cplTotGapMay": 0.6,
+    "ctrThapNguong": 0.008,
+    "tanSuatCaoNguong": 2.5,
+    "tyLeVaoTrangDichThapNguong": 0.6,
+    "soLeadToiThieuDeTinCpl": 5
+  },
+
+  "nhipChay": {
+    "keo": "mỗi sáng 8:00",
+    "soi": "ngay sau khi keo xong",
+    "ap": "chỉ khi bạn gõ lệnh — KHÔNG tự chạy theo lịch (luật cứng)"
+  }
+}

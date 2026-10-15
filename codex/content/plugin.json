@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "content",
+  "version": "1.0.0",
+  "description": "Vai Content: viết bài, hook, kịch bản video, email, và lập kế hoạch content một tháng đúng giọng của bạn, chống văn AI ($viet-content). Cần vai Thủ thư. Gõ $cai-content để thiết lập.",
+  "author": {
+    "name": "Tô Hải Đoàn"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/creator-ceo/ownerskill",
+  "keywords": [
+    "content",
+    "viet-bai",
+    "tieng-viet"
+  ]
+}

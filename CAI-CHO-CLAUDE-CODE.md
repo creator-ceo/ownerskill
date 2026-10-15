@@ -1,6 +1,6 @@
-# Bắt đầu từ đây
+# Cài cho Claude Code
 
-Trang này viết cho người **chưa quen dòng lệnh**. Làm theo từng bước, không cần hiểu gì thêm.
+Trang này dành cho người dùng **Claude Code**, viết cho người **chưa quen dòng lệnh**. Dùng Codex thì đọc [CAI-CHO-CODEX.md](CAI-CHO-CODEX.md). Làm theo từng bước, không cần hiểu gì thêm.
 
 ---
 

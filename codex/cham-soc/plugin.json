@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "cham-soc",
+  "version": "1.0.0",
+  "description": "Vai Chăm sóc: lo người đã trả tiền từ ngày đầu tới lúc ra kết quả, mua tiếp và giới thiệu người mới ($cham-soc). Cần vai Thủ thư.",
+  "author": {
+    "name": "Tô Hải Đoàn"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/creator-ceo/ownerskill",
+  "keywords": [
+    "cham-soc",
+    "khach-hang",
+    "tieng-viet"
+  ]
+}
