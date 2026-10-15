@@ -1,12 +1,13 @@
 # Creator Skills
 
-**51 skill cho người kinh doanh dựa trên thương hiệu cá nhân.** Cài vào Claude Code một lần, dùng mãi.
+**63 skill cho người kinh doanh dựa trên thương hiệu cá nhân.** Cài vào Claude Code một lần, dùng mãi.
 
 Gói này chia làm **hai nhóm tách bạch**, và sự tách bạch đó là cố ý:
 
 | Nhóm | Số skill | Là gì | Ngôn ngữ |
 |---|---|---|---|
-| ⭐ **`cua-doan`** | 10 | Do **Tô Hải Đoàn** tự nghiên cứu, tự dùng cho công việc thật, rồi đóng gói lại | Tiếng Việt |
+| ⭐ **`cua-doan`** | 19 | Do **Tô Hải Đoàn** tự nghiên cứu, tự dùng cho công việc thật, rồi đóng gói lại | Tiếng Việt |
+| 🎬 **`cua-doan-video`** | 3 | Làm video: dựng người ngồi nói trước ống kính, lập kho cảnh quay, cài vai Editor | Tiếng Việt |
 | **`tong-hop`** | 41 | Tuyển chọn từ nguồn mở MIT chất lượng cao, giữ nguyên không sửa | Tiếng Anh |
 
 Bạn cài được một nhóm, hoặc cả hai.
@@ -23,6 +24,10 @@ Rồi cài nhóm bạn muốn:
 
 ```bash
 claude plugin install cua-doan@creator-skills
+```
+
+```bash
+claude plugin install cua-doan-video@creator-skills
 ```
 
 ```bash
@@ -47,27 +52,40 @@ Bạn dùng và sửa thoải mái, giấy phép MIT.
 
 ---
 
-## ⭐ Nhóm 1 — 13 skill của Tô Hải Đoàn
+## ⭐ Nhóm 1 — 19 skill của Tô Hải Đoàn
 
 Đây là phần không mua được ở đâu khác: quy trình thật, đã chạy thật, có ghi lại cả những chỗ từng làm sai.
+
+### Bắt đầu
+
+| Skill | Làm gì |
+|---|---|
+| `/chay-chuoi-dau-tien` | Cho biết bạn đang ở bước nào trong năm bước dựng đội, rồi dẫn chạy trọn một vòng tới video đầu tiên |
+| `/cai-thu-thu` · `/cai-nghien-cuu` · `/cai-tong-giam-doc` · `/cai-content` | Bốn bước đầu dựng đội: Thủ thư, Nghiên cứu, Tổng giám đốc, Content (bước 5 Editor nằm ở gói video) |
 
 ### Dựng và nuôi bộ não thứ 2
 
 | Skill | Làm gì |
 |---|---|
-| `/onboard` | Dựng bộ não thứ 2 lần đầu — thu tài liệu có sẵn, phỏng vấn lấp chỗ trống, dựng `wiki/` theo 3 vòng |
 | `/nap-kho` | **Đường ghi DUY NHẤT vào `wiki/`.** Đọc → phân tích → soi trùng → mới ghi. Không sửa thẳng file `.md` |
 | `/kiem-chung` | Kiểm chứng bộ não đã **lưu thật vào file** chưa, hay chỉ nằm trong trí nhớ của đoạn chat |
-| `/banh-xe-cuoc-doi` | Bánh Xe Cuộc Đời 8 khía cạnh + kế hoạch 10 năm / 90 ngày. Công cụ Đoàn dùng từ 2015 |
 
 ### Làm ra thành phẩm
 
 | Skill | Làm gì |
 |---|---|
-| `/viet-content` | Viết bài, hook, kịch bản video, email — đúng giọng bạn, chống văn AI. **Mang theo 4 trang luật nghề** |
+| `/viet-content` | Viết bài, hook, kịch bản video, email, **kế hoạch content một tháng** — đúng giọng bạn, chống văn AI. **Mang theo 4 trang luật nghề** |
 | `/anh-quote` | Biến một câu thành ảnh đăng. Bộ render tự chứa, font nhúng sẵn, không cần cài gì |
 | `/giai-thich-de-hieu` | Biến khái niệm khó thành **một trang có hình** — người chưa biết gì đọc 60 giây là hiểu |
 | `/soi-ads` | Soi và tối ưu quảng cáo Meta + Google. Có lớp chặn cứng, **không tiêu tiền khi bạn chưa gật** |
+| `/lam-khoa-hoc` | Viết bài giảng, slide, kịch bản quay bài học, bài tập thực hành |
+
+### Hiểu khách
+
+| Skill | Làm gì |
+|---|---|
+| `/nghien-cuu-e5` | Nghiên cứu thị trường: khách muốn gì, tin gì, bực gì, đối thủ hứa gì, còn chỗ trống nào |
+| `/tim-tam-guong` | Tìm người thật, số thật, nguồn tra lại được để chứng minh một ý |
 
 ### Nghiên cứu người khác — hai việc khác hẳn nhau
 
@@ -78,9 +96,21 @@ Bạn dùng và sửa thoải mái, giấy phép MIT.
 
 Gộp hai việc này làm một là hỏng cả hai. Mỗi skill tự chỉ sang skill kia khi bị gọi nhầm.
 
-**Thứ tự nên chạy:** `/banh-xe-cuoc-doi` → `/onboard` → `/kiem-chung` → rồi mới tới nhóm làm thành phẩm.
+**Thứ tự nên chạy:** `/cai-thu-thu` → `/cai-nghien-cuu` → `/cai-tong-giam-doc` → `/cai-content` → `/cai-editor`. Hoặc gõ `/chay-chuoi-dau-tien`, nó cho biết bạn đang ở bước nào.
 
 Lý do: các skill làm thành phẩm đều **đọc từ `wiki/` của bạn** — giọng của bạn, chuyện của bạn, khách của bạn. `wiki/` còn trống thì chúng không có gì để bám, và bài viết ra sẽ đúng nhưng không thật.
+
+---
+
+## 🎬 Nhóm làm video — 3 skill
+
+Cần cài [ffmpeg](https://ffmpeg.org) trước. Khâu dựng người ngồi nói hiện **chỉ chạy trên Mac chip Apple (M1 trở lên)**. Nhóm này chỉ gồm công cụ dùng chung. Giọng đọc, khuôn mặt, nhạc nền, bộ lọc màu và kho cảnh quay là của riêng mỗi người nên không kèm theo.
+
+| Skill | Làm gì |
+|---|---|
+| `/dung-video` | Dựng clip bạn ngồi nói thành video: cắt chỗ ngập ngừng, phụ đề chạy, thẻ chữ, ảnh bằng chứng, xuất sang CapCut. Trình bảng dựng cho bạn duyệt trước khi dựng bản cuối |
+| `/xuong-video` | Lập kho từ thư mục footage của bạn, tra cảnh B-roll theo chữ, xuất thư mục đánh số kéo thẳng vào CapCut |
+| `/cai-editor` | Bước 5 dựng đội: kiểm máy, cài công cụ, ghi cách bạn quay, dựng thử một clip |
 
 ---
 

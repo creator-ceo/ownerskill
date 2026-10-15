@@ -61,8 +61,8 @@ Không có cách nào rút ngắn. Code trong `lib/google.mjs` đã đúng và c
 
 ## Ba thứ agent này CỐ Ý không làm
 
-Ghi ra để một phiên AI khác không "tốt bụng" đề xuất mọc lại — theo nguyên tắc 4 ở `../wiki/agent-harness-design.md`.
+Ghi ra để một phiên AI khác không "tốt bụng" đề xuất mọc lại.
 
 1. **Không tự tạo chiến dịch / nhóm / quảng cáo mới.** Chỉ tắt, bật, và dịch ngân sách trên thứ đã có. Tạo mới là việc của người — nó cần một phán đoán chiến lược mà `lib/so.mjs` không có đầu vào để làm.
-2. **Không tự đổi nội dung quảng cáo hay trang đích.** Viết chữ đăng ra ngoài đi qua skill `/viet-content`, có Đoàn duyệt. Không nối thẳng vào đây.
-3. **Không tự chạy `ap.mjs` theo lịch.** `keo` và `soi` hẹn giờ được. `ap` chỉ chạy khi Đoàn gõ lệnh. Bỏ luật này là bỏ người gác cuối cùng.
+2. **Không tự đổi nội dung quảng cáo hay trang đích.** Viết chữ đăng ra ngoài đi qua skill `/viet-content`, có bạn duyệt. Không nối thẳng vào đây.
+3. **Không tự chạy `ap.mjs` theo lịch.** `keo` và `soi` hẹn giờ được. `ap` chỉ chạy khi bạn gõ lệnh. Bỏ luật này là bỏ người gác cuối cùng.

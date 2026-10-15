@@ -72,8 +72,8 @@ Hỏi ba câu, theo thứ tự, dừng ở câu đầu tiên trả lời "chưa"
 | Việc | Của ai |
 |---|---|
 | Từ lúc quan tâm tới lúc trả tiền | vai Bán hàng |
-| Chọn tháng này xử khâu nào cho **chính người dùng** | `/tong-giam-doc` |
-| Khám xem **một member** đang tắc khâu nào | `/kham-benh`, vai này chỉ chỉ ra người cần khám |
+| Chọn tháng này xử khâu nào cho **chính người dùng** | `/dieu-hanh` |
+| Rà xem **một member** đang tắc khâu nào | chưa có skill khám, bạn tự rà nút thắt; vai này chỉ chỉ ra người cần rà |
 | Gỡ kẹt kỹ thuật ngày 0–7 | người hỗ trợ kỹ thuật, có bảng tra lỗi sẵn |
 | **Từ lúc trả tiền tới lúc mua tiếp và giới thiệu** | **vai này** |
 

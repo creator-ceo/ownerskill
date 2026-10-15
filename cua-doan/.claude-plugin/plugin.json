@@ -2,8 +2,8 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "cua-doan",
   "displayName": "Skill của Tô Hải Đoàn",
-  "version": "1.5.0",
-  "description": "13 skill cho mô hình thương hiệu cá nhân: ba vai trong đội nhân sự A.I (Tổng giám đốc, Bán hàng, Chăm sóc), dựng và nuôi bộ não thứ 2, Bánh Xe Cuộc Đời, viết content đúng giọng, dựng ảnh quote, trang giải thích bằng hình, soi quảng cáo Meta/Google, soi hình mẫu để học theo, và soi đối thủ cạnh tranh.",
+  "version": "1.7.0",
+  "description": "19 skill do Tô Hải Đoàn tự nghiên cứu và xây dựng: dựng đội nhân sự A.I từng bước (Thủ thư, Nghiên cứu, Tổng giám đốc, Content), giữ kho tài liệu bằng nap-kho và kiem-chung, viết content đúng giọng kèm kế hoạch content một tháng, vai Bán hàng và Chăm sóc, nghiên cứu thị trường và tìm tấm gương thật, làm bài giảng, ảnh quote, trang giải thích bằng hình, soi quảng cáo, soi hình mẫu và soi đối thủ. Viết bằng tiếng Việt.",
   "author": {
     "name": "Tô Hải Đoàn"
   },

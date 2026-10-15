@@ -4,17 +4,17 @@ Gói này gộp hai thứ có nguồn gốc khác nhau. Trang này ghi rõ cái 
 
 ---
 
-## Nhóm `cua-doan/` — 13 skill
+## Nhóm `cua-doan/` — 19 skill
 
 **© Tô Hải Đoàn.** Giấy phép **MIT** (xem [LICENSE](LICENSE)).
 
-**12 trong 13 skill** do Đoàn tự nghiên cứu và xây dựng, không lấy từ nguồn nào. Bạn được dùng, sửa, và phân phối lại — chỉ cần giữ dòng ghi công trong file `LICENSE`.
+**17 trong 19 skill** do Đoàn tự nghiên cứu và xây dựng, không lấy từ nguồn nào. Bạn được dùng, sửa, và phân phối lại — chỉ cần giữ dòng ghi công trong file `LICENSE`.
 
-Skill còn lại (`/soi-doi-thu`) là bản phái sinh — xem ngay dưới.
+Hai skill còn lại là phái sinh hoặc áp dụng phương pháp của người khác: `/soi-doi-thu` (xem ngay dưới) và `/nghien-cuu-e5`, áp dụng phương pháp E5 của Todd Brown, đã ghi công ngay đầu và cuối file skill.
 
-*(Thêm 2026-09-04: `/tong-giam-doc` — vai điều phối đội nhân sự A.I. Tự viết, không lấy từ nguồn nào.)*
+*(Thêm 2026-09-04: `/dieu-hanh` — vai điều phối đội nhân sự A.I. Tự viết, không lấy từ nguồn nào.)*
 
-### ⚠️ Một skill trong nhóm này KHÔNG phải của Đoàn
+### ⚠️ `/soi-doi-thu` KHÔNG phải của Đoàn
 
 `/soi-doi-thu` là **bản Việt hoá phái sinh** từ `competitor-profiling` của Corey Haines (MIT). Nó nằm ở nhóm `cua-doan/` vì cần đi cặp với `/soi-hinh-mau` — hai skill trỏ sang nhau để không giành trigger; tách ra hai nhóm thì cặp đó gãy khi học viên chỉ cài một nhóm.
 
@@ -120,3 +120,11 @@ Claude chọn skill bằng cách đọc **mô tả của mọi skill đang bật
 ```bash
 claude plugin disable tong-hop
 ```
+
+---
+
+## Nhóm `cua-doan-video/` — 3 skill
+
+**© Tô Hải Đoàn.** Giấy phép **MIT**. Font Be Vietnam Pro kèm trong `dung-video/fonts/` theo giấy phép OFL (file giấy phép nằm cạnh font).
+
+**Cố ý không đưa vào gói:** giọng đọc nhân bản, khuôn mặt và video mẫu, nhạc nền, bộ lọc màu theo máy quay, kho cảnh quay và nhãn cảnh, tài khoản và khoá đăng bài. Đây là tài sản riêng của từng người, mỗi người tự có của mình.

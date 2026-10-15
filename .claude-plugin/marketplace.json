@@ -5,15 +5,21 @@
     "url": "https://github.com/creator-ceo"
   },
   "metadata": {
-    "description": "Bộ skill cho mô hình kinh doanh dựa trên thương hiệu cá nhân — gồm nhóm do Tô Hải Đoàn tự nghiên cứu và nhóm tổng hợp từ nguồn mở chất lượng cao",
-    "version": "1.5.0",
+    "description": "Bộ skill cho mô hình kinh doanh dựa trên thương hiệu cá nhân: nhóm do Tô Hải Đoàn tự xây (bộ não, viết content và kế hoạch tháng, đội nhân sự A.I, nghiên cứu), nhóm làm video, và nhóm marketing tổng hợp từ nguồn mở",
+    "version": "1.6.0",
     "repository": "https://github.com/creator-ceo/creator-skills"
   },
   "plugins": [
     {
       "name": "cua-doan",
-      "description": "13 skill do Tô Hải Đoàn tự nghiên cứu và xây dựng: ba vai trong đội nhân sự A.I (Tổng giám đốc điều phối, Bán hàng, Chăm sóc), dựng bộ não thứ 2 (onboard, nap-kho, kiem-chung), Bánh Xe Cuộc Đời, viết content đúng giọng, dựng ảnh quote, trang giải thích bằng hình, soi quảng cáo Meta/Google, soi hình mẫu để học theo, soi đối thủ cạnh tranh. Viết bằng tiếng Việt, dành cho người làm thương hiệu cá nhân tại Việt Nam.",
+      "description": "19 skill do Tô Hải Đoàn tự nghiên cứu và xây dựng: dựng đội nhân sự A.I từng bước (Thủ thư, Nghiên cứu, Tổng giám đốc, Content), giữ kho tài liệu bằng nap-kho và kiem-chung, viết content đúng giọng kèm kế hoạch content một tháng, vai Bán hàng và Chăm sóc, nghiên cứu thị trường và tìm tấm gương thật, làm bài giảng, ảnh quote, trang giải thích bằng hình, soi quảng cáo, soi hình mẫu và soi đối thủ. Viết bằng tiếng Việt.",
       "source": "./cua-doan",
+      "strict": false
+    },
+    {
+      "name": "cua-doan-video",
+      "description": "3 skill làm video của Tô Hải Đoàn: dựng video người ngồi nói trước ống kính (cắt chỗ ngập ngừng, phụ đề chạy, xuất sang CapCut), lập kho footage để tra cảnh B-roll, và bước cài vai Editor. Chỉ gồm công cụ dùng chung, không kèm giọng, mặt, nhạc, bộ lọc màu hay kho cảnh của ai. Cần cài ffmpeg. Dựng người ngồi nói hiện chỉ chạy trên Mac chip Apple.",
+      "source": "./cua-doan-video",
       "strict": false
     },
     {

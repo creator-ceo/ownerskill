@@ -1,25 +1,25 @@
 ---
-name: tong-giam-doc
-description: Vai điều phối trong đội nhân sự A.I — quyết tháng này xử quy trình nào, giao cho vai nào làm, rồi cuối tháng nghiệm thu bằng hai con số. Dùng khi bạn hỏi "tháng này nên làm gì trước", "tôi đang tắc ở đâu", "giao việc này cho ai", "tháng vừa rồi được gì", "soi lại nhịp tháng", "chọn quy trình để tự động hoá"; khi bạn vừa dựng xong bộ não thứ 2 và không biết đi tiếp thế nào; hoặc khi gõ /tong-giam-doc. Đây là vai phải dựng TRƯỚC năm vai còn lại (nghiên cứu thị trường · content · thiết kế · bán hàng · chăm sóc khách hàng).
+name: dieu-hanh
+description: Vai điều phối trong đội nhân sự A.I — quyết tháng này xử quy trình nào, giao cho vai nào làm, rồi cuối tháng nghiệm thu bằng hai con số. Dùng khi bạn hỏi "tháng này nên làm gì trước", "tôi đang tắc ở đâu", "giao việc này cho ai", "tháng vừa rồi được gì", "soi lại nhịp tháng", "chọn quy trình để tự động hoá"; khi bạn vừa dựng xong bộ não thứ 2 và không biết đi tiếp thế nào; hoặc khi gõ /dieu-hanh. Đây là vai cài thứ ba (sau Thủ thư và Nghiên cứu), và phải cài trước các vai làm thành phẩm: content · thiết kế · bán hàng · chăm sóc khách hàng.
 ---
 
 # Tổng giám đốc — vai điều phối
 
 > Một trong sáu vai của đội nhân sự A.I. Năm vai kia đẻ ra thành phẩm: bài viết, ảnh, thư bán hàng, câu trả lời khách. **Vai này không đẻ ra gì cầm được.** Việc của nó là quyết cái gì đáng làm, và kiểm cái đã làm xong chưa.
 >
-> Đó cũng là lý do phải dựng nó trước. Dựng sau thì năm vai kia chạy loạn, mỗi vai một hướng, và không ai trả lời được câu *"tháng này rốt cuộc được gì"*.
+> Đó cũng là lý do phải chốt nó **trước khi các vai làm thành phẩm chạy** (Content, Editor…). Chốt sau thì năm vai kia chạy loạn, mỗi vai một hướng, và không ai trả lời được câu *"tháng này rốt cuộc được gì"*. Nó đứng sau Thủ thư và Nghiên cứu vì cần có kho và hiểu khách trước.
 
-## ⛩ CÀI VAI NÀY — vai dựng nền cho năm vai kia
+## ⛩ CÀI VAI NÀY — vai chốt đích cho cả đội
 
-> Vai này cài **trước tiên**, vì nó vừa điều phối vừa là vai dựng hệ thống dữ liệu mà năm vai kia đứng lên.
+> Vai này cài **thứ ba**, sau Thủ thư và Nghiên cứu: có kho và hiểu khách rồi thì chốt đích mới có cơ sở. Cài xong thì các vai còn lại biết tập trung vào đâu. Lệnh cài từng bước: `/cai-tong-giam-doc`.
 
-**Nền cố định — chính là bộ khung bộ não thứ 2.** Bốn skill `/onboard` · `/banh-xe-cuoc-doi` · `/nap-kho` · `/kiem-chung` là **nửa dựng** của vai này, không phải bốn thứ rời. Chưa chạy `/onboard` thì chưa có gì để điều phối.
+**Nền cố định — kho tài liệu do Thủ thư dựng** (`/cai-thu-thu`, `/nap-kho`, `/kiem-chung`) **và chân dung khách do Nghiên cứu tìm ra** (`/cai-nghien-cuu`). Chưa có kho thì chưa có gì để điều phối. Chưa hiểu khách thì chốt đích dễ sai.
 
-Cộng ba trang vai này đọc để quyết: `wiki/goals.md` · `wiki/business-metrics.md` · `wiki/banh-xe-cuoc-doi.md`.
+Cộng ba trang vai này đọc để quyết: `wiki/goals.md` · `wiki/nut-that.md`, và `wiki/business-metrics.md` nếu bạn đã theo dõi số kinh doanh (chưa có thì dùng mục Số trong `goals.md`).
 
 **Biến thiên mỗi phiên:** tháng này đang ở tuần thứ mấy · quy trình đang xử là gì · hai số gốc đã chốt chưa.
 
-⚠️ **Thiếu nền thì nói thẳng là chưa điều phối được**, và việc tiếp theo là chạy `/onboard`, không phải cố chọn bừa một quy trình. Chọn sai quy trình là hỏng cả tháng của người ta.
+⚠️ **Thiếu nền thì nói thẳng là chưa điều phối được**, và việc tiếp theo là chạy `/cai-thu-thu` (hoặc `/cai-nghien-cuu` nếu thiếu chân dung khách), không phải cố chọn bừa một quy trình. Chọn sai quy trình là hỏng cả tháng của người ta.
 
 
 ## Vai này có hai nửa
@@ -27,9 +27,9 @@ Cộng ba trang vai này đọc để quyết: `wiki/goals.md` · `wiki/business
 | Nửa | Khi nào | Gồm gì |
 |---|---|---|
 | **Dựng** | 30 ngày đầu, làm một lần | Dựng hệ thống dữ liệu, cài skill cho từng vai, nối vai với dữ liệu, tự động hoá đường nạp |
-| **Vận hành** | Mỗi tháng, lặp lại | Khám → chọn → giao → nghiệm thu. **Đây là phần skill này chạy** |
+| **Vận hành** | Mỗi tháng, lặp lại | Rà → chọn → giao → nghiệm thu. **Đây là phần skill này chạy** |
 
-Nửa dựng phần lớn đã có sẵn bốn skill lo: `/onboard` dựng bộ não, `/banh-xe-cuoc-doi` nạp con người, `/nap-kho` giữ đường ghi duy nhất, `/kiem-chung` nghiệm thu. Chưa chạy đủ bốn cái đó thì **dừng lại, làm xong đã** — điều phối trên một bộ não rỗng chỉ ra lời khuyên chung chung.
+Nửa dựng đã có sẵn các lệnh cài lo: `/cai-thu-thu` dựng kho, `/cai-nghien-cuu` hiểu khách, `/nap-kho` giữ đường ghi duy nhất, `/kiem-chung` nghiệm thu. Chưa chạy đủ hai lệnh cài đầu thì **dừng lại, làm xong đã** — điều phối trên một bộ não rỗng chỉ ra lời khuyên chung chung.
 
 ---
 
@@ -92,7 +92,7 @@ Trước khi hỏi câu nào, **đọc bộ não để tự biết đang ở đ�
 
 | Đọc gì | Để biết |
 |---|---|
-| `wiki/banh-xe-cuoc-doi.md` | Đã có bản chấm chưa, lần gần nhất bao lâu rồi |
+| `wiki/nut-that.md` | Đã rà nút thắt chưa, lần gần nhất bao lâu rồi |
 | `wiki/goals.md` | Mục tiêu và nút thắt lớn nhất đang khai là gì |
 | `wiki/nhip-thang.md` *(nếu có)* | Tháng gần nhất đã chốt quy trình nào, đã nghiệm thu chưa |
 | `wiki/goals.md` §số | Có số kinh doanh nào đang theo dõi không |
@@ -101,38 +101,32 @@ Rồi chọn đúng một trong bốn việc dưới đây, **nói ra là đang 
 
 | Tình trạng đọc được | Làm việc nào |
 |---|---|
-| Chưa có bản chấm bánh xe, hoặc chưa từng soi chỗ tắc, hoặc bản gần nhất **quá 3 tháng** | **Việc 1** — Khám đủ hai lớp |
-| Có bản khám còn hạn, **nhưng chưa có danh sách việc lặp lại ăn giờ** | **Việc 1, chỉ phần cuối** — hỏi đúng câu truy giờ, bỏ qua hai lớp khảo sát |
+| Chưa từng rà nút thắt, hoặc bản gần nhất **quá 3 tháng** | **Việc 1** — Rà nút thắt, cả 1a lẫn 1b |
+| Có bản rà còn hạn, **nhưng chưa có danh sách việc lặp lại ăn giờ** | **Việc 1b** — hỏi đúng câu truy giờ, bỏ qua phần rà khâu |
 | Đã có danh sách việc ăn giờ, tháng này chưa chốt quy trình | **Việc 2** — Chọn |
 | Đã chốt quy trình, đang giữa tháng | **Việc 3** — Giao và theo |
 | Cuối tháng, quy trình đã đi hết bốn tuần | **Việc 4** — Nghiệm thu |
 
-⚠️ **`nhip-thang.md` chưa tồn tại KHÔNG có nghĩa phải khám lại từ đầu.** Trang đó chỉ ghi nhịp tháng; bản khám sống ở `banh-xe-cuoc-doi.md` và ở trang soi chỗ tắc. Bắt người ta khám lại khi họ vừa khám hai tuần trước là làm phiền, và họ sẽ trả lời cho xong.
+⚠️ **`nhip-thang.md` chưa tồn tại KHÔNG có nghĩa phải rà lại từ đầu.** Trang đó chỉ ghi nhịp tháng; bản rà sống ở `nut-that.md`. Bắt người ta rà lại khi họ vừa rà hai tuần trước là làm phiền, và họ sẽ trả lời cho xong.
 
-⚠️ **Và khám xong KHÔNG có nghĩa đã có danh sách việc ăn giờ.** Hầu hết công cụ chẩn đoán dừng ở *"khâu nào đang tắc"* rồi nhảy thẳng sang giải pháp, bỏ qua đúng câu bản lề: **giờ đang bị việc nào ăn**. Thiếu câu đó thì Việc 2 không có gì để chọn. Kiểm bằng mắt, đừng suy ra từ việc đã có bản khám.
+⚠️ **Và rà xong khâu tắc KHÔNG có nghĩa đã có danh sách việc ăn giờ.** Hầu hết cách rà dừng ở *"khâu nào đang tắc"* rồi nhảy thẳng sang giải pháp, bỏ qua đúng câu bản lề: **giờ đang bị việc nào ăn**. Thiếu câu đó thì Việc 2 không có gì để chọn. Kiểm bằng mắt, đừng suy ra từ việc đã có bản khám.
 
 ---
 
-## Việc 1 — Khám *(đầu mỗi vòng, 3 tháng một lần)*
+## Việc 1 — Rà nút thắt *(đầu mỗi vòng, 3 tháng một lần)*
 
-🔴 **KHÔNG tự khám. Gọi `/kham-benh`.**
+🟡 **Chưa có skill khám trong bộ này. Bạn tự rà nút thắt bằng tay.** Vai này chỉ dẫn bạn làm đúng hai việc, không dựng bộ câu hỏi chẩn đoán đầy đủ.
 
-Đã có một skill làm trọn việc chẩn đoán: tiếp nhận, hỏi bệnh, khám, chẩn đoán phân biệt, kê đơn hai ngăn, rồi soạn đề xuất cho `/nap-kho` ghi vào trang soi chỗ tắc. Vai này **không dựng lại bộ câu hỏi thứ hai**.
+**Việc 1a: Rà khâu nào đang tắc.** Đi theo hành trình của khách từ lúc họ biết đến bạn tới lúc họ mua xong và quay lại. Ở mỗi khâu hỏi người dùng hai câu:
 
-Vì sao dứt khoát: hai bộ khám là **hai kết quả khác nhau cho cùng một người**, và không có gì báo khi chúng lệch. Người dùng khám bằng đường này ra khâu tắc X, khám bằng đường kia ra khâu Y, rồi tin cái nào? Hai danh sách cùng mô tả một thứ, không cái nào tự nói mình là bản nào — người đọc sau bốc nhầm.
+- *"Khâu này tháng vừa rồi ra con số bao nhiêu?"* (người biết đến, người nhắn hỏi, người mua, người mua lại…)
+- *"Con số đó có làm bạn hài lòng không, hay khâu này đang là chỗ kẹt?"*
 
-**Ranh giới hai skill, thuộc lòng:**
+Khâu nào con số thấp nhất so với khâu liền trước, hoặc người dùng nói thẳng là kẹt, thì đó là **khâu đang tắc**. Không có con số thật thì ghi *"chưa đo được"*, đừng đoán. Kết quả ghi thành một trang `wiki/nut-that.md` qua `/nap-kho`, kèm ngày rà.
 
-| | `/kham-benh` | `/tong-giam-doc` |
-|---|---|---|
-| Trả lời câu | *Khâu nào đang tắc, vì sao* | *Tháng này làm gì, giao ai, xong chưa* |
-| Nhịp | 3 tháng một lần | mỗi tháng |
-| Ghi vào | trang soi chỗ tắc | trang nhịp tháng |
+Chưa rà, hoặc bản gần nhất quá 3 tháng thì rà lại. Mới rà trong vài tuần thì **đọc lại, đừng bắt rà lại**.
 
-**Nên Việc 1 của vai này rút còn đúng hai việc:**
-
-1. **Đọc bản khám gần nhất** ở trang soi chỗ tắc. Chưa có, hoặc quá 3 tháng → bảo người dùng chạy `/kham-benh` trước, rồi quay lại. Đừng khám thay.
-2. **Hỏi câu phân nhánh** — thứ bản khám thường KHÔNG có (xem cảnh báo ở Bước 0):
+**Việc 1b: Hỏi câu phân nhánh** (xem cảnh báo ở Bước 0):
 
 > *"Một tuần bình thường của bạn, việc nào bạn làm đi làm lại bằng tay nhiều nhất? Kể ba đến năm việc, kèm ước lượng mỗi việc ngốn bao nhiêu giờ một tuần."*
 
@@ -207,7 +201,7 @@ Không thuộc vai nào thì nói thẳng là chưa có vai lo việc đó, đ�
 
 Mọi việc trên **đều đi qua `/nap-kho`**, không tự sửa file trong `wiki/`. Đây là luật của cả bộ khung, không có ngoại lệ cho vai này.
 
-Trang đích: `wiki/nhip-thang.md`. **Mỗi tháng một mục MỚI, không ghi đè** — cùng kỷ luật với `banh-xe-cuoc-doi.md`, vì cái đáng giá nhất là nhìn được nhiều tháng cạnh nhau.
+Trang đích: `wiki/nhip-thang.md`. **Mỗi tháng một mục MỚI, không ghi đè** — cùng kỷ luật với `nut-that.md`, vì cái đáng giá nhất là nhìn được nhiều tháng cạnh nhau.
 
 Khuôn một mục:
 
@@ -216,9 +210,10 @@ Khuôn một mục:
 
 | | Trước | Sau |
 |---|---|---|
-| Giờ/tuần | | |
+| <số đo của quy trình: giờ/tuần cho việc lặp lại, hoặc số người, số bài, số đơn… tuỳ hướng> | | |
 | <tên số kinh doanh> | | |
 
+**Hướng:** A (gỡ khâu tắc) hoặc B (bớt việc lặp lại)
 **Chỗ tắc đang nhắm tới:** <câu ngắn>
 **Vì sao chọn quy trình này:** <lý do, nối với chỗ tắc>
 **Giao cho vai:** <tên vai>
@@ -242,8 +237,7 @@ Cách chống chỉ có một: **mỗi tháng bắt buộc ra đúng một mục
 
 ## Liên quan
 
-`/onboard` · `/banh-xe-cuoc-doi` · `/nap-kho` · `/kiem-chung` — nửa dựng, chạy trước vai này.
-`/kham-benh` — **chẩn đoán, chạy 3 tháng một lần. Vai này KHÔNG khám thay nó.**
+`/cai-thu-thu` · `/cai-nghien-cuu` · `/nap-kho` · `/kiem-chung` — nửa dựng, chạy trước vai này. Lệnh cài vai này: `/cai-tong-giam-doc`.
 `/viet-content` · `/soi-doi-thu` · `/soi-hinh-mau` · `/anh-quote` · `/giai-thich-de-hieu` — các vai nhận việc.
 
 ---

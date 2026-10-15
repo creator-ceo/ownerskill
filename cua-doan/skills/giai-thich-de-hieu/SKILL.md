@@ -1,9 +1,9 @@
 ---
 name: giai-thich-de-hieu
-description: Dùng khi bạn muốn biến một thứ khó hiểu thành một TRANG GIẢI THÍCH BẰNG HÌNH — ít chữ, sơ đồ có cơ chế, người chưa biết gì cũng hiểu. Kể cả khi chỉ nói "giải thích cái này cho dễ hiểu", "vẽ ra cho tôi xem cơ chế của X", "dạy member cái này thế nào cho dễ", "làm sơ đồ cho khái niệm này", "biến bài giảng này thành hình", "cái này giải thích cho người mới sao đây". Cũng dùng khi bạn dán đường dẫn một trang trong wiki/teachings/, wiki/models/, wiki/learnings/ kèm câu "làm thành trang giải thích", hoặc gõ /giai-thich-de-hieu <chủ đề>.
+description: Dùng khi bạn muốn biến một thứ khó hiểu thành một TRANG GIẢI THÍCH BẰNG HÌNH — ít chữ, sơ đồ có cơ chế, người chưa biết gì cũng hiểu. Kể cả khi chỉ nói "giải thích cái này cho dễ hiểu", "vẽ ra cho tôi xem cơ chế của X", "dạy member cái này thế nào cho dễ", "làm sơ đồ cho khái niệm này", "biến bài giảng này thành hình", "cái này giải thích cho người mới sao đây". Cũng dùng khi bạn dán đường dẫn một trang trong wiki/ kèm câu "làm thành trang giải thích", hoặc gõ /giai-thich-de-hieu <chủ đề>.
 ---
 
-> 🧩 **Vai trong đội nhân sự A.I: Thiết kế.** Tổng giám đốc giao việc *ảnh chữ, trang giải thích, slide* cho vai này. Vai không phải một skill riêng — nó là nhãn để `/tong-giam-doc` biết giao việc gì cho skill nào.
+> 🧩 **Vai trong đội nhân sự A.I: Thiết kế.** Tổng giám đốc giao việc *ảnh chữ, trang giải thích, slide* cho vai này. Vai không phải một skill riêng — nó là nhãn để `/dieu-hanh` biết giao việc gì cho skill nào.
 
 # Giải thích dễ hiểu — Tô Hải Đoàn
 
@@ -26,7 +26,7 @@ Ra hai thứ, tuỳ bạn cần cái nào:
 
 Chứa **phương pháp giải thích** và **cách dựng trang**. Không chứa bảng màu, không chứa font, không chứa luật giọng văn.
 
-Lý do y hệt `anh-quote` và `viet-content`: những thứ đó nằm trong `wiki/` và bạn sửa liên tục — bảng màu vừa đổi vai và tỷ lệ ngày 2026-08-16, grid paper vừa bị bỏ khỏi nhận diện. Chép vào đây là có hai bản, và bản trong skill sẽ âm thầm lạc hậu.
+Lý do y hệt `anh-quote` và `viet-content`: những thứ đó nằm trong `wiki/` và bạn sửa liên tục — bảng màu có thể đổi vai và tỷ lệ, kiểu nền giấy kẻ ô có thể bị bỏ khỏi nhận diện. Chép vào đây là có hai bản, và bản trong skill sẽ âm thầm lạc hậu.
 
 **Luôn mở file thật ra đọc, đừng viết từ trí nhớ** — kể cả khi thấy mình "đã biết rồi".
 
@@ -49,15 +49,15 @@ giai-thich/
   ra/<lượt>/   trang.html · noi-dung.json · anh.png (nếu có)
 ```
 
-Một lượt một thư mục, đặt tên gợi nội dung (`tu-huyet-cam-xuc/`), không đặt `lan-3/`.
+Một lượt một thư mục, đặt tên gợi nội dung (`phieu-giai-thich-phe/`), không đặt `lan-3/`.
 
 ## Hai cửa vào
 
 **Cửa 1 — một khái niệm rời.** bạn gõ `/giai-thich-de-hieu phễu bán hàng` hoặc hỏi miệng.
 
-**Cửa 2 — một trang có sẵn trong bộ não.** bạn dán đường dẫn `wiki/teachings/tu-huyet-cam-xuc.md` và bảo làm thành trang giải thích.
+**Cửa 2 — một trang có sẵn trong bộ não.** bạn dán đường dẫn một trang trong `wiki/` (ví dụ `wiki/<ten-trang>.md`) và bảo làm thành trang giải thích.
 
-⚡ **Cửa 2 mới là cửa đáng dùng nhất, và hay bị bỏ quên.** Bộ não đang có 17 trang trong `wiki/teachings/`, 5 hình mẫu trong `wiki/models/`, 11 trang trong `wiki/learnings/` — toàn thứ bạn đã nghĩ kỹ, đã dạy thật, đã có ví dụ thật. Biến một trang trong đó thành hình thì **có nội dung gốc để bám**, khỏi phải bịa. Nếu bạn vào bằng Cửa 1 mà chủ đề trùng với một trang đang có, **nói ra và hỏi có muốn lấy trang đó làm gốc không** — đừng lặng lẽ viết lại từ đầu một thứ bộ não đã có.
+⚡ **Cửa 2 mới là cửa đáng dùng nhất, và hay bị bỏ quên.** Bộ não của bạn có sẵn những trang bài giảng, hình mẫu, bài học trong `wiki/` — toàn thứ bạn đã nghĩ kỹ, đã dạy thật, đã có ví dụ thật. Biến một trang trong đó thành hình thì **có nội dung gốc để bám**, khỏi phải bịa. Nếu bạn vào bằng Cửa 1 mà chủ đề trùng với một trang đang có, **nói ra và hỏi có muốn lấy trang đó làm gốc không** — đừng lặng lẽ viết lại từ đầu một thứ bộ não đã có.
 
 ---
 
@@ -128,7 +128,7 @@ Thêm ràng buộc vật lý riêng của trang có hình:
 - **Câu ngắn, chủ ngữ là người nghe.** *"Khách gật đầu vì..."* chứ không phải *"Hiện tượng gật đầu được lý giải bởi..."* — cái sau đúng y dấu hiệu W1 trong `viet-content/luat/dau-hieu-ai-viet.md`.
 - **Chốt bằng một câu dùng được ngay**, không phải một câu tổng kết. *"Lần tới, hỏi câu này trước khi báo giá: ..."* chứ không phải *"Tóm lại, thấu hiểu khách hàng là chìa khoá."*
 - ⛔ **Không bịa số.** Luật cứng #5 trong `wiki/ai-operating-preferences.md`. Thiếu số thật thì để `[placeholder ngoặc vuông]` rồi hỏi bạn — trang giải thích còn nguy hơn bài viết vì nó bị chụp lại và lan đi.
-- ⛔ **Không nêu doanh thu · SĐT · quy mô tài sản · chiến lược ngầm của member.** Tên gọi thường ngày thì được (luật đã nới 2026-08-19) — đọc kỹ bảng phân định trong `ai-operating-preferences.md` §2 trước khi nhắc tới ai.
+- ⛔ **Không nêu doanh thu · SĐT · quy mô tài sản · chiến lược ngầm của member.** Tên gọi thường ngày thì được — đọc kỹ bảng phân định trong `ai-operating-preferences.md` §2 trước khi nhắc tới ai.
 
 ## Bước 6 — Dựng trang
 
@@ -229,14 +229,14 @@ Quá 5 bước thì tách hai tấm. Cần kiểu ảnh khác thì đọc `anh-q
 ## Bước 9 — Ghi log, KHÔNG tự ghi `wiki/`
 
 1. **Append `log.md`** một dòng — không rewrite (luật sắt #4).
-2. ⛔ **Không tự sửa file nào trong `wiki/`.** Đoàn chốt 2026-07-30: chỉ còn một đường ghi vào `wiki/` là `/nap-kho`. Trong lúc làm mà rút ra được một phép so sánh hay, một cách diễn đạt ăn tiền → **đề xuất bạn chạy `/nap-kho`**, đừng tự tay ghi.
+2. ⛔ **Không tự sửa file nào trong `wiki/`.** Chỉ có một đường ghi vào `wiki/` là `/nap-kho`. Trong lúc làm mà rút ra được một phép so sánh hay, một cách diễn đạt ăn tiền → **đề xuất bạn chạy `/nap-kho`**, đừng tự tay ghi.
 3. Trang nào bạn duyệt là dùng tốt thì giữ nguyên thư mục `giai-thich/ra/<lượt>/` làm mẫu cho lượt sau.
 
 ---
 
 ## Bẫy đã gặp thật
 
-> Rút từ **lượt chạy đầu tiên**, 2026-08-26, trang `tu-huyet-cam-xuc`. Bốn cái dưới đây đều hỏng thật trong lượt đó, không phải đoán.
+> Rút từ **lượt chạy đầu tiên** của skill này. Bốn cái dưới đây đều hỏng thật trong lượt đó, không phải đoán.
 
 **1. ⚠️ Trong SVG, `class` THẮNG thuộc tính `fill=` — và nền sáng không lộ ra.**
 Viết `<text class="svg-chu" fill="var(--chuc-nang-chu)">` thì `fill=` bị `.svg-chu` đè, chữ lấy màu `--chu`. Ở nền sáng `--chu` là gần đen nên nằm trên ô vàng vẫn đọc được, **trông y như đúng**. Sang nền tối `--chu` là màu kem, chữ trên ô vàng gần như tàng hình. Muốn đổi màu một chữ đã có class thì phải **khai một class khác, đặt SAU trong khối `<style>`** (`.svg-tren-vang{fill:var(--chuc-nang-chu)}`), hoặc dùng `style=` inline. Thuộc tính `fill=` chỉ ăn khi thẻ đó **không có class nào**.
@@ -258,7 +258,7 @@ Lượt đầu đo ra 320 chữ và tưởng vượt; tách ra mới thấy **v�
 
 **5. `so-do-vang-chanh.html` đang dùng vàng `#dcfa7a`, không phải vàng nhận diện `#fff777`.** Đếm trực tiếp trong file. Ảnh render ra sẽ lệch màu so với trang artifact dựng đúng bảng màu. Chưa rõ cố ý hay sót — **hỏi bạn trước khi tự sửa**, vì sửa file kiểu là đổi mọi ảnh đã dùng kiểu đó. *(Lượt 1 chưa render ảnh nên chưa đụng tới.)*
 
-**6. `giay-grid-brand.html` vẫn dùng nền giấy kẻ ô — thứ bạn đã bỏ khỏi nhận diện 2026-08-16.** `systems-and-stack.md` tự ghi đây là việc còn phải làm. Đừng chọn kiểu này cho trang giải thích mới.
+**6. `giay-grid-brand.html` vẫn dùng nền giấy kẻ ô — thứ nên bỏ khỏi nhận diện mới.** Đừng chọn kiểu này cho trang giải thích mới.
 
 **7. Bộ dấu tiếng Việt của bản woff2 đã subset: lượt 1 nhìn tận mắt thấy ĐỦ** (`ữ ự ệ ặ ộ ỗ ẫ ở Đ` đều hiện đúng trên FZ Poppins nhúng base64). Vẫn chưa kiểm được bằng máy (máy không có `fontTools`), nên vẫn phải nhìn, đừng bỏ qua.
 

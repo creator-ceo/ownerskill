@@ -53,7 +53,7 @@ const may = createServer(async (req, res) => {
   tra('✅ Xong. Quay lại cửa sổ dòng lệnh — token đã in ở đó.')
   console.log('✅ Chép đúng dòng dưới đây vào ads/.khoa/that.env:\n')
   console.log(`GOOGLE_REFRESH_TOKEN=${j.refresh_token}\n`)
-  console.log('⚠️  Token này mở được tài khoản quảng cáo. Đừng dán nó vào chat, vào Notion, hay vào bất kỳ file nào ngoài .khoa/')
+  console.log('⚠️  Token này mở được tài khoản quảng cáo. Đừng dán nó vào chat, vào công cụ ghi chú, hay vào bất kỳ file nào ngoài .khoa/')
   may.close(); process.exit(0)
 })
 may.listen(CONG, '127.0.0.1')

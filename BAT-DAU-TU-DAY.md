@@ -30,10 +30,16 @@ Nó chỉ **thêm địa chỉ kho** vào máy bạn, chưa cài gì cả.
 
 ## Bước 3 — Cài skill
 
-Dán dòng này để cài 10 skill của Tô Hải Đoàn:
+Dán dòng này để cài 19 skill của Tô Hải Đoàn:
 
 ```bash
 claude plugin install cua-doan@creator-skills
+```
+
+Dòng này để cài 3 skill làm video (cần cài ffmpeg trước):
+
+```bash
+claude plugin install cua-doan-video@creator-skills
 ```
 
 Và dòng này để cài 41 skill marketing:
@@ -52,7 +58,7 @@ claude plugin install tong-hop@creator-skills
 claude plugin list
 ```
 
-Thấy `cua-doan` và `tong-hop` trong danh sách là xong.
+Thấy `cua-doan`, `cua-doan-video` và `tong-hop` trong danh sách là xong.
 
 Giờ mở Claude Code ở thư mục bạn muốn làm việc, gõ dấu `/` — danh sách skill sẽ hiện ra.
 
@@ -62,17 +68,25 @@ Giờ mở Claude Code ở thư mục bạn muốn làm việc, gõ dấu `/` �
 
 Đây là phần quan trọng nhất, và cũng là chỗ nhiều người làm ngược rồi thất vọng.
 
-### Ba việc đầu tiên, làm theo đúng thứ tự này
+### Không biết bắt đầu từ đâu?
+
+Gõ `/chay-chuoi-dau-tien`. Nó đọc sổ đội, cho bạn biết đang ở bước nào và bước kế tiếp là gì.
+
+### Năm bước dựng đội, làm theo đúng thứ tự này
 
 ```
-1. /banh-xe-cuoc-doi     ← nhìn lại cuộc sống, đặt mục tiêu 10 năm / 90 ngày
-2. /onboard              ← dựng bộ não thứ 2 của bạn
-3. /kiem-chung           ← kiểm tra bộ não đã lưu THẬT vào file chưa
+1. /cai-thu-thu          ← dựng kho tài liệu, dạy cách nạp
+2. /cai-nghien-cuu       ← hiểu khách và đối thủ
+3. /cai-tong-giam-doc    ← chốt mục tiêu và việc của tháng
+4. /cai-content          ← giọng của bạn, kế hoạch, bài đầu tiên
+5. /cai-editor           ← dựng video (cần Mac chip Apple)
 ```
 
-**Vì sao phải theo thứ tự này:** các skill làm thành phẩm (`/viet-content`, `/anh-quote`, `/giai-thich-de-hieu`) đều **đọc từ bộ não của bạn** — giọng của bạn, chuyện thật của bạn, khách của bạn. Bộ não còn trống thì chúng không có gì để bám, và bài viết ra sẽ **đúng nhưng không thật** — nghe như ai cũng viết được.
+**Vì sao phải theo thứ tự này:** mỗi vai đọc thứ vai trước dựng. Vai Content cần kho (bước 1), hiểu khách (bước 2) và biết mục tiêu (bước 3) thì mới viết ra bài đúng việc. Nhảy cóc thì bài ra chung chung, và bạn sẽ tưởng công cụ dở trong khi thật ra nó thiếu dữ liệu về bạn.
 
-Đây không phải lời khuyên cho vui. Bước `/kiem-chung` sinh ra vì một cái bẫy có thật: bạn ngồi kể chuyện cả buổi, AI trả lời rất hay, bạn tưởng nó đã nhớ — nhưng thật ra **chưa có dòng nào được ghi vào file**. Đóng chat là mất sạch.
+Bước 1 kết thúc bằng `/kiem-chung`, sinh ra vì một cái bẫy có thật: bạn ngồi kể chuyện cả buổi, AI trả lời rất hay, bạn tưởng nó đã nhớ, nhưng thật ra chưa lưu vào file nào. Mở một đoạn chat mới là mất sạch. `/kiem-chung` bắt bạn kiểm điều đó ngay.
+
+Không biết đang ở bước nào thì gõ `/chay-chuoi-dau-tien`.
 
 ### Sau đó, dùng hằng ngày
 
@@ -85,6 +99,10 @@ Giờ mở Claude Code ở thư mục bạn muốn làm việc, gõ dấu `/` �
 | Soi quảng cáo Facebook / Google | `/soi-ads` |
 | Soi một người đi trước để **học theo** | `/soi-hinh-mau` |
 | Soi **đối thủ** đang tranh khách với mình | `/soi-doi-thu` |
+| Dựng clip ngồi nói thành video | `/dung-video` |
+| Lập kho cảnh quay để tra B-roll | `/xuong-video` |
+| Nghiên cứu khách và đối thủ | `/nghien-cuu-e5` |
+| Lập kế hoạch content một tháng | `/viet-content` |
 
 Không nhớ tên skill cũng không sao — **cứ nói bằng lời thường**. Nói *"viết giúp tôi bài về lần tôi mất khách lớn nhất"* thì Claude tự gọi `/viet-content`.
 

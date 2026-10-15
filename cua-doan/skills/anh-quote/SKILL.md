@@ -3,7 +3,7 @@ name: anh-quote
 description: Dùng khi bạn muốn làm ẢNH có chữ để đăng — ảnh quote, ảnh câu nói, ảnh chữ, ảnh bìa bài, ảnh carousel. Đặc biệt khi bạn đưa một ẢNH MẪU (dán link, thả file, chụp màn hình ảnh của người khác) và muốn ra một tấm tương tự nhưng chữ tiếng Việt, màu và font theo nhận diện của mình. Kể cả khi chỉ nói "làm ảnh quote câu này", "dựng ảnh giống ảnh này", "làm cho tôi tấm ảnh chữ", "biến câu này thành ảnh", "làm ảnh đăng Facebook cho bài này", "cắt bài này ra mấy tấm ảnh", hay thả một ảnh vào kèm câu "làm giống cái này".
 ---
 
-> 🧩 **Vai trong đội nhân sự A.I: Thiết kế.** Tổng giám đốc giao việc *ảnh chữ, trang giải thích, slide* cho vai này. Vai không phải một skill riêng — nó là nhãn để `/tong-giam-doc` biết giao việc gì cho skill nào.
+> 🧩 **Vai trong đội nhân sự A.I: Thiết kế.** Tổng giám đốc giao việc *ảnh chữ, trang giải thích, slide* cho vai này. Vai không phải một skill riêng — nó là nhãn để `/dieu-hanh` biết giao việc gì cho skill nào.
 
 # Ảnh quote — Tô Hải Đoàn
 
@@ -72,7 +72,7 @@ Nhìn ảnh và trả lời đủ 8 câu — viết ra thành bảng cho bạn t
 | 7 | **Điểm nhấn thị giác** | gạch màu · khối màu · dấu ngoặc kép to · đường kẻ · khung viền |
 | 8 | **Khoảng thở** | lề rộng hay chật, chữ có bị dồn sát mép không |
 
-⚠️ **Đọc CẤU TRÚC, không sao chép nhận diện.** Đoàn đã chốt: mượn bố cục, thay bằng màu/font của mình. Ảnh ra phải nhìn là biết của bạn, không phải bản photocopy của người ta. Nếu ảnh mẫu dùng màu tím và font serif Ý, mà brand bạn là đỏ/vàng/giấy grid — thì lấy *bố cục* của họ, dùng *màu* của bạn.
+⚠️ **Đọc CẤU TRÚC, không sao chép nhận diện.** Nguyên tắc: mượn bố cục, thay bằng màu/font của mình. Ảnh ra phải nhìn là biết của bạn, không phải bản photocopy của người ta. Nếu ảnh mẫu dùng màu tím và font serif Ý, mà brand bạn là đỏ/vàng/giấy grid — thì lấy *bố cục* của họ, dùng *màu* của bạn.
 
 ## Bước 2 — Phân loại nền, biết cái gì tự làm được cái gì phải xin
 
@@ -115,7 +115,7 @@ Riêng chữ trên ảnh có thêm mấy ràng buộc vật lý:
 
 Xem `anh-quote/kieu/` có kiểu nào khớp công thức Bước 1 chưa. Có thì dùng lại (đó là lý do có thư viện). Chưa có thì **copy `khung.html` ra một file kiểu mới** rồi sửa.
 
-Năm kiểu đang có. Ba kiểu đầu học thẳng từ mẫu bạn đưa 2026-08-08 — **đó là ba kiểu chính bạn muốn làm**:
+Năm kiểu đang có. Ba kiểu đầu học thẳng từ ảnh mẫu thật — **đó là ba kiểu chính bạn có thể muốn làm**:
 
 | File | Nền | Hợp với |
 |---|---|---|
@@ -134,7 +134,7 @@ Viết file nội dung JSON:
 {
   "nhan": "SỰ THẬT",
   "chinh": "Đừng cố nghĩ hộ khách hàng. *Để họ tự nói ra điều họ sợ.*",
-  "ghiChu": "— Tô Hải Đoàn",
+  "ghiChu": "— Tên của bạn",
   "chan": "@tohaidoan",
   "canChu": "trai",
   "coChuToiDa": 108,
@@ -171,7 +171,7 @@ node .claude/skills/anh-quote/dung.mjs --kieu anh-quote/kieu/giay-grid-brand.htm
 
 Khổ mặc định 1080×1350 (4:5), xuất @2x. Khổ khác thì thêm `--kho 1080x1080` hoặc `--kho 1080x1920`.
 
-## Bước 6 — TỰ NHÌN ẢNH TRƯỚC KHI ĐƯA ĐOÀN
+## Bước 6 — TỰ NHÌN ẢNH TRƯỚC KHI ĐƯA CHO BẠN DUYỆT
 
 **Bắt buộc mở file PNG ra xem bằng công cụ đọc ảnh.** Render chạy xong không có nghĩa là ảnh đẹp — đã có lần lệnh báo thành công, ảnh ra đủ dung lượng, mà mảng vàng và lưới giấy trong thiết kế **không hề xuất hiện** (xem *Bẫy đã gặp thật* §2).
 
@@ -196,7 +196,7 @@ Bạn duyệt rồi thì:
 
 1. **Kiểu mới thì giữ lại** trong `anh-quote/kieu/`, đặt tên gợi hình (`bao-chi-den-trang.html`, chứ không phải `kieu-3.html`). Đầu file ghi comment: học từ ảnh mẫu nào, hợp với loại quote gì, **không** hợp với gì.
 2. **Append `log.md`** một dòng — không rewrite (luật sắt #4).
-3. **KHÔNG tự ghi vào `wiki/`.** Đoàn chốt 2026-07-30: chỉ còn một đường ghi vào `wiki/` là skill `/nap-kho`. Nếu trong lúc làm ảnh phát hiện một insight đáng vào bộ não (một cách nói hay, một phản ứng của khán giả), thì **đề xuất** bạn chạy `/nap-kho`, đừng tự tay sửa `wiki/`.
+3. **KHÔNG tự ghi vào `wiki/`.** Chỉ có một đường ghi vào `wiki/` là skill `/nap-kho`. Nếu trong lúc làm ảnh phát hiện một insight đáng vào bộ não (một cách nói hay, một phản ứng của khán giả), thì **đề xuất** bạn chạy `/nap-kho`, đừng tự tay sửa `wiki/`.
 
 ---
 

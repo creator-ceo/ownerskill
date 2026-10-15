@@ -1,9 +1,9 @@
 ---
 name: viet-content
-description: Dùng khi bạn nhờ viết hoặc xử lý nội dung đăng ra ngoài — bài Facebook, caption, hook, kịch bản video ngắn/dài, shotlist, email, bài bán hàng, mindmap từ một trang bộ não. Kể cả khi chỉ nói "viết bài về X", "làm content", "hôm nay đăng gì", "đặt hook cho bài này", "soi giúp bài này", "viết lại cho đúng giọng", "gợi ý ý tưởng", hay dán một bài cũ vào nhờ chỉnh. Cũng dùng khi gõ /viet-content.
+description: Dùng khi bạn nhờ viết hoặc xử lý nội dung đăng ra ngoài — bài Facebook, caption, hook, kịch bản video ngắn/dài, shotlist, kế hoạch content một tháng, email, bài bán hàng, mindmap từ một trang bộ não. Kể cả khi chỉ nói "viết bài về X", "làm content", "hôm nay đăng gì", "đặt hook cho bài này", "soi giúp bài này", "viết lại cho đúng giọng", "gợi ý ý tưởng", hay dán một bài cũ vào nhờ chỉnh. Cũng dùng khi gõ /viet-content.
 ---
 
-> 🧩 **Vai trong đội nhân sự A.I: Content.** Tổng giám đốc giao việc *viết bài, kịch bản, ý tưởng, hook* cho vai này. Vai không phải một skill riêng — nó là nhãn để `/tong-giam-doc` biết giao việc gì cho skill nào.
+> 🧩 **Vai trong đội nhân sự A.I: Content.** Tổng giám đốc giao việc *viết bài, kịch bản, ý tưởng, hook* cho vai này. Vai không phải một skill riêng — nó là nhãn để `/dieu-hanh` biết giao việc gì cho skill nào.
 
 # Viết content — phương pháp Tô Hải Đoàn
 
@@ -41,7 +41,7 @@ description: Dùng khi bạn nhờ viết hoặc xử lý nội dung đăng ra n
 Nói thẳng: chưa viết được bài mang giọng của họ, vì chưa có gì để mang. Rồi đưa đúng **một** việc tiếp theo, không đưa danh sách:
 
 - Chưa có `voice-profile` → *"Dán vào đây 5 tới 10 bài bạn đã đăng thật. Tôi rút hồ sơ giọng, rồi mới viết được bài nghe ra bạn."*
-- Chưa có gì cả, kể cả trang nền → *"Chạy `/onboard` trước đã."*
+- Chưa có gì cả, kể cả trang nền → *"Chạy `/cai-thu-thu` trước đã."*
 
 ⚡ Đây là **từ chối có đường đi tiếp**, khác hẳn từ chối cụt. Từ chối cụt làm người mới kết luận công cụ này vô dụng; câu trên làm họ biết phải làm gì trong mười phút tới.
 
@@ -152,7 +152,7 @@ Trục thứ hai, **độc lập với tầng ngôn ngữ**. Một bài T0 vẫn
 | `dua-nhe` ⬅️ **mặc định** | tôi / bạn | **1–3 lần** cả bài, ở hook và câu chốt |
 | `vui-ve` | mình / anh em · cả nhà | **dày**, rải khắp |
 
-⚠️ **Để trống thì mặc định là `dua-nhe`, không phải `nghiem-tuc`.** Đo trên 19 bài thật: 9/19 rơi vào mức giữa, chỉ 6/19 nghiêm túc thuần. Bài dài kể chuyện thất bại vẫn có chỗ đùa. Viết một bài sạch bong không từ đùa nào là **đúng luật nhưng sai người** — chỉ chọn `nghiem-tuc` khi bài thật sự nặng, và **nói ra đã chọn mức nào** khi bàn giao.
+⚠️ **Để trống thì mặc định là `dua-nhe`, không phải `nghiem-tuc`.** Đo trên các bài thật, phần lớn rơi vào mức giữa, rất ít bài nghiêm túc thuần. Bài dài kể chuyện thất bại vẫn có chỗ đùa. Viết một bài sạch bong không từ đùa nào là **đúng luật nhưng sai người** — chỉ chọn `nghiem-tuc` khi bài thật sự nặng, và **nói ra đã chọn mức nào** khi bàn giao.
 
 🚫 **Đừng suy không khí từ tầng.** T0 không có nghĩa là vui vẻ, T2 không có nghĩa là nghiêm túc. Hai trục khác nhau, hỏi riêng.
 
@@ -178,7 +178,7 @@ Trục thứ hai, **độc lập với tầng ngôn ngữ**. Một bài T0 vẫn
 - ⭐ **`wiki/models/`** — hình mẫu bạn đang học. Đây là **Tầng 4** trong thứ tự thắng, và là thứ hay bị bỏ quên nhất. Lấy ba thứ: **mạch bài** họ hay dùng · **cách làm được mạch đó** (chỗ nào là điểm lật, cái gì giữ tới cuối) · và mục **"KHÔNG được chép"** của chính trang đó. Có trang nào thì đọc, không có thì bỏ qua và nói ra là đang viết không có hình mẫu
 - `wiki/hook-library.md` — hook đã dùng và kết quả thật. Đọc trước khi sinh hook mới, để không đẻ lại cái đã dùng
 - `wiki/content-library.md` — bài đã đăng gom dần. Đọc khi cần tránh viết trùng ý một bài cũ
-- `wiki/content-writing-guidelines.md` — **luật viết riêng của BẠN**, nếu đã dựng. Có thì nó thắng mọi thứ trừ 10 luật lõi nghề. Chưa có thì xem `luat/vi-du-luat-rieng.md` để biết một bộ như vậy trông thế nào — ⛔ **file đó là bản của Đoàn, đọc để tham khảo, đừng theo**
+- `wiki/content-writing-guidelines.md` — **luật viết riêng của BẠN**, nếu đã dựng. Có thì nó thắng mọi thứ trừ 10 luật lõi nghề. Chưa có thì xem `luat/vi-du-luat-rieng.md` để biết một bộ như vậy trông thế nào — ⛔ **file đó là bản mẫu của tác giả skill, đọc để tham khảo, đừng theo**
 
 Đọc file thật bằng Read. Đừng nhớ lại từ phiên trước — chúng thay đổi.
 
@@ -308,7 +308,7 @@ Soi theo **hai trục riêng, đừng gộp làm một** — một bài hoàn to
 
    ⚠️ Tầng 4 kéo ngược chiều với luật B2/B3 (cắt hết ý không phục vụ thông điệp). Khi B2/B3 đòi cắt sạch, chủ động **giữ lại ít nhất một chi tiết thật không phục vụ thông điệp** — miễn nó có thật. Không có thì bỏ trống, đừng bịa ra cho đủ vị.
 
-3. **Luật viết riêng của bạn** ở `wiki/content-writing-guidelines.md`, nếu đã dựng. Chưa có thì bỏ qua điểm này — đừng lấy `luat/vi-du-luat-rieng.md` thay thế, đó là luật của Đoàn.
+3. **Luật viết riêng của bạn** ở `wiki/content-writing-guidelines.md`, nếu đã dựng. Chưa có thì bỏ qua điểm này — đừng lấy `luat/vi-du-luat-rieng.md` thay thế, đó là luật riêng của tác giả skill.
 
 Ghi kết quả **từng điểm của cả hai trục** vào mục "Tự soi" — từng điểm đạt hay chưa và vì sao. Không ghi gọn "đã kiểm tra".
 
@@ -367,9 +367,10 @@ trang-thai: nhap            # nhap | da-soi | da-dang
 | Việc | File bắt buộc đọc | Vì sao tách ra |
 |---|---|---|
 | Kịch bản video ngắn / dài | `kich-ban-video.md` | Thêm hẳn một lớp đầu vào mà mọi việc khác không có: **nguồn lực quay thật**. Bốn ràng buộc *quay một mình* là lý do một kịch bản "đúng lý thuyết" vẫn không quay được |
+| Kế hoạch content một tháng | `ke-hoach-thang.md` | Việc này không viết ra bài mà viết ra **danh sách đề bài** cho cả tháng. Sai ở đây là sai cả tháng: hứa số bài vượt sức, chia số theo cảm tính, vơ chuyện cho đủ ô |
 | Mindmap từ một trang bộ não | `mindmap.md` | Việc duy nhất **chạy lệnh ngoài** (`npx markmap-cli`) và giao **file HTML** chứ không giao chữ |
 
-🚫 Không viết kịch bản từ hiểu biết chung về video. Không tự nghĩ ra cách dựng mindmap.
+🚫 Không lập kế hoạch tháng từ trí nhớ. Không viết kịch bản từ hiểu biết chung về video. Không tự nghĩ ra cách dựng mindmap.
 
 ---
 
@@ -384,7 +385,7 @@ trang-thai: nhap            # nhap | da-soi | da-dang
 
 ## Liên quan
 
-`/nap-kho` — đường duy nhất ghi vào bộ não · `/anh-quote` — biến câu chốt thành ảnh đăng · `/giai-thich-de-hieu` — biến khái niệm khó thành trang có hình · `/onboard` — dựng bộ não lần đầu nếu `wiki/` còn trống.
+`/nap-kho` — đường duy nhất ghi vào bộ não · `/anh-quote` — biến câu chốt thành ảnh đăng · `/giai-thich-de-hieu` — biến khái niệm khó thành trang có hình · `/cai-thu-thu` — dựng kho nếu `wiki/` còn trống.
 
 ---
 

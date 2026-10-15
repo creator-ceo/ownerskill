@@ -104,7 +104,7 @@ export async function trangThai () {
 }
 
 // ------------------------------- PHẦN GHI ------------------------------------
-// Ba hàm dưới đây là ba chỗ duy nhất trong toàn dự án chạm được vào tiền của Đoàn.
+// Ba hàm dưới đây là ba chỗ duy nhất trong toàn dự án chạm được vào tiền của chủ tài khoản.
 // Không hàm nào tự kiểm tra luật — việc đó là của lib/chan.mjs, gọi ở ap.mjs.
 // Cố ý tách: một chỗ chặn, một chỗ làm. Trộn vào nhau là mất chỗ để test.
 

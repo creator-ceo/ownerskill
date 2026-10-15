@@ -1,6 +1,6 @@
 ---
 name: kiem-chung
-description: Bài test Việc 6 — xác nhận bộ não thứ 2 đã LƯU THẬT vào file, không phải chỉ nằm trong trí nhớ của đoạn chat. Chạy sau khi dựng xong bộ não, và chạy lại mỗi lần nạp một khối dữ liệu lớn. Dùng khi người dùng nói "kiểm chứng", "test bộ não", "bộ não chạy chưa", "làm việc 6", hoặc gõ /kiem-chung.
+description: Bài test cuối bước 1 (Thủ thư) — xác nhận bộ não thứ 2 đã LƯU THẬT vào file, không phải chỉ nằm trong trí nhớ của đoạn chat. Chạy sau khi dựng xong bộ não, và chạy lại mỗi lần nạp một khối dữ liệu lớn. Dùng khi người dùng nói "kiểm chứng", "test bộ não", "bộ não chạy chưa", hoặc gõ /kiem-chung.
 ---
 
 # Bài kiểm chứng — bộ não đã lưu thật chưa
@@ -28,15 +28,15 @@ Nguy hiểm ở chỗ **hai trường hợp trông giống hệt nhau từ phía
 Các bước:
 
 1. Mở project mới / đoạn chat mới trong công cụ AI.
-2. Cắm thư mục `SecondBrain` vào làm ngữ cảnh.
-3. Hỏi lần lượt 5 câu dưới đây.
+2. Mở đoạn chat mới ngay trong thư mục kho của bạn (thư mục có `wiki/`, `raw/`, `index.md`).
+3. Hỏi lần lượt các câu dưới đây. **Ở bước 1 chỉ hỏi Câu 0, 1, 3, 4.** Câu 2 (mục tiêu) chỉ hỏi sau khi cài Tổng giám đốc, và Câu 5 (giọng văn) chỉ hỏi sau khi cài Content. Hỏi sớm hơn thì trang chưa có, câu trượt là đúng chứ không phải lỗi.
 4. Đối chiếu câu trả lời với tiêu chí đạt.
 
 ---
 
 ## Câu 0 — hỏi TRƯỚC, để biết trượt là lỗi gì
 
-> *"Đọc file `SecondBrain/wiki/goals.md` và cho tôi biết dòng đầu tiên của nó."*
+> *"Đọc file `wiki/about-me.md` và cho tôi biết dòng đầu tiên của nó."*
 
 Câu này không kiểm nội dung bộ não. Nó kiểm **công cụ có đọc được thư mục không** — và nó chia toàn bộ bài test thành hai nhánh chữa hoàn toàn khác nhau:
 
@@ -111,27 +111,27 @@ Tự chọn một chi tiết **cụ thể, không đoán được từ ngoài**.
 
 | Số câu đạt | Kết luận | Làm gì tiếp |
 |---|---|---|
-| **5/5** | Bộ não đã lưu thật, chạy được | Sang Việc 7 |
-| **3–4/5** | Có lưu, thiếu nội dung ở vài trang | Xem câu nào trượt → mở đúng trang tương ứng → bổ sung → chạy lại **từ đầu, trên phiên mới** |
-| **0–2/5** | ⚠️ **Không phải bộ não hỏng — là bạn mới điền được rất ít.** Đây là chuyện bình thường của người vừa bắt đầu | Quay lại **Việc 4**, điền cho đủ 11 trang neo. **Đừng đụng vào cài đặt, công cụ không hỏng** — Câu 0 vừa chứng minh điều đó |
+| **Đủ mọi câu đã hỏi** | Bộ não đã lưu thật, chạy được | Sang vai kế tiếp trong `/chay-chuoi-dau-tien` |
+| **Trượt 1 câu** | Có lưu, thiếu nội dung ở vài trang | Xem câu nào trượt → mở đúng trang tương ứng → bổ sung → chạy lại **từ đầu, trên phiên mới** |
+| **Trượt từ 2 câu** | ⚠️ **Không phải bộ não hỏng — là bạn mới điền được rất ít.** Đây là chuyện bình thường của người vừa bắt đầu | Quay lại bước 1, nạp thêm bằng `/nap-kho` cho các trang còn mỏng. **Đừng đụng vào cài đặt, công cụ không hỏng** — Câu 0 vừa chứng minh điều đó |
 
 ### Nhánh B — Câu 0 ❌ (công cụ chưa đọc được)
 
 Dừng bài test, **không cần hỏi 5 câu kia** — chúng sẽ trượt hết vì cùng một nguyên nhân. Kiểm theo thứ tự:
 
-1. Thư mục `SecondBrain/wiki/` có file `.md` thật không? *(mở bằng trình quản lý file, nhìn bằng mắt)*
+1. Thư mục `wiki/` có file `.md` thật không? *(mở bằng trình quản lý file, nhìn bằng mắt)*
 2. Có file mà AI không đọc được → **lỗi cắm ngữ cảnh**: workspace đang trỏ sai thư mục.
-3. Không có file nào → bộ não **chưa bao giờ được ghi ra đĩa**. Đây mới đúng là cái bẫy mà bài test này sinh ra để bắt: buổi phỏng vấn hôm trước chỉ nằm trong trí nhớ đoạn chat. Quay lại **Việc 2 và Việc 3**, làm lại trên công cụ bậc 2.
+3. Không có file nào → bộ não **chưa bao giờ được ghi ra đĩa**. Đây mới đúng là cái bẫy mà bài test này sinh ra để bắt: buổi phỏng vấn hôm trước chỉ nằm trong trí nhớ đoạn chat. Quay lại `/cai-thu-thu` (Việc 1 và Việc 3), làm lại ngay trong thư mục kho của bạn.
 
 **Trượt câu nào thì trang nào phải sửa:**
 
 | Câu trượt | Mở trang |
 |---|---|
 | 1 | `about-me.md` |
-| 2 | `goals.md` |
+| 2 | `goals.md` (sau bước 3) |
 | 3 | `ai-operating-preferences.md` |
-| 4 | trang chứa chi tiết đó (`customers.md`, `experiences-library.md`…) |
-| 5 | `voice-profile.md` |
+| 4 | trang chứa chi tiết đó (`about-me.md`, `experiences-library.md`…) |
+| 5 | `voice-profile.md` (sau bước 4) |
 
 ---
 
@@ -140,7 +140,7 @@ Dừng bài test, **không cần hỏi 5 câu kia** — chúng sẽ trượt h�
 Ghi một dòng vào `log.md`:
 
 ```
-## [YYYY-MM-DD] Kiểm chứng Việc 6 | 5/5 đạt — bộ não đã lưu thật
+## [YYYY-MM-DD] Kiểm chứng bước 1 | đạt đủ — bộ não đã lưu thật
 ```
 
 Rồi nói với người dùng đúng một ý: từ giờ mỗi lần nạp một khối dữ liệu lớn, chạy lại bài này. Nó rẻ (5 phút) và nó là thứ duy nhất phân biệt được *"AI đang nhớ"* với *"bộ não đang lưu"*.

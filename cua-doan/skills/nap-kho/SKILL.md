@@ -22,11 +22,22 @@ Sửa thẳng file `.md` thì nhanh hơn — và đó chính là vấn đề. Sa
 | Loại | Dấu hiệu | Đích đến |
 |---|---|---|
 | **Câu chuyện** | có mốc thời gian, có chuyện xảy ra với chính người dùng | `experiences-library.md` |
-| **Insight khách hàng** | lời khách nói, điều quan sát được từ khách thật | `audience-insights.md` |
+| **Lời khách và insight khách hàng** | lời khách tự nói, điều quan sát được từ khách thật | `customer-voice.md` (lời có nguồn) · `target-customer.md` (chân dung đúc lại) |
+| **Gói và giá** | bạn bán gì, giá bao nhiêu, thang leo thế nào | `offer-ladder.md` |
+| **Sổ đội** | vai nào đã cài, ngày nào | `doi-ngu.md` |
+| **Luật viết riêng** | một luật viết bạn rút ra từ việc sửa bài | `content-writing-guidelines.md` |
 | **Bài học / nguyên lý** | một điều vừa nhận ra, áp dụng được nhiều lần | trang chuyên đề trong `learnings/` |
 | **Hình mẫu** | một người/thương hiệu đang học theo | `models/<tên>.md` |
 | **Kết quả khách** | có con số, có bằng chứng | `customer-wins.md` |
 | **Quyết định dự án** | chốt một hướng đi, đổi phạm vi | `projects/<tên>.md` |
+| **Hồ sơ gốc** | người dùng nói mình là ai, làm gì, cho ai | `about-me.md` |
+| **Cách làm việc với A.I** | xưng hô, khi nào được tự làm, điều tuyệt đối không được làm | `ai-operating-preferences.md` |
+| **Giọng văn** | 5 đến 10 bài đã đăng thật, rút cách xưng hô, câu cửa miệng, điều cấm | `voice-profile.md` |
+| **Quan điểm ngược dòng** | điều người dùng tin mà số đông không đồng ý | `contrarian-beliefs.md` |
+| **Kết quả nghiên cứu** | báo cáo về khách, đối thủ, đề xuất lưu trong `raw/de-xuat/` | trang tương ứng: `target-customer.md` · `customer-voice.md` · `competitors.md` · `positioning.md` · `objections-library.md` |
+| **Mục tiêu và nút thắt** | đích kèm con số, điều đang cản | `goals.md` · `nut-that.md` |
+| **Nhịp tháng** | việc tập trung của một tháng, số trước và sau | `nhip-thang.md` |
+| **Nguồn lực quay video** | máy quay, mic, nơi quay, ai giúp | `video-production-setup.md` |
 | **Tài liệu dài** | transcript, bài viết, khoá học | lưu `raw/` trước, rồi rút ra các trang trên |
 
 Không rõ loại → **hỏi người dùng**, đừng đoán rồi đặt bừa.
@@ -49,6 +60,7 @@ raw/<loại>-<YYYY-MM-DD>-<mô tả ngắn>.md
 
 **Trước khi viết một dòng nào vào `wiki/`**, tìm trong kho xem thứ này đã có chưa:
 
+0. **Con số và tuyên bố không nguồn.** Người dùng nói một con số thống kê, một tuyên bố y tế hay pháp lý mà không kèm nguồn (ví dụ "90% người đau cổ là do vai hóp") thì vẫn ghi, nhưng gắn nhãn **`[chưa có nguồn]`** ngay cạnh, và nói với người dùng. Các vai viết bài không được dùng nó như sự thật khi nhãn còn đó.
 1. Tìm theo **từ khoá chính** của nguyên liệu.
 2. Tìm theo **thông điệp** — cùng một bài học có thể đã được ghi bằng câu chữ khác hẳn.
 3. Đọc lướt trang đích để xem có mục nào đang nói cùng chuyện.

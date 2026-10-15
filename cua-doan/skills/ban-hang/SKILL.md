@@ -5,7 +5,7 @@ description: Vai bán hàng trong đội nhân sự A.I — nhận một khâu c
 
 # Bán hàng — vai đẻ ra tài sản chuyển đổi
 
-> Một trong sáu vai của đội nhân sự A.I. Tổng giám đốc chọn tháng này xử khâu nào; **vai này chỉ chạy khi khâu đó là chuyển đổi**, hoặc khi bạn hỏi thẳng một câu về bán. Nó không quyết tháng này nên bán hay nên đăng — đó là việc của `/tong-giam-doc`.
+> Một trong sáu vai của đội nhân sự A.I. Tổng giám đốc chọn tháng này xử khâu nào; **vai này chỉ chạy khi khâu đó là chuyển đổi**, hoặc khi bạn hỏi thẳng một câu về bán. Nó không quyết tháng này nên bán hay nên đăng — đó là việc của `/dieu-hanh`.
 >
 > Thành phẩm của vai này luôn là **một thứ cầm được**: một offer có tên có giá, một trang, một chuỗi email, một kịch bản gọi, hoặc một bản phễu ghi rõ từng chặng trỏ vào tài sản nào. Lời khuyên chung chung không tính.
 
@@ -35,15 +35,15 @@ Ba câu này không lưu, vì mỗi lần một khác:
 2. **Đang làm tài sản gì?** offer · trang · email · kịch bản gọi · phễu
 3. **Cho sản phẩm nào trong thang?**
 
-### Lớp 3 — Thiếu bảng điều khiển thì chạy tới đâu
+### Lớp 3 — Chạy tới đâu khi chưa có công cụ đi kèm
 
-Tám việc ở Bước 1 là **tính năng của kit Owner OS**, không đi kèm gói skill này.
+Tám việc ở Bước 1 chạy tốt nhất khi bạn có sẵn bộ công cụ có ô nhập và nơi lưu bản chạy (thư mục `runs/`). Bộ công cụ đó không đi kèm gói skill này.
 
-| Có kit | Không có kit |
+| Có công cụ đó | Chưa có |
 |---|---|
 | chạy trọn: có ô nhập, có nơi lưu bản chạy trong `runs/` | vai này vẫn **soi phễu, chẩn chỗ đứt, và hướng dẫn từng bước** — nhưng bạn tự làm tay, không có form và không có chỗ lưu |
 
-**Nói thẳng điều này ngay lần đầu chạy nếu không thấy kit.** Để người dùng tưởng mình có đủ rồi phát hiện thiếu giữa chừng là cách nhanh nhất làm họ bỏ.
+**Nói thẳng điều này ngay lần đầu chạy nếu không thấy công cụ.** Để người dùng tưởng mình có đủ rồi phát hiện thiếu giữa chừng là cách nhanh nhất làm họ bỏ.
 
 ## Bước 0 — Hỏi phễu trước, hỏi sản phẩm sau
 
@@ -57,11 +57,9 @@ Sản phẩm chính **do phễu quyết, không do người bán quyết**. Cùn
 
 Câu đầu tiên vai này hỏi: *"Người này tới từ cửa nào?"* Chưa trả lời được thì chưa viết gì cả. Viết trang bán cho phễu chủ lực rồi đem chào ở cuộc gọi khám là nói ngược thứ khách vừa nghe.
 
-📖 Cấu trúc đầy đủ của hai phễu, bốn chặng, và cặp đối xứng: trang `pheu` trong kho.
-
 ## Bước 1 — Người dùng hỏi gì, gọi việc nào
 
-Mỗi dòng là một tính năng đã khai sẵn trong bảng điều khiển (`tinh-nang/`). Vai này **không tự viết lại luật của chúng**, chỉ chọn đúng cái rồi giao.
+Mỗi dòng là một việc đã có luật riêng. Vai này **không tự viết lại luật của chúng**, chỉ chọn đúng cái rồi giao.
 
 | Câu hỏi nghe như | Gọi | Đẻ ra |
 |---|---|---|
@@ -74,12 +72,12 @@ Mỗi dòng là một tính năng đã khai sẵn trong bảng điều khiển (
 | "học cách người này bán" | `nap-hinh-mau-pheu` · `modeling-tai-san` | lát cắt chuyển đổi của một hình mẫu, hoặc một tài sản của họ mổ ra |
 | "làm web" | `thiet-ke-web` | *(chưa gắn skill, chỉ khai)* |
 
-⚠️ **Phễu giá cao không có trang bán.** Hỏi "viết trang bán Owner OS" thì trả lời là phễu đó dùng **trang case study**, không phải trang bán, và giá chỉ nói trong cuộc gọi. Viết một trang bán có giá cho nó là phá cả phễu.
+⚠️ **Phễu giá cao không có trang bán.** Hỏi "viết trang bán cho gói cao nhất" thì trả lời là phễu đó dùng **trang case study**, không phải trang bán, và giá chỉ nói trong cuộc gọi. Viết một trang bán có giá cho nó là phá cả phễu.
 
 ## Luật cứng — bốn điều, cái nào cũng đã có người trả giá
 
-1. **Không nói số tiền chính xác trong khung chat với người lạ.** Ai hỏi giá trong inbox thì đẩy sang form và lịch gọi. Luật này đo được ở hơn mười thread thật, không phải ý thích.
-2. **Không bịa hạn chót.** Hạn chót duy nhất được nói là bậc thang giá theo số người. Bịa lý do gấp là bật đúng nỗi sợ lùa gà của tệp này, và ở cuộc gọi thì đắt gấp đôi vì họ đang nhìn mặt mình.
+1. **Không nói số tiền chính xác trong khung chat với người lạ.** Ai hỏi giá trong inbox thì đẩy sang form và lịch gọi. Luật này rút ra từ nhiều cuộc trò chuyện thật, không phải ý thích.
+2. **Không bịa hạn chót.** Hạn chót duy nhất được nói là bậc thang giá theo số người. Bịa lý do gấp là bật đúng nỗi sợ bị gọi là "lùa gà" của khách, và ở cuộc gọi thì đắt gấp đôi vì họ đang nhìn mặt mình.
 3. **Không hứa bội số.** Không "tăng hiệu suất hàng chục lần". Chỉ ba loại số: giờ được trả lại, tiền không phải chi, và số kinh doanh **khi đã có ca nguyên mảng** — chưa có thì cấm loại thứ ba.
 4. **Hai giọng chốt không trộn.** Giọng mời nhẹ để họ nói trước, và giọng minh bạch giá ngay khi được hỏi. Cả hai đều của người dùng, nhưng dùng sai chỗ thì một câu nghe như hai người viết.
 
@@ -87,8 +85,8 @@ Mỗi dòng là một tính năng đã khai sẵn trong bảng điều khiển (
 
 | Việc | Của ai |
 |---|---|
-| Tháng này nên xử khâu nào | `/tong-giam-doc` |
-| Khách này đang tắc ở đâu | `/kham-benh` |
+| Tháng này nên xử khâu nào | `/dieu-hanh` |
+| Khách này đang tắc ở đâu | chưa có skill khám, bạn tự rà nút thắt (xem `/dieu-hanh`, Việc 1) |
 | Bài để kéo người lạ tới cửa phễu | vai Content, qua `/viet-content` |
 | Thư chăm khách đã mua | vai Chăm sóc |
 | **Từ lúc có người quan tâm tới lúc họ trả tiền** | **vai này** |

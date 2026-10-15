@@ -2,7 +2,7 @@
 
 > ⚠️ **File này là chỗ DUY NHẤT chứa luật mindmap.** Sửa luật thì sửa ở đây.
 
-Đây là loại việc **khác hẳn** mọi việc còn lại trong xưởng: nó **chạy lệnh ngoài** và **giao file HTML**, không giao chữ để bạn copy đi đăng. Chốt 2026-08-03 sau khi Đoàn so bộ thử.
+Đây là loại việc **khác hẳn** mọi việc còn lại trong xưởng: nó **chạy lệnh ngoài** và **giao file HTML**, không giao chữ để bạn copy đi đăng.
 
 ### Chạy gì
 
@@ -43,7 +43,7 @@ markmap:
 ---
 ```
 
-3. **Chốt tên file đầu ra `<ten-file>.html`** — KHÔNG dùng cứng `mindmap.html`. Đoàn chốt
+3. **Chốt tên file đầu ra `<ten-file>.html`** — KHÔNG dùng cứng `mindmap.html`. Quy tắc chốt
    2026-08-23: *"cái file ở trong kho ko dc đặt tên, nó chỉ là mindmap, như vậy ko tiện
    lắm"* — kéo nhiều file ra khỏi `runs/` (gửi Zalo, để chung một thư mục) thì toàn bộ
    trùng tên `mindmap.html`, không phân biệt được cái nào là cái nào.

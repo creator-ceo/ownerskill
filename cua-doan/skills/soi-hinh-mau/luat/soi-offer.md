@@ -1,11 +1,10 @@
 # Modeling hệ thống chuyển đổi — soi offer và phễu của người khác
 
-> 📎 **Đọc file này thế nào.** Đây là luật modeling của Tô Hải Đoàn, đóng gói nguyên văn.
-> Liên kết `[[tên-trang]]` trỏ tới trang trong bộ não **của Đoàn**. Trang nào bạn chưa có thì **bỏ qua** — đừng đoán nội dung, đừng bịa cho đủ. Muốn có trang tương đương thì dựng bằng `/nap-kho`.
-> Tên người và con số trong file là **hình mẫu Đoàn đã soi thật**, để minh hoạ cách soi. 🚫 Đừng bê kết luận của anh ấy thành kết luận của bạn — hình mẫu của bạn là người khác.
+> 📎 **Đọc file này thế nào.** Liên kết `[[tên-trang]]` trỏ tới trang trong bộ não **của bạn** (thư mục `wiki/`). Trang nào bạn chưa có thì **bỏ qua** — đừng đoán nội dung, đừng bịa cho đủ. Muốn có trang tương đương thì dựng bằng `/nap-kho`.
+> Tên người và con số trong file là **ví dụ minh hoạ** cách soi. 🚫 Đừng bê kết luận về họ thành kết luận của bạn — hình mẫu của bạn là người khác.
 
 
-> **Dựng 2026-08-08** theo yêu cầu của Đoàn: *"hệ thống chuyển đổi cũng cần có hình mẫu chứ ha, vì thu hút thì có rồi nhưng modeling thì chuyển đổi cũng cần."*
+> Hệ thống chuyển đổi cũng cần có hình mẫu: thu hút có hình mẫu rồi, nhưng chuyển đổi cũng phải học từ người đi trước.
 >
 > Đọc `luat/loi-modeling.md` trước: 4 tiêu chí chọn hình mẫu và luật lọc theo bằng chứng nằm ở đó, áp cho mọi lĩnh vực. Trang này chỉ định nghĩa **soi cái gì** khi đối tượng là một hệ thống bán hàng.
 >
@@ -15,7 +14,7 @@
 
 ## Lớp soi = chính Bản thiết kế offer mình đang dùng
 
-Không nghĩ khuôn mới. Soi offer người khác bằng **đúng 12 mục** mình dùng để dựng offer mình ([[offer-design-protocol]] §Bước 3 — Một kết quả hạt nhân). Cùng một thước thì so được, và chỗ họ có mà mình trống thì lộ ra ngay.
+Không nghĩ khuôn mới. Soi offer người khác bằng **đúng 12 mục** mình dùng để dựng offer mình (bản thiết kế offer của bạn; chưa có thì dựng bằng `/nap-kho`, loại thiết kế offer). Cùng một thước thì so được, và chỗ họ có mà mình trống thì lộ ra ngay.
 
 | # | Mục | Câu hỏi khi soi người khác |
 |---|---|---|
@@ -32,13 +31,13 @@ Không nghĩ khuôn mới. Soi offer người khác bằng **đúng 12 mục** m
 | 11 | Lời chào bán | Họ nói gọn cả offer trong mấy câu? |
 | 12 | **Câu chào hai dòng** | Hai dòng đầu trang bán viết thế nào — dòng nào là kết quả, dòng nào là cơ chế, và **kết bằng cái gì**? |
 
-> ⚡ **Mục 12 thêm 2026-08-08, và nó sinh ra từ chính việc soi.** Trang Founder OS Flagship dùng đúng hai dòng — *"Build a systemized personal brand." / "Install the systems and content engine to make your business scale beautifully."* — trong khi Bản thiết kế của mình không có ô nào cho lời chào đối ngoại. Thiếu ô đó thì kết quả bị nhồi vào **tên sản phẩm**, và tên hết hạn ngay khi offer đổi trục. Chi tiết ở [[offer-design-protocol]] §Bước 3 — Một kết quả hạt nhân.
+> ⚡ **Mục 12 sinh ra từ chính việc soi.** Một trang bán nổi tiếng dùng đúng hai dòng đầu: một dòng nói kết quả, một dòng nói cơ chế. Nếu bản thiết kế offer của bạn không có ô nào cho lời chào đối ngoại, kết quả sẽ bị nhồi vào **tên sản phẩm**, và tên hết hạn ngay khi offer đổi hướng.
 
 ---
 
 ## Bốn lớp riêng, không có trong Bản thiết kế
 
-Bản thiết kế dùng để **dựng** offer của mình. Soi người khác thì cần thêm bốn lớp nữa:
+Bản thiết kế dùng để **dựng** offer của bạn. Soi người khác thì cần thêm bốn lớp nữa:
 
 ### A. Thang bậc và vai trò từng bậc
 
@@ -58,7 +57,7 @@ Chỗ này hay bị bỏ qua mà lại là chỗ khác biệt lớn nhất giữ
 
 Lọc bằng **giá** · bằng **ngưỡng điều kiện** (*"chỉ nhận người đã 30K USD/tháng"*) · bằng **nội quy** · bằng **câu chào** viết thẳng ra ngưỡng.
 
-⚡ Đối chiếu với [[target-customer]]: nội quy nghiêm của Đoàn **vừa là barrier vừa là bộ lọc**. Xem người khác lọc thế nào để biết mình đang lọc quá tay hay chưa đủ.
+⚡ Đối chiếu với [[target-customer]]: nếu bạn có nội quy nghiêm, nó **vừa là rào cản vừa là bộ lọc**. Xem người khác lọc thế nào để biết mình đang lọc quá tay hay chưa đủ.
 
 ### D. Cái gì họ giấu, cái gì họ công khai
 
@@ -72,11 +71,11 @@ Giá công khai tới bậc nào rồi bắt đặt lịch? Cơ chế nói ra t�
 
 `luat/loi-modeling.md` ghi luật *"lấy phần này bỏ phần kia"*. Với hệ thống chuyển đổi, ba thứ dưới đây gần như chắc chắn sẽ gặp và gần như chắc chắn phải bỏ:
 
-1. **Khan hiếm dựng lên.** Đếm ngược giả, "còn 3 suất" nói mãi, hạn chót gia hạn. [[launch-playbook]] Bài 10 và [[objections-library]] đều xếp vào loại ai cũng biết là giả.
+1. **Khan hiếm dựng lên.** Đếm ngược giả, "còn 3 suất" nói mãi, hạn chót gia hạn. Loại này ai cũng nhận ra là giả; nếu bạn có `wiki/objections-library.md` thì đối chiếu ở đó.
 2. **Tín hiệu bơm.** Engagement pod, mua tương tác, và mọi thao tác **né phát hiện** (gỡ tham số theo dõi, sửa bài sau khi đã lên). Đây là ranh giới cứng.
 3. **Mượn hào quang.** Đặt một con số lớn cạnh tên mình mà con số đó không thuộc về mình.
 
-📌 Ba thứ này bỏ **không phải vì không hiệu quả**. Bỏ vì [[projects/nhan-hieu-thuc-chung]], và vì tệp của Đoàn có nỗi sợ mạnh nhất là bị gọi *"lùa gà"* ([[audience-insights]] Pattern 7). Cái gì hiệu quả với người khác mà bật đúng nỗi sợ đó thì với Đoàn là lỗ, không phải lãi.
+📌 Ba thứ này bỏ **không phải vì không hiệu quả**. Bỏ vì chúng va vào nguyên tắc làm nghề trung thực của bạn, và vì khách của bạn có thể sợ nhất là bị gọi *"lùa gà"* (xem `wiki/customer-voice.md` nếu có). Cái gì hiệu quả với người khác mà bật đúng nỗi sợ đó thì với bạn là lỗ, không phải lãi.
 
 ---
 
@@ -99,29 +98,20 @@ Mỗi hình mẫu một file `wiki/models-pheu/<slug>.md` trong bộ não của 
 ## Soi theo Bản thiết kế 12 mục  ← bảng 12 dòng
 ## ⛔ Va chạm giá trị — phần KHÔNG được chép
 ## Lấy gì · Bỏ gì
-## Đối chiếu với offer của Đoàn
-## Links
+## Đối chiếu với offer của bạn
+
 ```
 
-Mục **Đối chiếu với offer của Đoàn** là mục bắt buộc, và là lý do cả trang tồn tại. Soi xong mà không nói được *chỗ này họ có mình trống* thì mới chỉ là đọc, chưa phải modeling.
+Mục **Đối chiếu với offer của bạn** là mục bắt buộc, và là lý do cả trang tồn tại. Soi xong mà không nói được *chỗ này họ có mình trống* thì mới chỉ là đọc, chưa phải modeling.
 
 ---
 
-## Hình mẫu đang có nguyên liệu, chưa có trang
+## Hình mẫu nên soi trước
 
-Bốn người dưới đây đã nằm trong kho ở dạng ghi chú, chưa ai dựng thành hình mẫu chuyển đổi có khuôn:
-
-| Ai | Nguyên liệu đang nằm đâu | Mạnh ở lớp nào |
-|---|---|---|
-| **Matt Gray** | [[models/matt-gray]] §Bộ máy kinh doanh và §Phễu nội dung | thang 7 bậc · phễu 5 chặng · lọc bằng ngưỡng doanh thu · giấu giá từ bậc 4 |
-| **Andrew Kirby** | [[launch-playbook]] — 16 template chính là bản Việt hoá từ 11 mẫu Skool của anh ta | phễu launch theo đợt |
-| **Lisa Corduff** | [[learnings/membership-offer]] §1 | membership từ blog mẹ bỉm |
-| **Brett Harris** | [[learnings/membership-offer]] §2 | membership làm nền khi khủng hoảng |
-
-⚠️ **Matt Gray là ca cần tách trang, không phải viết mới.** Phân tích chuyển đổi của anh ta hiện nằm trong trang hình mẫu **content**, tức đang gắn nhầm lĩnh vực. Việc cần làm là **chuyển** hai mục đó sang `models-pheu/matt-gray.md` rồi để lại dòng trỏ, **không chép thành bản thứ hai**.
+Chọn 2–3 người theo 4 tiêu chí ở `luat/loi-modeling.md`. Gợi ý nhóm đáng soi: người có thang bậc sản phẩm rõ (từ rẻ tới đắt), người bán membership/cộng đồng, người chạy phễu theo đợt. Với mỗi người, nếu phân tích chuyển đổi đang nằm lẫn trong trang hình mẫu **nội dung**, hãy **chuyển** sang trang riêng ở `wiki/models-pheu/` rồi để lại một dòng trỏ — **không chép thành bản thứ hai**.
 
 ---
 
 ## Links
 
-`luat/loi-modeling.md` · [[offer-design-protocol]] · [[offer-ladder]] · [[objections-library]] · [[launch-playbook]] · [[learnings/membership-offer]] · [[models/matt-gray]] · [[target-customer]] · [[audience-insights]] · [[projects/nhan-hieu-thuc-chung]] · `luat/soi-noi-dung.md` · [[competitors]]
+`luat/loi-modeling.md` · [[offer-ladder]] · [[objections-library]] · [[target-customer]] · `luat/soi-noi-dung.md` · [[competitors]]

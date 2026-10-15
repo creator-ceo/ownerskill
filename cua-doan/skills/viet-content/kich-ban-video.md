@@ -8,7 +8,7 @@
 2. **Xuất ra bảng 3 cột**, theo khuôn: `Thời gian | Lời thoại | Hình ảnh/Cue`. Không xuất văn xuôi rồi bảo bạn tự chia.
 3. **Cột "Hình ảnh/Cue" chỉ được ghi thứ quay được bằng nguồn lực thật** — xem mục *Nguồn lực sản xuất* ngay dưới. Đây là chỗ dễ bịa nhất.
 4. **Hook vẫn theo `luat/hook.md`.** Hook là câu **đầu tiên nói ra**, không phải tiêu đề dán lên video.
-5. Bước 0 (cấm bịa), Bước 1 (chốt tầng), Bước 3 (chọn chuyện có thật), Bước 5 (tự soi) **áp đủ như bài viết**. Kịch bản không phải ngoại lệ của bất kỳ luật nào.
+5. Bước 0 (cấm bịa), Bước 1a (chốt tầng ngôn ngữ), Bước 3 (chọn bằng chứng có thật), Bước 6 (tự soi) trong `SKILL.md` **áp đủ như bài viết**. Kịch bản không phải ngoại lệ của bất kỳ luật nào.
 6. **Bắt buộc ghi ra mạch đã dùng** ở dòng đầu mục `## Kịch bản`, dạng:
    `> Mạch: ngắn — hook · đồng cảm · căng thẳng · CTA` hoặc `> Mạch: dài 3P — 5 chương`.
    Cùng lý do với `> Khung:` ở Bước 3b: không ghi thì sau này không ai trả lời được *"mạch nào đang thắng"*, nhìn câu chữ đoán ngược chỉ là đoán.
@@ -24,7 +24,7 @@
 | CTA | một cái, cuối, thường `comment "[TỪ KHOÁ]"` | **rải có chiến lược, KHÔNG dồn cuối** |
 | Trang đọc riêng | `wiki/teachings/` của bạn *(nếu đã dựng)* | `wiki/learnings/` của bạn *(nếu đã dựng)* |
 
-**Mạch ngắn — 7 phân cảnh:** hook · đồng cảm · căng thẳng · tò mò · dứt khoát · hào hứng · CTA comment. Nguồn: `wiki/teachings/` của bạn *(nếu đã dựng)* (Khải bóc tách từ ~1.000 video viral đã quét).
+**Mạch ngắn — 7 phân cảnh:** hook · đồng cảm · căng thẳng · tò mò · dứt khoát · hào hứng · CTA comment. Nguồn: `wiki/teachings/` của bạn *(nếu đã dựng)*.
 ⚠️ **Không bắt buộc đủ 7** — chỉ dùng phân cảnh nào hợp, giữ đúng **thứ tự nhịp**. Ép đủ 7 vào video 45 giây thì mỗi phân cảnh còn 6 giây, không cái nào kịp chạm.
 
 **Mạch dài — 3P:** **Promise** (người xem nhận được gì, nói ngay đầu) · **Proof** (số liệu, chuyện cá nhân, testimonial, case — để không thành clickbait) · **Plan** (bản đồ nội dung kiểu "5 bước", để người xem không lạc). Nguồn: `wiki/learnings/` của bạn *(nếu đã dựng)* §2.
@@ -35,7 +35,7 @@ Video dài phải **chia chương và đặt tên chương**, vì nó còn là n
 Đọc theo đúng thứ tự, dừng ở chỗ đầu tiên có dữ liệu:
 
 1. **`wiki/video-production-setup.md`** — ⚡ **BẮT BUỘC ĐỌC nếu bạn đã dựng trang này.** Nó ghi nguồn lực quay thật của bạn: máy quay · mic · ổn định hình · đèn · bối cảnh · nhân vật · B-roll · hậu kỳ. **Chưa có trang này thì HỎI, đừng suy ra thiết bị** — rồi đề nghị nạp câu trả lời vào bộ não qua `/nap-kho`.
-2. **Ô "Nguồn lực quay lần này"** (`nguonLuc`) trong `brief.md` — chỉ dùng để **ghi đè** cho lượt này (hôm nay có người cầm máy, hôm nay quay chỗ khác…). Trống là bình thường, nghĩa là dùng bản mặc định ở trang trên.
+2. **Mục "Nguồn lực quay lần này"** trong `brief.md` của lượt viết (nếu bạn có lập brief) — chỉ dùng để **ghi đè** cho lượt này (hôm nay có người cầm máy, hôm nay quay chỗ khác…). Trống là bình thường, nghĩa là dùng bản mặc định ở trang trên.
 3. Thứ nào **cả hai đều không có** → ghi `[cần bổ sung: ...]`.
 
 **Bốn ràng buộc từ trang đó chi phối mạnh nhất — thuộc trước khi viết shot nào:**
@@ -43,19 +43,19 @@ Video dài phải **chia chương và đặt tên chương**, vì nó còn là n
 | | |
 |---|---|
 | **Quay một mình** | Mọi shot phải tự đặt máy rồi vào khung. Không có shot cần người thứ hai điều khiển máy. |
-| **Gimbal RS4 Mini coi như KHÔNG CÓ** | Có trong nhà nhưng *"rất ít dùng vì 1 mình"*. Shot động mượt: chỉ Pocket 3. Shot đi theo nhân vật: không có. |
-| **Mặc định MỘT góc máy** | Có ba máy không nghĩa là quay ba góc. Không ghi "cắt sang góc 2" trừ khi brief nói rõ có dùng Pocket 3. |
+| **Chỉ ghi thứ khách quay được** | Chỉ ghi vào cột hình thứ bạn quay được bằng thiết bị đã khai ở `wiki/video-production-setup.md`. Thiết bị bạn chưa khai coi như KHÔNG CÓ. Shot động mượt hay shot đi theo nhân vật chỉ được ghi khi đã khai đúng thiết bị cho nó. |
+| **Mặc định MỘT góc máy** | Có nhiều máy không nghĩa là quay nhiều góc. Không ghi "cắt sang góc 2" trừ khi brief nói rõ có dùng máy thứ hai. |
 | **Hậu kỳ đơn giản** | Cắt ghép + phụ đề chữ chạy + hiệu ứng đơn giản. Không đề xuất motion graphic, animation, đồ hoạ 3D. |
 
 Cộng một dòng bắt buộc mở đầu shotlist: **"dọn hậu cảnh trước khi quay"** — phòng không ở trạng thái quay được ngay.
 
-🚫 **Tuyệt đối không suy ra thiết bị.** Không được viết "quay bằng iPhone" vì *"chắc ai cũng có iPhone"*. `video-production-brief-worksheet.md` nói thẳng cái giá: gợi ý dolly shot khi không có gimbal, gợi ý 2 máy phỏng vấn khi chỉ có 1 người quay — ra một bản lý thuyết **không quay được**, mà đọc thì vẫn rất xuôi tai.
+🚫 **Tuyệt đối không suy ra thiết bị.** Không được viết "quay bằng iPhone" vì *"chắc ai cũng có iPhone"*. Cái giá là: gợi ý dolly shot khi không có gimbal, gợi ý 2 máy phỏng vấn khi chỉ có 1 người quay — ra một bản lý thuyết **không quay được**, mà đọc thì vẫn rất xuôi tai.
 
 Ba mục trong trang đó **cố ý còn trống** (kho B-roll nằm ở đâu · thời gian quay mỗi buổi · trang phục/nhận diện). Gặp thì ghi `[cần bổ sung: ...]` và nêu ở *"Đề xuất cho bộ não"* — **đừng đoán, và đừng coi trang đã nạp là đã đầy đủ.**
 
-### Shotlist — chỉ chạy khi brief bật
+### Shotlist — chỉ chạy khi bạn xin
 
-**Chạy khi** `brief.md` có `shotlist: co`. Không có dòng đó → **bỏ hẳn**, đừng làm cho đủ.
+Shotlist là danh sách từng cảnh cần quay, mỗi cảnh một dòng: cảnh gì, quay bằng gì, bao lâu. **Chạy khi** bạn nói rõ cần shotlist hoặc `brief.md` có `shotlist: co`. Không ai xin → **bỏ hẳn**, đừng làm cho đủ.
 
 Xuất bảng **7 cột** theo khuôn:
 

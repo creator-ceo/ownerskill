@@ -3,12 +3,12 @@ name: soi-hinh-mau
 description: Dùng khi bạn muốn HỌC THEO một người đi trước — soi cách họ làm nội dung, cách họ bán, cách họ giữ khách — rồi rút ra lấy gì và bỏ gì cho mình. Kể cả khi chỉ nói "phân tích người này giúp tôi", "soi kênh của anh A", "người này làm content thế nào", "học theo ai bây giờ", "modeling người này", "bóc tách phễu của họ", "họ bán kiểu gì", "dựng cây nội dung từ kênh này", hay dán một link Facebook/YouTube/LinkedIn kèm câu "xem người này làm gì hay". Cũng dùng khi muốn THEO DÕI một hình mẫu đều đặn — "mỗi ngày check kênh của họ giúp tôi", "theo dõi xem họ có đổi cách làm không", "lấy ý tưởng từ họ làm nguyên liệu" — skill có mục hướng dẫn dựng nhiệm vụ chạy theo lịch. Cũng dùng khi gõ /soi-hinh-mau. 🚫 KHÔNG dùng skill này để nghiên cứu ĐỐI THỦ CẠNH TRANH (so sánh, tìm điểm yếu, dựng bảng khác biệt, trang "A vs B") — việc đó dùng /soi-doi-thu.
 ---
 
-> 🧩 **Vai trong đội nhân sự A.I: Nghiên cứu thị trường.** Tổng giám đốc giao việc *tìm hiểu khách, đối thủ, hình mẫu* cho vai này. Vai không phải một skill riêng — nó là nhãn để `/tong-giam-doc` biết giao việc gì cho skill nào.
+> 🧩 **Vai trong đội nhân sự A.I: Nghiên cứu thị trường.** Tổng giám đốc giao việc *tìm hiểu khách, đối thủ, hình mẫu* cho vai này. Vai không phải một skill riêng — nó là nhãn để `/dieu-hanh` biết giao việc gì cho skill nào.
 
 # Soi hình mẫu — phương pháp Tô Hải Đoàn
 
-> Đóng gói từ hệ modeling Đoàn tự dùng: 4 tiêu chí chọn, luật lọc theo bằng chứng, 3 lát cắt, và luật *lấy gì · bỏ gì*.
-> Rút ra sau 5+ vòng chạy thật trên hình mẫu Việt lẫn nước ngoài, có ghi lại cả những chỗ từng làm sai.
+> Đóng gói từ hệ modeling đã dùng thật: 4 tiêu chí chọn, luật lọc theo bằng chứng, 3 lát cắt, và luật *lấy gì · bỏ gì*.
+> Rút ra sau nhiều vòng chạy thật trên hình mẫu Việt lẫn nước ngoài, có ghi lại cả những chỗ từng làm sai.
 
 ## ⛩ CÀI VAI NÀY
 
@@ -67,18 +67,18 @@ Chọn **2–3 người**, không phải một. Lý do ở luật: *"tìm đư�
 
 ### Bước 2 — Lọc cái gì của họ đáng học
 
-🚫 **KHÔNG lọc theo like/share/comment.** Đây là chỗ bản của Đoàn khác bản gốc, và là luật quan trọng nhất trong cả skill.
+🚫 **KHÔNG lọc theo like/share/comment.** Đây là chỗ khác với cách làm phổ biến, và là luật quan trọng nhất trong cả skill.
 
 | Cách thường làm | Luật ở đây |
 |---|---|
 | Like cao → mẫu tốt | **Có bằng chứng kiểm chứng được** |
 | Comment nhiều → mẫu chuyển đổi tốt | **Tạo được cam kết hành động thật** |
 
-Lọc theo tương tác sẽ chọn nhầm mẫu rỗng bằng chứng. Đây không phải suy đoán — vòng 1 của Đoàn đã dính đúng lỗi này và ghi lại.
+Lọc theo tương tác sẽ chọn nhầm mẫu rỗng bằng chứng. Đây không phải suy đoán: lọc theo tương tác rất dễ dính đúng lỗi này ngay vòng đầu.
 
 Lấy **10–30 mẫu mỗi người**. Thà 10 mẫu chuẩn còn hơn 30 mẫu viral rỗng.
 
-⚡ **TRÍCH DẪN ≠ NHẬN VƠ** — đọc kỹ mục này trong `luat/soi-noi-dung.md` trước khi chấm bất kỳ mẫu nào. Mượn khung, trích câu, kể case người khác **kèm nguồn** là bằng chứng hợp lệ. Lấy số/case của người khác **kể như của mình** mới là vi phạm. Đoàn từng chấm sai đúng chỗ này một lần và đã ghi lại.
+⚡ **TRÍCH DẪN ≠ NHẬN VƠ** — đọc kỹ mục này trong `luat/soi-noi-dung.md` trước khi chấm bất kỳ mẫu nào. Mượn khung, trích câu, kể case người khác **kèm nguồn** là bằng chứng hợp lệ. Lấy số/case của người khác **kể như của mình** mới là vi phạm. Đây là chỗ rất dễ chấm sai.
 
 ### Bước 3 — Soi bằng lớp của lĩnh vực
 
@@ -105,7 +105,7 @@ Trước khi dùng bất cứ thứ gì soi được, đối chiếu đủ ba tr
 
 Một hình mẫu gần như không bao giờ đáng chép trọn.
 
-> Ca đầu tiên trong kho của Đoàn: cấu trúc nội dung và cấu trúc offer thì lấy được, **cơ chế phân phối thì bỏ** — vì có engagement pod và thao tác né phát hiện.
+> Ví dụ điển hình: cấu trúc nội dung và cấu trúc offer thì lấy được, **cơ chế phân phối thì bỏ** — vì có engagement pod và thao tác né phát hiện.
 
 **Ba luật, cả ba không thương lượng:**
 
@@ -140,7 +140,7 @@ Chốt **một lần** cách viết và hình ảnh cho *tất cả* ấn phẩm
 
 1. 🚫 **Không ghi vào `wiki/`.** Soi xong thì trình bản nháp, rồi chạy `/nap-kho` để ghi. Bộ não chỉ có một đường ghi.
 2. 🚫 **Không bịa số của hình mẫu.** Con số họ tự nói là *lời họ nói*, không phải *số đã kiểm chứng* — trang hình mẫu có hẳn mục `⚠️ Đọc trước: cái gì kiểm chứng được, cái gì chỉ là lời họ nói` để tách hai thứ đó. Không tra được thì ghi *"chưa kiểm chứng"*, đừng làm tròn cho đẹp.
-3. 🚫 **Không dựng cây nội dung khi chưa đủ mẫu.** Tiền lệ trong kho của Đoàn: *"mẫu còn thiên lệch quá về 1 trục thông điệp, cần hình mẫu thứ 2 để so sánh góc nhìn trước khi cây nội dung có ý nghĩa."* Bịa 18 nhánh cho đủ khuôn là đầu độc đúng cái kho ý tưởng bạn sẽ lấy ra viết.
+3. 🚫 **Không dựng cây nội dung khi chưa đủ mẫu.** Nguyên tắc: nếu mẫu còn thiên lệch về một trục thông điệp thì cần thêm hình mẫu thứ hai để so sánh góc nhìn, rồi cây nội dung mới có ý nghĩa. Bịa 18 nhánh cho đủ khuôn là đầu độc đúng cái kho ý tưởng bạn sẽ lấy ra viết.
 
 ---
 

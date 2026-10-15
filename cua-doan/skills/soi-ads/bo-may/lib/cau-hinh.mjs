@@ -1,4 +1,4 @@
-// Nạp luật + khoá. Không phụ thuộc npm — cùng lối với owner-os/*.mjs.
+// Nạp luật + khoá. Không phụ thuộc npm — không cần cài thêm gói nào.
 import { readFileSync, existsSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
@@ -30,7 +30,7 @@ export function docKhoa () {
 /**
  * Gom mọi ô còn `null` trong luat.json thành danh sách phẳng.
  * Dùng để CHẶN chạy khi chưa điền, thay vì để code tự đoán một con số.
- * Đây là luật chống bịa số ở wiki/ai-operating-preferences.md (Hard Don't #5)
+ * Đây là luật chống bịa số (xem wiki/ai-operating-preferences.md nếu bạn đã dựng)
  * viết thành code: thiếu dữ liệu thì dừng lại hỏi, không tự điền.
  */
 export function oConTrong (o, duong = '') {

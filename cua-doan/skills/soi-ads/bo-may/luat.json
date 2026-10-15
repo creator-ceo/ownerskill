@@ -1,9 +1,9 @@
 {
   "meta_ban": {
-    "moTa": "Luật vận hành của agent quảng cáo. MỌI ngưỡng và giới hạn nằm ở đây, KHÔNG hardcode trong .mjs — theo nguyên tắc 6 ở wiki/agent-harness-design.md.",
+    "moTa": "Luật vận hành của agent quảng cáo. MỌI ngưỡng và giới hạn nằm ở đây, KHÔNG hardcode trong .mjs.",
     "taoNgay": "2026-08-20",
     "doiLanCuoi": "2026-08-20",
-    "mucTieu": "Kéo lead vào webinar / lead magnet (Đoàn chốt 2026-08-20)"
+    "mucTieu": "Kéo lead vào webinar / lead magnet (do bạn chốt khi cài)"
   },
 
   "phienBanApi": {
@@ -50,7 +50,7 @@
       "doi_quyen_truy_cap"
     ],
 
-    "khungGioDuocGhi": { "tu": 6, "den": 22, "ghiChu": "Giờ Việt Nam. Ngoài khung này agent chỉ đọc, không ghi — để mọi thay đổi đều rơi vào lúc Đoàn còn thức mà can thiệp được." },
+    "khungGioDuocGhi": { "tu": 6, "den": 22, "ghiChu": "Giờ Việt Nam. Ngoài khung này agent chỉ đọc, không ghi — để mọi thay đổi đều rơi vào lúc bạn còn thức mà can thiệp được." },
 
     "soNgayDuLieuToiThieu": 3,
     "chiTieuToiThieuTruocKhiKetVnd": null,
@@ -71,6 +71,6 @@
   "nhipChay": {
     "keo": "mỗi sáng 8:00",
     "soi": "ngay sau khi keo xong",
-    "ap": "chỉ khi Đoàn gõ lệnh — KHÔNG tự chạy theo lịch (chốt 2026-08-20)"
+    "ap": "chỉ khi bạn gõ lệnh — KHÔNG tự chạy theo lịch (luật cứng)"
   }
 }

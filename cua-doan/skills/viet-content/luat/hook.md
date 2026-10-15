@@ -1,12 +1,8 @@
 # Hook — 8 kiểu và kỷ luật dùng hook
 
-> 📎 **Đọc file này thế nào.** Đây là luật nghề của Tô Hải Đoàn, đóng gói nguyên văn để bạn dùng.
-> Các liên kết dạng `[[tên-trang]]` trỏ tới những trang trong bộ não **của Đoàn**. Trang nào bộ não của bạn chưa có thì **bỏ qua liên kết đó** — đừng đoán nội dung của nó, và đừng bịa ra cho đủ. Muốn có trang tương đương thì tự dựng bằng `/nap-kho`.
-> Các ví dụ, con số và tên người trong file là **của Đoàn**, dùng để minh hoạ luật. 🚫 Tuyệt đối không bê chúng vào bài của bạn — đó là vi phạm chính luật cấm bịa ở đây.
+> 📎 **Đọc file này thế nào.** Đây là luật nghề về hook, dùng chung cho mọi ngách.
+> Các ví dụ, con số và tên người (nếu có) trong file chỉ để minh hoạ luật. 🚫 Tuyệt đối không bê chúng vào bài của bạn — đó là vi phạm chính luật cấm bịa ở đây.
 
-
-> **Nguồn:** rút từ `creator-dna/src/lib/hooks.ts` ngày 2026-07-29. Trước đó kiến thức này **chỉ tồn tại trong code** — `luat/loi-nghe.md` có nhắc "lớp hook đã có 8 kiểu với hướng dẫn nghề thật" nhưng không ai đọc được 8 kiểu đó ở đâu trong bộ não.
->
 > Đây là tầng **nghề chung** (học được, không đổi theo ngách), cùng hạng với 10 luật ở `luat/loi-nghe.md`. Khác với `wiki/voice-profile.md` là tầng *giọng riêng*.
 
 ---
@@ -26,7 +22,7 @@ Vì sao hẹp như vậy là cố ý:
 
 ## 8 kiểu hook
 
-Lấy từ chính **format hay dùng đã phân tích được ở hình mẫu của Đoàn** (xem [[content-modeling-playbook]] + phần `formats` trong phân tích hình mẫu 5 lớp) — **không phải** danh sách hook giật tít chung chung trên mạng.
+Lấy từ các định dạng hay dùng của những người làm nội dung giỏi, đã được bóc ra từ bài thật — **không phải** danh sách hook giật tít chung chung trên mạng.
 
 | # | Kiểu | Cách làm cho đúng |
 |---|---|---|
@@ -47,7 +43,7 @@ Cùng một cơ chế với 7 khung viết ở `luat/loi-nghe.md`: cho tự do t
 
 ### 5/7 khung viết chính là kiểu hook được nâng lên thành khung cả bài
 
-Truy nguyên 2026-07-30, khi Đoàn hỏi 7 khung ở `luat/loi-nghe.md` lấy từ đâu:
+Bảng dưới cho thấy 7 khung ở `luat/loi-nghe.md` lấy gốc từ đâu:
 
 | Khung viết | Kiểu hook gốc ở trang này |
 |---|---|
@@ -57,11 +53,9 @@ Truy nguyên 2026-07-30, khi Đoàn hỏi 7 khung ở `luat/loi-nghe.md` lấy t
 | Trước / sau của người khác | #6 Trước / sau |
 | Kể thẳng một chuyện | #3 Câu chuyện thật |
 
-Hai khung còn lại: **Chuyển hoá 5 bước** = công thức 5 bước của Đoàn ở `wiki/voice-profile.md` PHẦN 2. **Bóc một câu hỏi** — ⚠️ **không có nguồn nào trong bộ não**, không có trong 8 kiểu hook, không có trong `formats` của cả 4 hình mẫu ở [[models/matt-gray]] · [[models/nguyen-quang-khai]] · [[models/thao-tran]] · [[models/tran-manh-duc]]. Khung này là **nghĩ ra, không phải rút ra** — chờ Đoàn quyết giữ hay bỏ.
+Hai khung còn lại: **Chuyển hoá 5 bước** là công thức 5 bước ghi ở `wiki/voice-profile.md` của bạn (nếu đã có). **Bóc một câu hỏi** không rút từ 8 kiểu hook trên mà là khung phụ — dùng khi hợp, đừng coi nó là luật cứng.
 
-Chuỗi truy nguyên đầy đủ vì vậy là: **bài thật của 4 hình mẫu → phân tích `formats` → 8 kiểu hook → 5 khung viết.** Đây chính là bằng chứng cho đính chính ở `luat/loi-nghe.md`: khung và `formats` là cùng một loại, ranh giới là tần suất chứ không phải loại.
-
-⚠️ Còn một khoản nợ nữa: phần `guide` (hướng dẫn nghề) của **6/7 khung** không lấy từ nguồn nào — viết ra trong lúc code ngày 2026-07-29, chưa qua kiểm chứng bằng bài thật. Spec chỉ chốt cột *mạch*, và chỉ viết ra `guide` cho đúng khung 7. Đừng coi 6 `guide` kia là luật đã duyệt.
+Chuỗi gốc vì vậy là: **bài thật của những người làm nội dung giỏi → các định dạng hay dùng → 8 kiểu hook → các khung viết.** Khung và định dạng là cùng một loại, ranh giới chỉ là tần suất dùng.
 
 ### Kiểm chéo với luật lõi nghề
 
@@ -71,34 +65,31 @@ Ba kiểu có điều kiện, và điều kiện đều là **luật B1 (cấm b
 - Kiểu 5 cần sai lầm của chính mình → mượn sai lầm người khác là hỏng cả bài, không riêng hook.
 - Kiểu 1 cần thân bài đỡ được → xem luật **B2 (trả nợ cho thứ đã hứa)**.
 
-Kiểu 4 và 8 đòi **chữ của người đọc** — lấy ở [[target-customer]] và [[audience-insights]], không tự nghĩ ra.
+
+Kiểu 4 và 8 đòi **chữ của người đọc** — lấy từ chân dung khách hàng và những câu khách thật đã nói với bạn, không tự nghĩ ra.
 
 ---
 
 ## Vì sao KHÔNG chấm điểm hook bằng AI
 
-Đoàn đã chốt (2026-07-25): *"không chấm điểm giọng văn, nhưng chấm hook thì được"*.
+Chấm hook thì được, nhưng chấm bằng **thực tế**, không phải bằng điểm AI tự cho.
 
 **Chỗ rất dễ hiểu nhầm:** cho phép chấm **không có nghĩa** là để AI tự chấm bài của chính nó. AI chấm hook nó vừa viết ra chỉ là một con số tự khen — đúng loại *chính xác giả* mà quy trình soi bài đã cố ý bỏ đi.
 
 **Cái chấm được là THỰC TẾ:** bài nào đăng ra kéo được người đọc thì hook bài đó thắng. Có số liệu thật, không cần ai cho điểm.
 
-> Đây là một ca nữa của cùng một cơ chế đã ghi ở `log.md`: một câu chốt gọn ("chấm hook thì được") đọc rời ngữ cảnh sẽ dẫn tới đúng cái tác giả không định.
-
 ---
 
 ## Thư viện hook đã thắng
 
-Hook thắng lấy từ bài thật đã đăng, đưa ngược vào prompt làm **ví dụ thật của chính mình** — thay vì ví dụ vay mượn.
+Hook thắng lấy từ bài thật bạn đã đăng, đưa ngược vào prompt làm **ví dụ thật của chính mình** — thay vì ví dụ vay mượn.
 
 ### Lấy theo trục lan toả, KHÔNG lấy theo điểm tổng
 
-Đây là chỗ dễ làm sai nhất của cả tính năng.
-
-Theo ma trận 2 trục ở [[post-performance-framework]], hook thắng gồm **cả 🏆 Nhân bản LẪN ⚠️ Viral rỗng**:
+Đây là chỗ dễ làm sai nhất. Chia bài đã đăng theo 2 trục (lan toả và chuyển đổi), hook thắng gồm **cả hai ô sau**:
 
 - 🏆 Nhân bản — lan toả tốt, chuyển đổi tốt.
-- ⚠️ Viral rỗng — lan toả tốt, chuyển đổi kém. **Hook vẫn thắng**, vì hook chỉ chịu trách nhiệm kéo người vào. Chính lời khuyên của ô này đã nói: *"GIỮ NGUYÊN hook (nó đang chạy tốt), sửa phần sau"*.
+- ⚠️ Viral rỗng — lan toả tốt, chuyển đổi kém. **Hook vẫn thắng**, vì hook chỉ chịu trách nhiệm kéo người vào. Lời khuyên cho ô này là: *giữ nguyên hook (nó đang chạy tốt), sửa phần sau*.
 
 Lọc theo *điểm tổng* thay vì theo *trục lan toả* sẽ **vứt mất đúng một nửa số hook đã được thực tế chứng minh**.
 
@@ -110,17 +101,17 @@ Ba chốt chặn, cả ba đều để tránh biến vài bài lẻ thành "quy 
 2. Kiểu dẫn đầu phải xuất hiện **từ 2 lần trở lên**. Mỗi kiểu đúng 1 lần = không kiểu nào thắng.
 3. **Hoà nhau thì không kết luận gì.** Câu "3 trong 6 hook thắng là kiểu X" vẫn đúng số học khi kiểu Y cũng có 3 — nhưng người đọc sẽ hiểu X hơn Y rồi viết theo X. *Nói một sự thật theo cách dẫn tới kết luận sai thì cũng là nói sai.*
 
-⚠️ Kiểu hook chỉ được ghi lại khi hook do tool sinh ra và người dùng bấm áp vào bài. Bài viết tay hoặc bài cũ hơn tính năng thì **không suy ngược ra được**. Nên rất lâu lúc đầu sẽ không có kết luận nào — **và như vậy là đúng**.
+⚠️ Chỉ tính những bài bạn đã ghi lại kiểu hook khi đăng. Bài cũ chưa ghi thì **không suy ngược ra được**. Nên lúc đầu sẽ chưa có kết luận nào — **và như vậy là đúng**.
 
 ---
 
 ## Vay từ hình mẫu — ba kỹ thuật đo được, không phải cảm nhận
 
-> Nạp 2026-08-08 từ [[models/matt-gray]]. **Đây là KỸ THUẬT, không phải hook để chép.** Câu chữ, con số, chuyện phải là của Đoàn — luật **B1** và **C5** ở `luat/loi-nghe.md`.
+> **Đây là KỸ THUẬT, không phải hook để chép.** Câu chữ, con số, chuyện phải là của bạn — luật **B1** và **C5** ở `luat/loi-nghe.md`.
 
 ### 1. Viết 5 tiêu đề cho MỘT nội dung, theo 5 trục kéo khác nhau, rồi mới chọn
 
-Matt Gray để lộ nguyên khối *"Video title ideas (for the algo)"* trong **75/165** mô tả podcast công khai. Ví dụ, cùng một tập về deep work:
+Một người làm nội dung quốc tế để lộ nguyên khối "video title ideas" trong phần mô tả podcast của họ (75/165 tập quét được). Ví dụ, cùng một tập về làm việc sâu:
 
 | Trục kéo | Tiêu đề |
 |---|---|
@@ -130,7 +121,7 @@ Matt Gray để lộ nguyên khối *"Video title ideas (for the algo)"* trong *
 | Quyền lực | *The 4-Hour Deep Work System That Runs My Empire* |
 | So sánh | *How to Get More Done in 4 Hours Than Most Do in 4 Days* |
 
-⚡ Đây là **bài tập đặt hook có sẵn đáp án**: một nội dung, năm cách kéo. Áp được ngay vào tính năng sinh 8 hook ở [[projects/creator-os]]. Kho đầy đủ 50 khối / 238 dòng nằm ở `raw/matt-gray-rss-165-tap-2026-08-08.md`.
+⚡ Đây là **bài tập đặt hook có sẵn đáp án**: một nội dung, năm cách kéo. Áp thẳng được khi bạn cần nhiều phương án hook cho một bài.
 
 ### 2. Công thức ngoặc đơn + dấu hai chấm (dạng ảnh bìa / carousel)
 
@@ -138,11 +129,12 @@ Ngoặc đơn nói rõ **phần thưởng** hoặc **điều kiện**; dấu hai
 
 > *…in 30 days **(if I lost it all tomorrow)**:* · *…personal brand **(find your level in 30 seconds)**:* · *…**(and the one belief that separates them)**:* · *…**(in 5 simple steps)*** · ***(Steal my structure)***
 
-Khác vai với hook bài viết: hook bài viết giữ người **đọc tiếp**; hook ảnh bìa giữ người **vuốt tiếp**. Đoàn đang làm carousel qua skill `anh-quote` — đây là khuôn cho dòng đầu.
+
+Khác vai với hook bài viết: hook bài viết giữ người **đọc tiếp**; hook ảnh bìa giữ người **vuốt tiếp**. Đây là khuôn cho dòng đầu của ảnh bìa và carousel.
 
 ### 3. Công thức mở bài mạnh nhất đo được: **"Số đông nghĩ X. Không phải."**
 
-Đọc tận nơi 10 bài LinkedIn gần nhất (2026-08-08): **4/10 = 40%** mở bằng đúng khuôn này.
+Trong 10 bài LinkedIn gần nhất của người làm nội dung này: **4/10 = 40%** mở bằng đúng khuôn này.
 
 > *"**Most founders think** clarity comes from more planning. It doesn't. It comes from fewer questions, asked better."*
 > *"**Most people don't have** a focus problem. They have a direction problem."*
@@ -152,13 +144,13 @@ Khuôn ba nhịp: **nêu niềm tin số đông → phủ nhận cụt lủn →
 
 Họ hàng gần với *"It's not X, it's Y"* (33% theo MagicPost) — cùng một động tác, khác cách xuống dòng.
 
-⚠️ **Chỗ phải cẩn thận với Đoàn:** khuôn này chỉ đúng khi **cái "số đông nghĩ" là thật**. Bịa một niềm tin số đông để phủ nhận cho oai là rơi vào đúng thứ [[contrarian-beliefs]] cảnh báo — trái chiều rỗng. Phải rút từ [[objections-library]] hoặc ghi chép 1-1 thật.
+⚠️ **Chỗ phải cẩn thận:** khuôn này chỉ đúng khi **cái "số đông nghĩ" là thật**. Bịa một niềm tin số đông để phủ nhận cho oai là rơi vào kiểu trái chiều rỗng. Phải rút từ những lời phản đối hoặc hiểu lầm khách thật đã nói với bạn.
 
-**Và 7/10 dòng mở kết bằng DẤU HAI CHẤM** — giống hệt công thức ảnh bìa Instagram ở mục 2. Trên hai kênh khác nhau, cùng một thủ pháp: **câu đầu không nói gì trọn vẹn, nó chỉ mở cửa.**
+**Và 7/10 dòng mở kết bằng DẤU HAI CHẤM** — giống hệt công thức ảnh bìa ở mục 2. Trên hai kênh khác nhau, cùng một thủ pháp: **câu đầu không nói gì trọn vẹn, nó chỉ mở cửa.**
 
 ### 4. Số đo văn phong để chấm hook — có mốc so sánh
 
-| Chỉ số | Matt Gray | Mặt bằng creator |
+| Chỉ số | Người làm nội dung này | Mặt bằng |
 |---|---|---|
 | Mở bài bằng CON SỐ | **40%** | 22% |
 | Công thức "It's not X, it's Y" | 33% | — |
@@ -168,9 +160,9 @@ Họ hàng gần với *"It's not X, it's Y"* (33% theo MagicPost) — cùng m�
 
 ⚡ **Nghịch lý đáng chép nhất:** bài dài **gấp đôi** mặt bằng (402 từ vs 185) nhưng đọc thấy nhanh, vì câu 8 từ. **Dài mà lướt được** — không phải chọn giữa dài và dễ đọc.
 
-⚠️ Ba bảng trên là **số của người khác đo** (MagicPost quét 758 bài), trừ dòng "how" là em tự đếm. Dùng làm **mốc so sánh**, đừng dùng làm mục tiêu — [[contrarian-beliefs]] belief số 6.
+⚠️ Các số trên là **số của người khác đo** (một khảo sát bên ngoài quét 758 bài), trừ dòng "how" là tự đếm. Dùng làm **mốc so sánh**, đừng dùng làm mục tiêu.
 
 ---
 
 ## Links
-`luat/loi-nghe.md` · `luat/vi-du-luat-rieng.md` · `wiki/voice-profile.md` · [[post-performance-framework]] · [[story-selection-protocol]] · [[content-modeling-playbook]] · [[target-customer]] · [[audience-insights]] · [[projects/creator-os]] · [[models/matt-gray]]
+`luat/loi-nghe.md` · `luat/vi-du-luat-rieng.md` · `wiki/voice-profile.md`

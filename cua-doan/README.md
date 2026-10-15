@@ -1,13 +1,27 @@
-# ⭐ Skill của Tô Hải Đoàn — 10 skill
+# ⭐ Skill của Tô Hải Đoàn — 19 skill
 
 Do Tô Hải Đoàn tự nghiên cứu, tự dùng cho công việc thật, rồi đóng gói lại. Không lấy từ nguồn nào.
+
+## Bắt đầu
+
+| Skill | Làm gì | Chạy khi |
+|---|---|---|
+| `/chay-chuoi-dau-tien` | Cho biết bạn đang ở bước nào trong năm bước dựng đội, rồi dẫn chạy trọn một vòng tới video | Vừa cài xong, chưa biết bắt đầu từ đâu |
+
+## Dựng đội theo thứ tự — năm bước
+
+| Bước | Skill | Dựng vai |
+|---|---|---|
+| 1 | `/cai-thu-thu` | 🗂️ Thủ thư: dựng kho, dạy nạp bằng `/nap-kho` |
+| 2 | `/cai-nghien-cuu` | 🔎 Nghiên cứu: hiểu khách và đối thủ |
+| 3 | `/cai-tong-giam-doc` | 🧭 Tổng giám đốc: chốt mục tiêu, việc của tháng |
+| 4 | `/cai-content` | ✍️ Content: giọng, chuyện, kế hoạch, bài đầu tiên |
+| 5 | `/cai-editor` *(gói `cua-doan-video`)* | 🎞️ Editor: dựng video |
 
 ## Dựng và nuôi bộ não thứ 2
 
 | Skill | Làm gì | Chạy khi |
 |---|---|---|
-| `/banh-xe-cuoc-doi` | Bánh Xe Cuộc Đời 8 khía cạnh + kế hoạch 10 năm / 90 ngày | **Việc đầu tiên.** Công cụ Đoàn dùng từ 2015 |
-| `/onboard` | Dựng `wiki/` lần đầu — thu tài liệu có sẵn, phỏng vấn lấp chỗ trống, dựng theo 3 vòng | Ngay sau bánh xe |
 | `/kiem-chung` | Kiểm chứng bộ não đã **lưu thật vào file** chưa | Sau khi dựng, và sau mỗi lần nạp khối lớn |
 | `/nap-kho` | **Đường ghi DUY NHẤT vào `wiki/`** — đọc, phân tích, soi trùng, rồi mới ghi | Mỗi khi có chuyện/insight mới |
 
@@ -19,6 +33,9 @@ Do Tô Hải Đoàn tự nghiên cứu, tự dùng cho công việc thật, rồ
 | `/anh-quote` | Biến một câu thành ảnh đăng | Chrome trên máy. Không cần `npm install` |
 | `/giai-thich-de-hieu` | Biến khái niệm khó thành **một trang có hình** | — |
 | `/soi-ads` | Soi và tối ưu quảng cáo Meta + Google, có lớp chặn cứng | Tự điền khoá API vào `bo-may/.khoa/` |
+| `/lam-khoa-hoc` | Viết bài giảng, slide, kịch bản quay, bài tập | Bộ não có chân dung khách |
+| `/nghien-cuu-e5` | Nghiên cứu khách và đối thủ theo phương pháp E5 | Nên chạy trước khi dựng offer |
+| `/tim-tam-guong` | Tìm người thật làm bằng chứng cho một ý | — |
 
 ## Nghiên cứu người khác — hai skill, hai việc KHÁC HẲN
 
@@ -66,4 +83,4 @@ Khác các skill còn lại, `/viet-content` có thư mục `luat/` — 832 dòn
 
 ⚠️ Ví dụ và con số trong đó là **của Đoàn**, để minh hoạ luật. Đừng bê vào bài của bạn — đó là vi phạm chính luật cấm bịa mà chúng đang dạy.
 
-🚫 **Skill này không phát giọng của Đoàn.** Nó dạy *nghề*. Giọng của bạn nằm ở `wiki/voice-profile.md` — dựng bằng `/onboard`, hoặc nạp 5–10 bài bạn đã viết qua `/nap-kho`.
+🚫 **Skill này không phát giọng của Đoàn.** Nó dạy *nghề*. Giọng của bạn nằm ở `wiki/voice-profile.md` — dựng bằng `/cai-content`, hoặc nạp 5–10 bài bạn đã viết qua `/nap-kho`.

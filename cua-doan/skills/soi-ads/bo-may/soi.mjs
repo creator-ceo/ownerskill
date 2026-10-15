@@ -16,7 +16,7 @@ if (!ten) { console.log(`Chưa có ảnh chụp ${gia ? 'giả' : 'thật'}. Ch�
 const anh = JSON.parse(readFileSync(join(thuMuc, ten), 'utf8'))
 
 const luat = docLuat()
-// Ngưỡng MẪU chỉ dùng cho chế độ giả. Số thật phải do Đoàn chốt — code không được
+// Ngưỡng MẪU chỉ dùng cho chế độ giả. Số thật phải do chủ tài khoản chốt — code không được
 // tự đặt giá trị nào vào luat.json (Hard Don't #5: cấm bịa số).
 const NGUONG_MAU = { cplMucTieuVnd: 50_000, cplXauGapMay: 2.0, cplTotGapMay: 0.6, ctrThapNguong: 0.008, tanSuatCaoNguong: 2.5, soLeadToiThieuDeTinCpl: 5 }
 const GIOI_HAN_MAU = { soNgayDuLieuToiThieu: 3, chiTieuToiThieuTruocKhiKetVnd: 300_000, doiNganSachToiDaPhanTram: 20, nganSachSanToiThieuVnd: 100_000, nganSachSanToiDaVnd: 800_000 }

@@ -1,19 +1,15 @@
 # Dấu hiệu bài do AI viết
 
-> 📎 **Đọc file này thế nào.** Đây là luật nghề của Tô Hải Đoàn, đóng gói nguyên văn để bạn dùng.
-> Các liên kết dạng `[[tên-trang]]` trỏ tới những trang trong bộ não **của Đoàn**. Trang nào bộ não của bạn chưa có thì **bỏ qua liên kết đó** — đừng đoán nội dung của nó, và đừng bịa ra cho đủ. Muốn có trang tương đương thì tự dựng bằng `/nap-kho`.
-> Các ví dụ, con số và tên người trong file là **của Đoàn**, dùng để minh hoạ luật. 🚫 Tuyệt đối không bê chúng vào bài của bạn — đó là vi phạm chính luật cấm bịa ở đây.
-
+> 📎 **Đọc file này thế nào.** Đây là luật nghề về nhận diện và tránh văn AI, dùng chung cho mọi ngách.
+> Các ví dụ, con số trong file chỉ để minh hoạ luật. 🚫 Tuyệt đối không bê chúng vào bài của bạn — đó là vi phạm chính luật cấm bịa.
 
 > Xếp theo **thứ tự người đọc phát hiện ra** — từ nhìn phát biết, tới chỉ thấy nhạt mà không chỉ được vì sao.
-> Nguồn: chính AI tự khai (2026-08-05), theo yêu cầu của Đoàn. Không phải danh sách chép trên mạng — phần lớn danh sách tiếng Anh nói về "delve", "tapestry", "In conclusion", vô dụng với văn Facebook tiếng Việt.
+> Nguồn: do chính AI tự khai khi được yêu cầu. Không phải danh sách chép trên mạng — phần lớn danh sách tiếng Anh nói về "delve", "tapestry", "In conclusion", vô dụng với văn Facebook tiếng Việt.
 > Quan hệ với `luat/loi-nghe.md`: trang này là **nguyên liệu**, không phải luật. Luật C1 và C3 trỏ tới đây thay vì nhồi cả danh sách vào 10 luật.
 
-## ⚠️ Ràng buộc hai chiều với code
+## ⚠️ Danh sách sẽ mòn
 
-Phần "soi được bằng máy" ở cuối trang được **chép** vào `creator-dna/src/lib/ai-tells.ts`. Sửa một bên phải sửa bên kia — cùng kiểu ràng buộc đã có với `luat/loi-nghe.md` ↔ `src/lib/writing-craft.ts`.
-
-⚡ **Danh sách từ sẽ mòn, cơ chế thì không.** AI né được đúng những chữ bị cấm rồi đẻ ra bộ chữ mới trong vài tháng. Nên mục *"Vì sao AI lại thế"* ở cuối trang quan trọng hơn cả bốn tầng cộng lại — nó là thứ suy ra được dấu hiệu mới khi danh sách này hết thời.
+**Danh sách từ sẽ mòn, cơ chế thì không.** AI né được đúng những chữ bị cấm rồi đẻ ra bộ chữ mới trong vài tháng. Nên mục *"Vì sao AI lại thế"* ở cuối trang quan trọng hơn cả bốn tầng cộng lại — nó là thứ suy ra được dấu hiệu mới khi danh sách này hết thời.
 
 ---
 
@@ -22,9 +18,9 @@ Phần "soi được bằng máy" ở cuối trang được **chép** vào `crea
 - **Đoạn nào cũng dài bằng nhau**, 3–4 dòng, đều tăm tắp. Người thật có đoạn một dòng, có đoạn tám dòng.
 - **Danh sách các mục cân đối bất thường** — mục nào cũng chừng ấy chữ, cùng dạng ngữ pháp.
 - **Emoji đặt đều đầu mỗi gạch đầu dòng.** Người thật thả emoji lộn xộn, chỗ có chỗ không.
-- **Dấu gạch ngang dài `—` `–`.** Người viết Facebook trên điện thoại gần như không gõ ra được. Dấu vân tay rõ nhất. (Đoàn đã cấm sẵn ở `wiki/voice-profile.md` PHẦN 6 — luật chủ ý, đừng "sửa" vì thấy dữ liệu ngược.)
+- **Dấu gạch ngang dài `—` `–`.** Người viết Facebook trên điện thoại gần như không gõ ra được. Dấu vân tay rõ nhất. (Nếu `wiki/voice-profile.md` của bạn đã cấm sẵn dấu này thì đó là luật chủ ý, cứ giữ.)
 - **Dấu ba chấm `…` một ký tự** thay vì `...` gõ tay.
-  🔴 **NGOẠI LỆ BẮT BUỘC ĐỌC — với Đoàn thì dấu hiệu này ĐẢO CHIỀU.** `wiki/voice-profile.md` PHẦN 4B mục 1 xếp `…` là **vân tay giọng văn số một** của Đoàn, dùng để treo người đọc nửa giây trước cú đập (*"đánh cược toàn bộ số tiền cuối cùng của mình chỉ vào… một chiếc video"*), có 5 trích dẫn thật đỡ và đã đối chiếu khớp với 19 bài nguyên văn. Soi bài của Đoàn mà bật cờ ở dấu `…` là **bắt nhầm đúng cái đặc trưng nhất**. Luật xử: `…` đứng **trước cú đập / trước vế lật** thì để yên; `…` dùng để **bỏ lửng cho có vẻ sâu sắc** thì mới là dấu hiệu AI.
+  🔴 **NGOẠI LỆ BẮT BUỘC ĐỌC — với một số người viết, dấu hiệu này ĐẢO CHIỀU.** Nếu `wiki/voice-profile.md` của bạn ghi `…` là một nét giọng có chủ ý (dùng để treo người đọc nửa giây trước cú đập, ví dụ *"đánh cược toàn bộ số tiền cuối cùng của mình chỉ vào… một chiếc video"*) thì soi bài của bạn mà bật cờ ở dấu `…` là **bắt nhầm đúng nét đặc trưng nhất**. Luật xử: `…` đứng **trước cú đập / trước vế lật** thì để yên; `…` dùng để **bỏ lửng cho có vẻ sâu sắc** thì mới là dấu hiệu AI.
 - **In đậm rải đều**, mỗi đoạn một cụm.
 - **Không một lỗi chính tả, không thiếu dấu, không viết tắt.** Bài 800 chữ sạch tuyệt đối là bất thường.
 
@@ -79,22 +75,20 @@ Phần "soi được bằng máy" ở cuối trang được **chép** vào `crea
 - ⚡ **Thiếu chỗ dây dưa — câu nào cũng vừa vặn.** Dấu hiệu này **không nằm ở từ ngữ mà ở độ chỉn chu của câu**, nên nó sống sót qua mọi bộ lọc từ cấm. AI gọt câu cho gọn và cân đối vì đó là bản năng của model; người thật viết tới đâu đủ ý tới đó, thừa vế cũng kệ.
   Chỗ dễ nhận nhất là **câu punchline ngắn đứng riêng** — kiểu *"Không sớm sủa gì. Nhưng kịp."* Đọc lên thấy đắt, thấy vừa khít. Đó là giọng copywriter, không phải giọng người đang kể chuyện.
   ⚠️ **Phân biệt với câu ngắn thật:** câu ngắn **rơi ra tự nhiên từ mạch nói** (lặp cấu trúc trong chuỗi liệt kê: *"Cũng nhìn, cũng thôi."* · *"Lần đầu gặp nhau. Lần đầu thi đấu kiểu này."*) thì đúng và đẹp. Cái sai là câu ngắn **được gọt** cho đắt.
-  📌 Đo trên 19 bài Facebook nguyên văn của Đoàn (`raw/kho-bai-viet-facebook-NGUYEN-VAN-2026-08-09.md`): câu dài nhất **57 · 53 · 50 · 50 · 47 từ**, nối bằng *"và… và…"*, không cắt; câu dưới 5 từ đứng riêng **chỉ có 1** trong cả 19 bài. Nguồn: Đoàn nói trực tiếp 2026-08-09 — *"tôi không bao giờ viết gọn gàng… lúc nào tôi cũng sẽ sử dụng cái từ ngữ nó đủ."* Bản đầy đủ ở `wiki/voice-profile.md` PHẦN 4B mục 11.
+  📌 Một phép đo trên 19 bài Facebook viết tay của một người viết: câu dài nhất **57 · 53 · 50 · 50 · 47 từ**, nối bằng *"và… và…"*, không cắt; câu dưới 5 từ đứng riêng **chỉ có 1** trong cả 19 bài. Người viết thật cứ dùng từ cho đủ ý, không gọt cho gọn.
 
-### ⚡ Hai luật của chính mình đang đẩy bài về phía AI
-
-Phát hiện 2026-08-05, chưa sửa, chờ Đoàn quyết:
+### ⚡ Hai luật trong bộ luật này có thể đẩy bài về phía AI
 
 - **B2** (*trả nợ cho thứ đã hứa*) và **B3** (*một bài một thông điệp — thà bỏ ba ý hay còn hơn nhồi bốn ý nửa vời*) đều bảo: cắt mọi thứ không phục vụ thông điệp.
 - Làm đúng cả hai một cách hoàn hảo thì ra một bài **không còn chi tiết thừa nào** — đúng dấu hiệu đầu tiên của tầng 4.
 
-Đây không phải lỗi của B2/B3 — hai luật đó đúng và cần. Nhưng chúng cần một đối trọng, và hiện không có. Xem đề xuất luật C6 ở mục dưới.
+Đây không phải lỗi của B2/B3 — hai luật đó đúng và cần. Nhưng chúng cần một đối trọng, xem luật C6 ở mục dưới.
 
 ---
 
-## Vay từ Wikipedia — 4 cơ chế trang này chưa có *(nạp 2026-08-09)*
+## Vay từ Wikipedia — 4 cơ chế trang này chưa có
 
-> **Nguồn:** essay *Wikipedia:Signs of AI writing* của cộng đồng Wikipedia. Đoàn chỉ nguồn này 2026-08-09 để dùng cho bước giám khảo.
+> **Nguồn:** essay công khai *Wikipedia:Signs of AI writing* của cộng đồng Wikipedia.
 >
 > ⚠️ **Đã lọc, không bê nguyên.** Essay gốc dài và phần lớn **không dùng được**: markup wikitext, DOI/ISBN hỏng, heading nhảy cấp, template thiếu — đó là chuyện của Wikipedia, bài Facebook không có. Danh sách từ tiếng Anh (*delve · tapestry · underscore · boasts*) cũng vô dụng trực tiếp, đúng như cảnh báo ở đầu trang này.
 > **Cách lọc:** chỉ giữ **cơ chế** dịch được sang văn Việt, và **bỏ 6 cơ chế trang này đã có** (nhịp ba · in đậm rải đều · em-dash · động từ nhạt · cân bằng giả · từ sang trọng). Còn lại đúng 4 cái dưới đây.
@@ -138,7 +132,7 @@ Tầng 2 đã bắt *"Không phải X. Không phải Y. Mà là Z."* Essay tách
 2. **"Không phải X, mà là Y"** — phủ định để định nghĩa
 3. **"X hơn là Y"** — ép người đọc chọn một bên
 
-⚠️ Cả ba **đều dùng được khi thật sự cần làm rõ**. `writing-craft-core` C3 đã chốt: cấm khi **lặp quá một lần** trong bài, không cấm tuyệt đối.
+⚠️ Cả ba **đều dùng được khi thật sự cần làm rõ**. Luật C3 ở `luat/loi-nghe.md` chốt: cấm khi **lặp quá một lần** trong bài, không cấm tuyệt đối.
 
 ---
 
@@ -155,7 +149,7 @@ Cơ chế 4 đúng là thứ luật **C5** đang chặn: *"thứ không thay đ�
 
 ---
 
-## Đề xuất luật C6 — CHƯA DUYỆT
+## Luật bổ sung C6 — bản nháp, dùng thử
 
 Tầng 1–3 đã có chỗ trong 10 luật (C1 lo nhịp, C3 lo khuôn mòn) hoặc soi được bằng máy. **Tầng 4 thì không**, và còn bị B2/B3 đẩy ngược.
 
@@ -176,20 +170,20 @@ C6. ĐỂ LẠI DẤU TAY. Bài quá sạch là bài không ai viết.
     ra văn AI. C6 giữ lại đúng một chỗ cho người thật.
 ```
 
-⚠️ **Chỗ C6 có thể hỏng:** nó cho phép giữ chi tiết thừa, mà AI thì rất giỏi *bịa ra* chi tiết thừa nghe như thật. Nếu duyệt C6 thì phải kèm dòng neo vào B1 giống cách C5 đã làm: **không có chi tiết thật thì bỏ trống, đừng chế ra một cơn mưa.**
+⚠️ **Chỗ C6 có thể hỏng:** nó cho phép giữ chi tiết thừa, mà AI thì rất giỏi *bịa ra* chi tiết thừa nghe như thật. Khi dùng C6 phải kèm dòng neo vào B1 giống cách C5 đã làm: **không có chi tiết thật thì bỏ trống, đừng chế ra một cơn mưa.**
 
 ---
 
 ## Soi được bằng máy — không cần gọi AI, không tốn credit
 
-Chép vào `creator-dna/src/lib/ai-tells.ts`. Chia hai mức vì lý do thật: bật cờ đỏ cho mọi thứ thì người dùng tắt luôn tính năng.
+Các dấu hiệu dưới đây có thể soi bằng cách đếm đơn giản. Chia hai mức vì lý do thật: bật cờ đỏ cho mọi thứ thì người viết sẽ bỏ luôn việc soi.
 
 **Mức "chắc":** dấu hiệu gần như không xuất hiện trong văn Facebook viết tay.
 
 | Mã | Soi gì |
 |---|---|
 | `dash` | `—` `–` |
-| `ellipsis` | `…` một ký tự — ⚠️ **phải đối chiếu hồ sơ giọng của user trước khi kết luận**, xem ngoại lệ ở Tầng 1 |
+| `ellipsis` | `…` một ký tự — ⚠️ **phải đối chiếu hồ sơ giọng của người viết trước khi kết luận**, xem ngoại lệ ở Tầng 1 |
 | `mot_cach` | "một cách" + tính từ |
 | `danh_tu_hoa` | "sự/việc" + động từ danh từ hoá |
 | `chu_ngu_trong` | câu mở bằng "Điều này / Việc này / Thứ này" |
@@ -204,26 +198,8 @@ Chép vào `creator-dna/src/lib/ai-tells.ts`. Chia hai mức vì lý do thật: 
 | `danh_sach_dai` | danh sách quá 4 mục (C1 đã cấm) |
 | `so_tron` | toàn số tròn, không có số lẻ nào |
 
-⚠️ **Ngưỡng của `cau_deu` và `doan_deu` là số phỏng đoán**, chưa hiệu chỉnh trên bài thật của Đoàn. Nếu nó kêu ở mọi bài thì chỉnh ngưỡng, đừng bỏ luật.
-
-## ✅ Trang này ĐANG ĐƯỢC DÙNG THẬT làm tài liệu huấn luyện — Đoàn xác nhận trên màn hình *(2026-08-26)*
-
-> **Nguồn:** `raw/meeting-notes/zoom/2026-08-26-1449-ai-tao-hay-tieu-thu-nut-that-transcript.md` mốc `[02:09:08 → 02:09:43]`. Đoàn mở chính trang này ra cho một nhóm người xem trong lúc demo skill viết bài.
-
-> *"Em còn biết là những cái wiki này — anh em sẽ khó để biết lắm: **dấu hiệu của AI viết**. Có hẳn một trang wiki nói về việc dấu hiệu của việc AI viết, tất cả những dấu hiệu rất nhỏ, trong này nó liệt kê ra hết. **Em dùng nguyên tài liệu đấy, dài như thế này, em huấn luyện cho con AI của em** — để nó đọc hết ở đây, và tất cả những bài viết của em **phải không được vi phạm vào đây**, không được có dấu hiệu nào của AI viết. Thì làm sao mà có chuyện nhận ra được. Nhưng mà **rất ít người làm như thế.**"*
-
-**Ba thứ mục này chốt lại cho kho:**
-
-| | |
-|---|---|
-| **Trang này không còn là tài liệu tham chiếu** | nó là **prompt/tài liệu huấn luyện đang chạy** trong skill viết bài của Đoàn. Sửa nội dung ở đây là **đổi hành vi của công cụ đang sản xuất bài thật** — cùng loại ràng buộc với `creator-dna/src/lib/ai-tells.ts` ở mục ⚠️ trên, nhưng chặt hơn: bên kia là code có thể lệch, bên này Đoàn nạp **nguyên trang** |
-| **Cách dùng là "không được vi phạm"** | tức dùng như một **danh sách cấm**, không phải gợi ý. Đây là lý do mục *"Vì sao AI lại thế"* ở cuối trang phải giữ được — danh sách cấm mà hết thời thì skill vẫn chạy, chỉ là chạy sai |
-| **Kết quả anh tự chấm** | *"tất cả những bài mà em viết rất khó để thấy được mùi của AI… tại vì em huấn luyện nó rất là kỹ"*, và bài anh demo trong buổi là **AI viết, không sửa một chữ**: *"em không sửa chữa chữ nào."* ⬜ Chưa có ai ngoài Đoàn kiểm chứng lại — `[cần bổ sung: một lượt soi độc lập trên bài AI viết mới nhất]` |
-
-⚠️ **Nhưng anh KHÔNG để nó tự đăng** — dây chuyền dừng trước cửa xuất bản: *"em chỉ tự động để đưa vào đây và em vẫn sẽ duyệt lại một lần nữa chứ em không muốn tự đăng hết. Tại vì bây giờ **em không theo môn số lượng nữa**, em làm theo kiểu rất chất lượng."* Cùng một hình dáng với luật *"chỉ một đường ghi, có người duyệt"* của `/nap-kho`.
-
-📌 Nối `luat/loi-nghe.md` · [[projects/creator-os]] · [[teachings/ai-framework]] §Bài nói 3h30.
+⚠️ **Ngưỡng của `cau_deu` và `doan_deu` là số phỏng đoán**, chưa hiệu chỉnh trên bài thật của bạn. Nếu nó kêu ở mọi bài thì chỉnh ngưỡng, đừng bỏ luật.
 
 ## Links
 
-`luat/loi-nghe.md` · `luat/vi-du-luat-rieng.md` · `wiki/voice-profile.md` · `luat/hook.md` · [[projects/creator-os]] · [[teachings/thoi-mien-bang-ngon-tu]]
+`luat/loi-nghe.md` · `luat/vi-du-luat-rieng.md` · `wiki/voice-profile.md` · `luat/hook.md`
