@@ -1,48 +1,52 @@
 # Creator Skills
 
-**63 skill cho người kinh doanh dựa trên thương hiệu cá nhân.** Cài vào Claude Code một lần, dùng mãi.
+**63 skill cho người làm thương hiệu cá nhân, chia theo từng vai trong một đội nhân sự A.I.** Mỗi vai là một gói riêng, bạn chọn vai cần và cài riêng từng vai.
 
-Gói này chia làm **hai nhóm tách bạch**, và sự tách bạch đó là cố ý:
+Gói chia làm hai nhóm tách bạch, và sự tách bạch đó là cố ý:
 
 | Nhóm | Số skill | Là gì | Ngôn ngữ |
 |---|---|---|---|
-| ⭐ **`cua-doan`** | 19 | Do **Tô Hải Đoàn** tự nghiên cứu, tự dùng cho công việc thật, rồi đóng gói lại | Tiếng Việt |
-| 🎬 **`cua-doan-video`** | 3 | Làm video: dựng người ngồi nói trước ống kính, lập kho cảnh quay, cài vai Editor | Tiếng Việt |
+| ⭐ **Tám vai của Tô Hải Đoàn** | 22 | Do **Tô Hải Đoàn** tự nghiên cứu, tự dùng cho công việc thật, rồi đóng gói lại. Mỗi vai một gói | Tiếng Việt |
 | **`tong-hop`** | 41 | Tuyển chọn từ nguồn mở MIT chất lượng cao, giữ nguyên không sửa | Tiếng Anh |
 
-Bạn cài được một nhóm, hoặc cả hai.
-
----
-
 ## Cài trong 2 phút
+
+Thêm kho một lần:
 
 ```bash
 claude plugin marketplace add creator-ceo/creator-skills
 ```
 
-Rồi cài nhóm bạn muốn:
+Rồi cài **đúng vai bạn cần**, mỗi vai một dòng. Vai Thủ thư cài trước, vì các vai khác đọc và ghi vào kho của nó:
 
 ```bash
-claude plugin install cua-doan@creator-skills
+claude plugin install thu-thu@creator-skills
 ```
 
 ```bash
-claude plugin install cua-doan-video@creator-skills
+claude plugin install content@creator-skills
 ```
 
-```bash
-claude plugin install tong-hop@creator-skills
-```
+Mỗi vai có một lệnh thiết lập riêng (`/cai-thu-thu`, `/cai-content`…). Gõ lệnh đó một lần sau khi cài để vai biết về bạn. Rồi dùng skill của vai hằng ngày.
 
-Mở Claude Code lên, gõ `/` — bạn sẽ thấy các skill mới trong danh sách.
+| Gói | Vai | Skill | Làm gì |
+|---|---|---|---|
+| `thu-thu` | 🗂️ Thủ thư | `/cai-thu-thu` · `/nap-kho` · `/kiem-chung` · `/chay-chuoi-dau-tien` | Dựng và giữ kho tài liệu. **Cài đầu tiên**, các vai khác đọc từ kho này |
+| `nghien-cuu` | 🔎 Nghiên cứu | `/cai-nghien-cuu` · `/nghien-cuu-e5` · `/tim-tam-guong` · `/soi-hinh-mau` · `/soi-doi-thu` | Hiểu khách, đối thủ, hình mẫu |
+| `tong-giam-doc` | 🧭 Tổng giám đốc | `/cai-tong-giam-doc` · `/dieu-hanh` | Chốt mục tiêu 90 ngày, nút thắt, việc của tháng |
+| `content` | ✍️ Content | `/cai-content` · `/viet-content` | Bài, hook, kịch bản, email, kế hoạch content một tháng đúng giọng bạn |
+| `editor` | 🎞️ Editor | `/cai-editor` · `/dung-video` · `/xuong-video` · `/anh-quote` | Dựng video, kho cảnh quay, ảnh đăng. Dựng video chỉ chạy trên Mac chip Apple, cần ffmpeg |
+| `ban-hang` | 💰 Bán hàng | `/ban-hang` · `/soi-ads` | Offer, trang bán, email bán, phễu, quảng cáo |
+| `cham-soc` | 🤝 Chăm sóc | `/cham-soc` | Lo người đã trả tiền tới khi ra kết quả |
+| `phat-trien-san-pham` | 📦 Phát triển sản phẩm | `/lam-khoa-hoc` · `/giai-thich-de-hieu` | Bài giảng, slide, bài tập, trang giải thích bằng hình |
 
-> 💡 Chưa quen dùng dòng lệnh? Đọc [BAT-DAU-TU-DAY.md](BAT-DAU-TU-DAY.md) — từng bước một, có hình dung rõ chuyện gì đang xảy ra.
+> 💡 Chưa quen dòng lệnh? Đọc [BAT-DAU-TU-DAY.md](BAT-DAU-TU-DAY.md) — từng bước một.
 
 ---
 
 ## Ai viết bộ này, và nhắn ở đâu khi kẹt
 
-Nhóm `cua-doan/` do **Tô Hải Đoàn** viết — người làm nội dung và xây thương hiệu cá nhân tại Việt Nam.
+Tám vai do **Tô Hải Đoàn** viết — người làm nội dung và xây thương hiệu cá nhân tại Việt Nam.
 
 Đây là quy trình tôi dùng cho công việc của chính mình mỗi ngày, không phải bộ skill dựng ra để phát. Vì thế nó có nhiều luật trông kỳ cục cho tới khi bạn gặp đúng tình huống nó sinh ra để chặn — phần lớn được rút từ chỗ tôi đã làm hỏng một lần.
 
@@ -52,65 +56,22 @@ Bạn dùng và sửa thoải mái, giấy phép MIT.
 
 ---
 
-## ⭐ Nhóm 1 — 19 skill của Tô Hải Đoàn
+## ⭐ Tám vai của Tô Hải Đoàn
 
 Đây là phần không mua được ở đâu khác: quy trình thật, đã chạy thật, có ghi lại cả những chỗ từng làm sai.
 
-### Bắt đầu
+**Thứ tự gợi ý khi dựng đội:** Thủ thư → Nghiên cứu → Tổng giám đốc → Content → Editor. Mỗi vai đọc thứ vai trước dựng, nhưng bạn không bắt buộc có đủ: mỗi lệnh `/cai-...` nói rõ vai nào cần, vai nào nên có, và hỏi bù phần còn thiếu. Riêng **Thủ thư luôn cần có trước**. Gõ `/chay-chuoi-dau-tien` để biết đang ở đâu.
 
-| Skill | Làm gì |
-|---|---|
-| `/chay-chuoi-dau-tien` | Cho biết bạn đang ở bước nào trong năm bước dựng đội, rồi dẫn chạy trọn một vòng tới video đầu tiên |
-| `/cai-thu-thu` · `/cai-nghien-cuu` · `/cai-tong-giam-doc` · `/cai-content` | Bốn bước đầu dựng đội: Thủ thư, Nghiên cứu, Tổng giám đốc, Content (bước 5 Editor nằm ở gói video) |
-
-### Dựng và nuôi bộ não thứ 2
-
-| Skill | Làm gì |
-|---|---|
-| `/nap-kho` | **Đường ghi DUY NHẤT vào `wiki/`.** Đọc → phân tích → soi trùng → mới ghi. Không sửa thẳng file `.md` |
-| `/kiem-chung` | Kiểm chứng bộ não đã **lưu thật vào file** chưa, hay chỉ nằm trong trí nhớ của đoạn chat |
-
-### Làm ra thành phẩm
-
-| Skill | Làm gì |
-|---|---|
-| `/viet-content` | Viết bài, hook, kịch bản video, email, **kế hoạch content một tháng** — đúng giọng bạn, chống văn AI. **Mang theo 4 trang luật nghề** |
-| `/anh-quote` | Biến một câu thành ảnh đăng. Bộ render tự chứa, font nhúng sẵn, không cần cài gì |
-| `/giai-thich-de-hieu` | Biến khái niệm khó thành **một trang có hình** — người chưa biết gì đọc 60 giây là hiểu |
-| `/soi-ads` | Soi và tối ưu quảng cáo Meta + Google. Có lớp chặn cứng, **không tiêu tiền khi bạn chưa gật** |
-| `/lam-khoa-hoc` | Viết bài giảng, slide, kịch bản quay bài học, bài tập thực hành |
-
-### Hiểu khách
-
-| Skill | Làm gì |
-|---|---|
-| `/nghien-cuu-e5` | Nghiên cứu thị trường: khách muốn gì, tin gì, bực gì, đối thủ hứa gì, còn chỗ trống nào |
-| `/tim-tam-guong` | Tìm người thật, số thật, nguồn tra lại được để chứng minh một ý |
-
-### Nghiên cứu người khác — hai việc khác hẳn nhau
+**Nghiên cứu người khác — hai việc khác hẳn nhau** (trong gói `nghien-cuu`):
 
 | Skill | Họ là ai với bạn | Câu hỏi lõi |
 |---|---|---|
-| `/soi-hinh-mau` | Người bạn **học theo** | *Lấy gì? Bỏ gì?* — 3 tầng luật, 359 dòng, rút sau 5+ vòng soi thật |
+| `/soi-hinh-mau` | Người bạn **học theo** | *Lấy gì? Bỏ gì?* |
 | `/soi-doi-thu` | Người **tranh khách** với bạn | *Khác biệt ở đâu? Họ hở chỗ nào?* |
 
-Gộp hai việc này làm một là hỏng cả hai. Mỗi skill tự chỉ sang skill kia khi bị gọi nhầm.
+Gộp hai việc làm một là hỏng cả hai. Mỗi skill tự chỉ sang skill kia khi bị gọi nhầm.
 
-**Thứ tự nên chạy:** `/cai-thu-thu` → `/cai-nghien-cuu` → `/cai-tong-giam-doc` → `/cai-content` → `/cai-editor`. Hoặc gõ `/chay-chuoi-dau-tien`, nó cho biết bạn đang ở bước nào.
-
-Lý do: các skill làm thành phẩm đều **đọc từ `wiki/` của bạn** — giọng của bạn, chuyện của bạn, khách của bạn. `wiki/` còn trống thì chúng không có gì để bám, và bài viết ra sẽ đúng nhưng không thật.
-
----
-
-## 🎬 Nhóm làm video — 3 skill
-
-Cần cài [ffmpeg](https://ffmpeg.org) trước. Khâu dựng người ngồi nói hiện **chỉ chạy trên Mac chip Apple (M1 trở lên)**. Nhóm này chỉ gồm công cụ dùng chung. Giọng đọc, khuôn mặt, nhạc nền, bộ lọc màu và kho cảnh quay là của riêng mỗi người nên không kèm theo.
-
-| Skill | Làm gì |
-|---|---|
-| `/dung-video` | Dựng clip bạn ngồi nói thành video: cắt chỗ ngập ngừng, phụ đề chạy, thẻ chữ, ảnh bằng chứng, xuất sang CapCut. Trình bảng dựng cho bạn duyệt trước khi dựng bản cuối |
-| `/xuong-video` | Lập kho từ thư mục footage của bạn, tra cảnh B-roll theo chữ, xuất thư mục đánh số kéo thẳng vào CapCut |
-| `/cai-editor` | Bước 5 dựng đội: kiểm máy, cài công cụ, ghi cách bạn quay, dựng thử một clip |
+**Vai Editor:** cần cài [ffmpeg](https://ffmpeg.org) trước. Khâu dựng người ngồi nói hiện **chỉ chạy trên Mac chip Apple (M1 trở lên)**. Gói chỉ gồm công cụ dùng chung. Giọng đọc, khuôn mặt, nhạc nền, bộ lọc màu và kho cảnh quay là của riêng mỗi người nên không kèm theo.
 
 ---
 
@@ -152,7 +113,7 @@ Tuyển từ [marketingskills](https://github.com/coreyhaines31/marketingskills)
 Chúng không giẫm chân nhau — chúng làm hai việc khác nhau:
 
 - **`tong-hop`** dạy bạn **kỹ thuật marketing**: cấu trúc một offer, đặt giá thế nào, chuỗi email gồm mấy bức.
-- **`cua-doan`** lo phần **bạn là ai**: giọng của bạn, chuyện thật của bạn, khách của bạn, và luật để bài viết ra không nghe như AI viết.
+- **Tám vai của Đoàn** lo phần **bạn là ai**: giọng của bạn, chuyện thật của bạn, khách của bạn, và luật để bài viết ra không nghe như AI viết.
 
 Ví dụ một lượt làm việc thật:
 
@@ -193,11 +154,11 @@ Chạy được trên **bất kỳ** thư mục skill nào — kể cả skill b
 
 1. **Sạch theo máy quét ≠ an toàn tuyệt đối.** Skill vẫn là chỉ thị cho AI. Một skill hoàn toàn "sạch" vẫn có thể dạy AI làm việc theo cách bạn không muốn. Không gì thay được việc đọc `SKILL.md` của skill bạn dùng nhiều nhất.
 2. **Bản cập nhật tương lai là bản chưa ai soi.** Repo bên thứ ba có thể đổi chủ hoặc bị chiếm. Vì thế skill được **chép cứng vào repo này** thay vì tải lúc chạy — và `cap-nhat-nguon.sh` **tự soi rồi dừng** nếu bản mới có gì đáng ngờ.
-3. **`/soi-ads` tiêu tiền thật.** Đây là rủi ro lớn nhất trong cả gói, và nó nằm ở nhóm `cua-doan` chứ không phải nhóm người ngoài. Nó khoá cứng cho tới khi bạn tự điền `luat.json`, và không bao giờ áp thay đổi nếu bạn chưa gật **trong chính cuộc hội thoại đó**.
+3. **`/soi-ads` tiêu tiền thật.** Đây là rủi ro lớn nhất trong cả gói, và nó nằm ở gói `ban-hang` của Đoàn chứ không phải nhóm `tong-hop`. Nó khoá cứng cho tới khi bạn tự điền `luat.json`, và không bao giờ áp thay đổi nếu bạn chưa gật **trong chính cuộc hội thoại đó**.
 
 ## Bản quyền
 
-- **Nhóm `cua-doan`** — © Tô Hải Đoàn, giấy phép [MIT](LICENSE).
+- **Tám vai của Đoàn** — © Tô Hải Đoàn, giấy phép [MIT](LICENSE).
 - **Nhóm `tong-hop`** — © Corey Haines, giấy phép MIT, giữ nguyên bản gốc kèm [file giấy phép](tong-hop/LICENSE-marketingskills).
 
 Chi tiết đầy đủ và cách cập nhật từ nguồn gốc: [NGUON-VA-BAN-QUYEN.md](NGUON-VA-BAN-QUYEN.md).

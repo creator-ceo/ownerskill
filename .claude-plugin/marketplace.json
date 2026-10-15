@@ -5,21 +5,57 @@
     "url": "https://github.com/creator-ceo"
   },
   "metadata": {
-    "description": "Bộ skill cho mô hình kinh doanh dựa trên thương hiệu cá nhân: nhóm do Tô Hải Đoàn tự xây (bộ não, viết content và kế hoạch tháng, đội nhân sự A.I, nghiên cứu), nhóm làm video, và nhóm marketing tổng hợp từ nguồn mở",
-    "version": "1.6.0",
+    "description": "Bộ skill cho người làm thương hiệu cá nhân, chia theo từng vai trong đội nhân sự A.I (Thủ thư, Nghiên cứu, Tổng giám đốc, Content, Editor, Bán hàng, Chăm sóc, Phát triển sản phẩm), mỗi vai cài riêng được, cộng nhóm marketing tổng hợp từ nguồn mở",
+    "version": "2.0.0",
     "repository": "https://github.com/creator-ceo/creator-skills"
   },
   "plugins": [
     {
-      "name": "cua-doan",
-      "description": "19 skill do Tô Hải Đoàn tự nghiên cứu và xây dựng: dựng đội nhân sự A.I từng bước (Thủ thư, Nghiên cứu, Tổng giám đốc, Content), giữ kho tài liệu bằng nap-kho và kiem-chung, viết content đúng giọng kèm kế hoạch content một tháng, vai Bán hàng và Chăm sóc, nghiên cứu thị trường và tìm tấm gương thật, làm bài giảng, ảnh quote, trang giải thích bằng hình, soi quảng cáo, soi hình mẫu và soi đối thủ. Viết bằng tiếng Việt.",
-      "source": "./cua-doan",
+      "name": "thu-thu",
+      "description": "Vai Thủ thư: giữ kho tài liệu của bạn. Dựng thư mục kho, ghi mọi thứ vào kho qua một đường duy nhất (/nap-kho), kiểm xem đã lưu thật chưa (/kiem-chung), và /chay-chuoi-dau-tien cho biết bạn đang ở bước nào khi dựng đội. Cài đầu tiên, các vai khác đọc từ kho này. Gõ /cai-thu-thu để thiết lập.",
+      "source": "./thu-thu",
       "strict": false
     },
     {
-      "name": "cua-doan-video",
-      "description": "3 skill làm video của Tô Hải Đoàn: dựng video người ngồi nói trước ống kính (cắt chỗ ngập ngừng, phụ đề chạy, xuất sang CapCut), lập kho footage để tra cảnh B-roll, và bước cài vai Editor. Chỉ gồm công cụ dùng chung, không kèm giọng, mặt, nhạc, bộ lọc màu hay kho cảnh của ai. Cần cài ffmpeg. Dựng người ngồi nói hiện chỉ chạy trên Mac chip Apple.",
-      "source": "./cua-doan-video",
+      "name": "nghien-cuu",
+      "description": "Vai Nghiên cứu: tìm hiểu khách muốn gì, bực gì, đối thủ đang hứa gì (/nghien-cuu-e5), tìm người thật chứng minh một ý (/tim-tam-guong), học theo người đi trước (/soi-hinh-mau) và soi đối thủ (/soi-doi-thu). Cần vai Thủ thư. Gõ /cai-nghien-cuu để thiết lập.",
+      "source": "./nghien-cuu",
+      "strict": false
+    },
+    {
+      "name": "tong-giam-doc",
+      "description": "Vai Tổng giám đốc: chốt mục tiêu 90 ngày, rà nút thắt, chọn việc tập trung của tháng và nghiệm thu (/dieu-hanh). Cần vai Thủ thư. Gõ /cai-tong-giam-doc để thiết lập.",
+      "source": "./tong-giam-doc",
+      "strict": false
+    },
+    {
+      "name": "content",
+      "description": "Vai Content: viết bài, hook, kịch bản video, email, và lập kế hoạch content một tháng đúng giọng của bạn, chống văn AI (/viet-content). Cần vai Thủ thư. Gõ /cai-content để thiết lập.",
+      "source": "./content",
+      "strict": false
+    },
+    {
+      "name": "editor",
+      "description": "Vai Editor: dựng clip ngồi nói thành video có phụ đề và xuất sang CapCut (/dung-video), lập kho cảnh quay để tra B-roll (/xuong-video), biến câu thành ảnh đăng (/anh-quote). Cần vai Thủ thư. Dựng người ngồi nói hiện chỉ chạy trên Mac chip Apple và cần cài ffmpeg. Gõ /cai-editor để thiết lập.",
+      "source": "./editor",
+      "strict": false
+    },
+    {
+      "name": "ban-hang",
+      "description": "Vai Bán hàng: dựng offer, trang bán, email bán, kịch bản gọi hoặc cả phễu (/ban-hang), và soi quảng cáo Meta, Google (/soi-ads, có lớp chặn không tiêu tiền khi bạn chưa gật). Cần vai Thủ thư.",
+      "source": "./ban-hang",
+      "strict": false
+    },
+    {
+      "name": "cham-soc",
+      "description": "Vai Chăm sóc: lo người đã trả tiền từ ngày đầu tới lúc ra kết quả, mua tiếp và giới thiệu người mới (/cham-soc). Cần vai Thủ thư.",
+      "source": "./cham-soc",
+      "strict": false
+    },
+    {
+      "name": "phat-trien-san-pham",
+      "description": "Vai Phát triển sản phẩm: viết bài giảng, slide, kịch bản quay bài học và bài tập (/lam-khoa-hoc), biến khái niệm khó thành một trang có hình (/giai-thich-de-hieu). Cần vai Thủ thư.",
+      "source": "./phat-trien-san-pham",
       "strict": false
     },
     {

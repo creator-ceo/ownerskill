@@ -4,11 +4,11 @@ Gói này gộp hai thứ có nguồn gốc khác nhau. Trang này ghi rõ cái 
 
 ---
 
-## Nhóm `cua-doan/` — 19 skill
+## Tám vai của Đoàn — 22 skill, mỗi vai một gói
 
 **© Tô Hải Đoàn.** Giấy phép **MIT** (xem [LICENSE](LICENSE)).
 
-**17 trong 19 skill** do Đoàn tự nghiên cứu và xây dựng, không lấy từ nguồn nào. Bạn được dùng, sửa, và phân phối lại — chỉ cần giữ dòng ghi công trong file `LICENSE`.
+**20 trong 22 skill** do Đoàn tự nghiên cứu và xây dựng, không lấy từ nguồn nào. Bạn được dùng, sửa, và phân phối lại — chỉ cần giữ dòng ghi công trong file `LICENSE`.
 
 Hai skill còn lại là phái sinh hoặc áp dụng phương pháp của người khác: `/soi-doi-thu` (xem ngay dưới) và `/nghien-cuu-e5`, áp dụng phương pháp E5 của Todd Brown, đã ghi công ngay đầu và cuối file skill.
 
@@ -84,7 +84,7 @@ Repo gốc cập nhật thường xuyên. Lấy bản mới:
 ./scripts/cap-nhat-nguon.sh
 ```
 
-Script tải bản mới nhất về, thay đúng 41 skill đã chọn, giữ nguyên nhóm `cua-doan/`. Xem `git diff` trước khi commit.
+Script tải bản mới nhất về, thay đúng 41 skill đã chọn, giữ nguyên tám gói vai. Xem `git diff` trước khi commit.
 
 ---
 
@@ -123,8 +123,8 @@ claude plugin disable tong-hop
 
 ---
 
-## Nhóm `cua-doan-video/` — 3 skill
+## Vai Editor (gói `editor`)
 
-**© Tô Hải Đoàn.** Giấy phép **MIT**. Font Be Vietnam Pro kèm trong `dung-video/fonts/` theo giấy phép OFL (file giấy phép nằm cạnh font).
+**© Tô Hải Đoàn.** Giấy phép **MIT**. Font Be Vietnam Pro kèm trong `editor/skills/dung-video/fonts/` theo giấy phép OFL (file giấy phép nằm cạnh font).
 
 **Cố ý không đưa vào gói:** giọng đọc nhân bản, khuôn mặt và video mẫu, nhạc nền, bộ lọc màu theo máy quay, kho cảnh quay và nhãn cảnh, tài khoản và khoá đăng bài. Đây là tài sản riêng của từng người, mỗi người tự có của mình.

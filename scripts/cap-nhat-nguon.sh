@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Lấy bản mới nhất của 41 skill trong tong-hop/ từ repo gốc (MIT, Corey Haines).
-# KHÔNG đụng tới cua-doan/. Xem `git diff` trước khi commit.
+# KHÔNG đụng tới tám gói vai (thu-thu, content, editor…). Xem `git diff` trước khi commit.
 set -euo pipefail
 
 GOC="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"

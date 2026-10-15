@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "thu-thu",
+  "displayName": "Vai Thủ thư — Tô Hải Đoàn",
+  "version": "1.0.0",
+  "description": "Vai Thủ thư: giữ kho tài liệu của bạn. Dựng thư mục kho, ghi mọi thứ vào kho qua một đường duy nhất (/nap-kho), kiểm xem đã lưu thật chưa (/kiem-chung), và /chay-chuoi-dau-tien cho biết bạn đang ở bước nào khi dựng đội. Cài đầu tiên, các vai khác đọc từ kho này. Gõ /cai-thu-thu để thiết lập.",
+  "author": {
+    "name": "Tô Hải Đoàn"
+  },
+  "license": "MIT",
+  "keywords": [
+    "kho",
+    "second-brain",
+    "tieng-viet"
+  ]
+}

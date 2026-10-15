@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "tong-giam-doc",
+  "displayName": "Vai Tổng giám đốc — Tô Hải Đoàn",
+  "version": "1.0.0",
+  "description": "Vai Tổng giám đốc: chốt mục tiêu 90 ngày, rà nút thắt, chọn việc tập trung của tháng và nghiệm thu (/dieu-hanh). Cần vai Thủ thư. Gõ /cai-tong-giam-doc để thiết lập.",
+  "author": {
+    "name": "Tô Hải Đoàn"
+  },
+  "license": "MIT",
+  "keywords": [
+    "muc-tieu",
+    "dieu-hanh",
+    "tieng-viet"
+  ]
+}
