@@ -157,7 +157,7 @@ Ba chỗ đào được khe hở thật:
 
 ---
 
-*Phái sinh từ `competitor-profiling` của Corey Haines ([marketingskills](https://github.com/coreyhaines31/marketingskills), giấy phép MIT). Năm nguyên tắc và khuôn hồ sơ giữ tinh thần bản gốc; quy trình và mục "khe hở" viết lại cho mô hình thương hiệu cá nhân.*
+*Phái sinh từ `competitor-profiling` của Corey Haines ([marketingskills](https://github.com/coreyhaines31/marketingskills), giấy phép MIT, thông báo bản quyền kèm theo ở file `LICENSE-marketingskills` cạnh file này). Năm nguyên tắc và khuôn hồ sơ giữ tinh thần bản gốc; quy trình và mục "khe hở" viết lại cho mô hình thương hiệu cá nhân.*
 
 ## Lệnh thuộc gói khác
 

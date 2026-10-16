@@ -58,22 +58,12 @@ for r in ROLES:
     json.dump(plug, open(f"{dst}/plugin.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     open(f"{dst}/plugin.json", "a").write("\n")
 
-# gói tong-hop dùng nguyên bản gốc (tiếng Anh, không nhắc lệnh riêng): thêm plugin.json ở gốc gói
-mh = json.load(open(".claude-plugin/marketplace.json", encoding="utf-8"))
-th = [p for p in mh["plugins"] if p["name"] == "tong-hop"][0]
-json.dump({"$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json", "name": "tong-hop", "version": "1.0.0",
-           "description": th["description"], "license": "MIT", "repository": "https://github.com/creator-ceo/ownerskill"},
-          open("tong-hop/plugin.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-open("tong-hop/plugin.json", "a").write("\n")
-
 os.makedirs(".agents/plugins", exist_ok=True)
 plugins = []
 for r in ROLES:
     mo_ta = json.load(open(f"codex/{r}/plugin.json", encoding="utf-8"))["description"]
     plugins.append({"name": r, "source": {"source": "local", "path": f"./codex/{r}"},
                     "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"})
-plugins.append({"name": "tong-hop", "source": {"source": "local", "path": "./tong-hop"},
-                "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"})
 json.dump({"name": "ownerskill", "interface": {"displayName": "Ownerskill"}, "plugins": plugins},
           open(".agents/plugins/marketplace.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 open(".agents/plugins/marketplace.json", "a").write("\n")

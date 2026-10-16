@@ -1,6 +1,6 @@
 # Nguồn và bản quyền
 
-Gói này gộp hai thứ có nguồn gốc khác nhau. Trang này ghi rõ cái nào của ai, để bạn dùng lại mà không sợ sai luật.
+Trang này ghi rõ cái nào của ai, để bạn dùng lại mà không sợ sai luật.
 
 ---
 
@@ -16,7 +16,7 @@ Hai skill còn lại là phái sinh hoặc áp dụng phương pháp của ngư�
 
 ### ⚠️ `/soi-doi-thu` KHÔNG phải của Đoàn
 
-`/soi-doi-thu` là **bản Việt hoá phái sinh** từ `competitor-profiling` của Corey Haines (MIT). Nó nằm ở nhóm `cua-doan/` vì cần đi cặp với `/soi-hinh-mau` — hai skill trỏ sang nhau để không giành trigger; tách ra hai nhóm thì cặp đó gãy khi học viên chỉ cài một nhóm.
+`/soi-doi-thu` là **bản Việt hoá phái sinh** từ `competitor-profiling` của Corey Haines (MIT). Nó nằm cùng gói `nghien-cuu` với `/soi-hinh-mau` vì hai skill trỏ sang nhau để không giành nhau. Thông báo bản quyền MIT của bản gốc kèm theo tại `nghien-cuu/skills/soi-doi-thu/LICENSE-marketingskills`.
 
 Hai chỗ đổi thật so với bản gốc, không chỉ là dịch:
 - **Chạy được không cần công cụ trả phí.** Bản gốc bắt buộc Firecrawl + DataForSEO và không có đường lui; bản này đọc trực tiếp, và chỉ ra rằng với mô hình nhân hiệu thì **bình luận và cộng đồng** mới là chỗ đáng đào — không công cụ SEO nào đọc hộ được.
@@ -58,68 +58,6 @@ Vài skill trong nhóm này ở bản gốc trỏ vào hạ tầng riêng của 
 Nhân vật trong `khuon/hinh-mau-mau.md` là **hư cấu** — kết quả nghiên cứu thật của Đoàn (`wiki/models/`, 390KB) **không** nằm trong gói.
 
 ⚠️ Trong các file này có **ví dụ, con số và tên người của Đoàn** — chúng ở đó để minh hoạ luật. Đừng bê chúng vào bài của bạn: đó là vi phạm chính luật cấm bịa mà chúng đang dạy.
-
----
-
-## Nhóm `tong-hop/` — 41 skill
-
-**© Corey Haines.** Giấy phép **MIT** — bản gốc kèm theo tại [`tong-hop/LICENSE-marketingskills`](tong-hop/LICENSE-marketingskills).
-
-| | |
-|---|---|
-| **Nguồn** | https://github.com/coreyhaines31/marketingskills |
-| **Số sao lúc đóng gói** | 45.826 ⭐ |
-| **Phiên bản gốc** | 2.11.0 |
-| **Ngày lấy về** | 2026-08-27 |
-| **Đã sửa gì** | Không sửa một chữ nào trong nội dung skill |
-| **Đã bỏ gì** | 9 skill thuần SaaS/app; thư mục `evals/` của mỗi skill (chỉ dùng để chạy test nội bộ) |
-
-MIT cho phép phân phối lại kèm sửa đổi, với điều kiện giữ nguyên thông báo bản quyền — file `LICENSE-marketingskills` chính là thông báo đó.
-
-### Cập nhật từ nguồn gốc
-
-Repo gốc cập nhật thường xuyên. Lấy bản mới:
-
-```bash
-./scripts/cap-nhat-nguon.sh
-```
-
-Script tải bản mới nhất về, thay đúng 41 skill đã chọn, giữ nguyên tám gói vai. Xem `git diff` trước khi commit.
-
----
-
-## Nguồn ĐÃ XÉT nhưng KHÔNG đưa vào
-
-Ghi lại để bạn biết đã cân nhắc gì, và vì sao loại.
-
-| Nguồn | ⭐ | Vì sao không đưa vào |
-|---|---|---|
-| [anthropics/skills](https://github.com/anthropics/skills) | 171.972 | ⚠️ **Không có file LICENSE** → mặc định là giữ toàn quyền, phân phối lại là sai luật. Cài trực tiếp từ nguồn (xem dưới) |
-| [obra/superpowers](https://github.com/obra/superpowers) | 278.391 | MIT, chất lượng cao — nhưng thiên về quy trình lập trình, không phục vụ mô hình thương hiệu cá nhân |
-| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 25.061 | MIT, ~388 skill — nhiều nhưng chất lượng không đều. Nhồi hết vào làm Claude chọn nhầm skill |
-| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 73.424 | Là **danh mục liệt kê**, không phải skill dùng được |
-
-### Muốn thêm bộ skill chính chủ của Anthropic
-
-Xử lý tài liệu (Word, Excel, PowerPoint, PDF), thiết kế, tạo skill mới:
-
-```bash
-claude plugin marketplace add anthropics/skills
-```
-
-Cài thẳng từ nguồn nên luôn đúng bản quyền và luôn là bản mới nhất.
-
----
-
-## Một lưu ý về số lượng
-
-Claude chọn skill bằng cách đọc **mô tả của mọi skill đang bật**. Bật càng nhiều thì càng dễ chọn nhầm.
-
-51 skill là con số đã cân nhắc, không phải giới hạn kỹ thuật. Nếu bạn thấy Claude hay chọn sai, hãy tắt bớt nhóm bạn ít dùng:
-
-```bash
-claude plugin disable tong-hop
-```
 
 ---
 

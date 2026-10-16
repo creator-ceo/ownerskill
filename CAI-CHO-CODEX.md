@@ -46,7 +46,6 @@ Bạn dùng ứng dụng Codex trên máy tính thay vì Terminal thì mở mụ
 | `ban-hang` | Offer, phễu, quảng cáo |
 | `cham-soc` | Chăm sóc người đã mua |
 | `phat-trien-san-pham` | Bài giảng, trang giải thích |
-| `tong-hop` | 41 skill marketing tiếng Anh |
 
 > **Đừng cài hết một lần.** Codex chỉ dành một phần nhỏ bộ nhớ làm việc để liệt kê skill. Cài quá nhiều thì mô tả bị rút gọn hoặc bỏ bớt, và Codex chọn sai skill. Chỉ cài vai bạn dùng.
 

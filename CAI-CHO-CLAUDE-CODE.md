@@ -42,7 +42,7 @@ Rồi cài thêm vai bạn cần, mỗi vai một dòng. Ví dụ vai Content:
 claude plugin install content@ownerskill
 ```
 
-Các vai khác: `nghien-cuu` · `tong-giam-doc` · `editor` · `ban-hang` · `cham-soc` · `phat-trien-san-pham`. Gói marketing tiếng Anh: `tong-hop`. Thay tên vai vào dòng lệnh trên.
+Các vai khác: `nghien-cuu` · `tong-giam-doc` · `editor` · `ban-hang` · `cham-soc` · `phat-trien-san-pham`. Thay tên vai vào dòng lệnh trên.
 
 > Vai Editor cần cài ffmpeg trước và chỉ dựng được video trên Mac chip Apple. Đổi ý lúc nào cũng cài thêm vai được.
 
@@ -112,22 +112,20 @@ Không nhớ tên skill cũng không sao — **cứ nói bằng lời thường*
 
 **`/soi-ads` mặc định bị khoá.** Nó tiêu tiền quảng cáo thật, nên cài xong là khoá cứng cho tới khi bạn tự điền tài khoản và hạn mức vào `luat.json`. Chạy `node bo-may/kiem.mjs` để xem còn thiếu ô nào.
 
-**Skill nhóm `tong-hop` viết bằng tiếng Anh.** Không sao — bạn cứ hỏi bằng tiếng Việt, Claude trả lời bằng tiếng Việt. Tiếng Anh chỉ là ngôn ngữ của tài liệu bên trong.
-
 ---
 
 ## Khi thấy Claude chọn nhầm skill
 
-Bật nhiều skill quá thì Claude dễ chọn nhầm. Tắt bớt nhóm ít dùng:
+Bật nhiều skill quá thì Claude dễ chọn nhầm. Gỡ bớt vai ít dùng:
 
 ```bash
-claude plugin disable tong-hop
+claude plugin uninstall <tên vai>@ownerskill
 ```
 
-Bật lại:
+Cài lại lúc nào cũng được:
 
 ```bash
-claude plugin enable tong-hop
+claude plugin install <tên vai>@ownerskill
 ```
 
 ---

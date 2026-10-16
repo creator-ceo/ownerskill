@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Soi an toàn một thư mục skill trước khi tin nó.
 #
-#   ./scripts/soi-an-toan.sh [đường-dẫn]     (mặc định: tong-hop/)
+#   ./scripts/soi-an-toan.sh [đường-dẫn]     (mặc định: cả repo)
 #
 # Skill là VĂN BẢN RA LỆNH CHO AI, chạy trong phiên có quyền đọc file và chạy lệnh.
 # Cài skill lạ = để người khác viết chỉ thị cho con AI đang ngồi trong máy bạn.
@@ -11,7 +11,7 @@
 set -uo pipefail
 
 GOC="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-DICH="${1:-$GOC/tong-hop}"
+DICH="${1:-$GOC}"
 [ -d "$DICH" ] || { echo "❌ không có thư mục: $DICH"; exit 1; }
 
 co_van_de=0

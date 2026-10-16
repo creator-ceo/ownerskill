@@ -1,13 +1,8 @@
 # Ownerskill
 
-**63 skill cho người làm thương hiệu cá nhân, chia theo từng vai trong một đội nhân sự A.I.** Mỗi vai là một gói riêng, bạn chọn vai cần và cài riêng từng vai.
+**22 skill cho người làm thương hiệu cá nhân, chia theo từng vai trong một đội nhân sự A.I.** Mỗi vai là một gói riêng, bạn chọn vai cần và cài riêng từng vai.
 
-Gói chia làm hai nhóm tách bạch, và sự tách bạch đó là cố ý:
-
-| Nhóm | Số skill | Là gì | Ngôn ngữ |
-|---|---|---|---|
-| ⭐ **Tám vai của Tô Hải Đoàn** | 22 | Do **Tô Hải Đoàn** tự nghiên cứu, tự dùng cho công việc thật, rồi đóng gói lại. Mỗi vai một gói | Tiếng Việt |
-| **`tong-hop`** | 41 | Tuyển chọn từ nguồn mở MIT chất lượng cao, giữ nguyên không sửa | Tiếng Anh |
+Tất cả do **Tô Hải Đoàn** tự nghiên cứu, tự dùng cho công việc thật, rồi đóng gói lại. Tiếng Việt.
 
 ## Cài trong 2 phút
 
@@ -81,90 +76,27 @@ Gộp hai việc làm một là hỏng cả hai. Mỗi skill tự chỉ sang ski
 
 ---
 
-## Nhóm 2 — 41 skill marketing tổng hợp
+## An toàn
 
-Tuyển từ [marketingskills](https://github.com/coreyhaines31/marketingskills) của Corey Haines — **45.800 sao trên GitHub**, giấy phép MIT, cập nhật liên tục.
+**Skill không phải phần mềm thường. Nó là văn bản ra lệnh cho AI**, và con AI đó đang ngồi trong máy bạn với quyền đọc file và chạy lệnh. Cài skill của ai cũng nên đọc qua trước.
 
-Đã bỏ 9 skill thuần SaaS/app (`aso`, `paywalls`, `signup`, `programmatic-seo`, `schema`, `site-architecture`, `directory-submissions`, `revops`, `sms`) vì không hợp mô hình cá nhân.
+Với bộ này, bạn cần biết:
 
-<details>
-<summary><b>Xem đủ 41 skill</b></summary>
+- **Một số skill có kèm file chạy được** (Python, JavaScript): `dung-video`, `xuong-video`, `anh-quote`, `soi-ads`, `giai-thich-de-hieu`. Chúng chỉ chạy khi bạn gọi skill, nằm trong thư mục `bo-may/` hoặc cạnh `SKILL.md`, và đọc được trước khi cài.
+- **`/soi-ads` tiêu tiền thật.** Nó khoá cứng cho tới khi bạn tự điền tài khoản và hạn mức vào `luat.json`, và không thay đổi gì trong tài khoản quảng cáo khi bạn chưa gật.
+- **Khoá và mật khẩu của bạn không bao giờ nằm trong repo.** Các skill cần khoá (Gemini, quảng cáo) đọc từ biến môi trường hoặc file riêng trên máy bạn.
 
-**Offer & tiền:** `offers` · `pricing` · `lead-magnets` · `launch` · `free-tools`
-
-**Viết & nội dung:** `copywriting` · `copy-editing` · `content-strategy` · `emails` · `cold-email` · `social` · `video` · `image`
-
-**Khách hàng:** `customer-research` · `marketing-psychology` · `onboarding` · `churn-prevention` · `referrals` · `community-marketing`
-
-**Đối thủ & định vị:** `competitors` · `competitor-profiling` · `product-marketing`
-
-**Quảng cáo & chuyển đổi:** `ads` · `ad-creative` · `cro` · `ab-testing` · `popups`
-
-**Đo lường:** `analytics` · `attribution`
-
-**Tìm khách & bán:** `prospecting` · `sales-enablement`
-
-**Lan toả:** `public-relations` · `influencer-marketing` · `co-marketing` · `events`
-
-**SEO:** `seo-audit` · `ai-seo`
-
-**Chiến lược:** `marketing-plan` · `marketing-ideas` · `marketing-loops` · `marketing-council`
-
-</details>
-
----
-
-## Hai nhóm này ăn khớp với nhau thế nào
-
-Chúng không giẫm chân nhau — chúng làm hai việc khác nhau:
-
-- **`tong-hop`** dạy bạn **kỹ thuật marketing**: cấu trúc một offer, đặt giá thế nào, chuỗi email gồm mấy bức.
-- **Tám vai của Đoàn** lo phần **bạn là ai**: giọng của bạn, chuyện thật của bạn, khách của bạn, và luật để bài viết ra không nghe như AI viết.
-
-Ví dụ một lượt làm việc thật:
-
-```
-/offers            → dựng cấu trúc offer (kỹ thuật, tiếng Anh)
-/nap-kho           → nạp offer vừa dựng vào bộ não
-/viet-content      → viết bài bán offer đó, bằng giọng của bạn
-/anh-quote         → cắt câu chốt thành ảnh đăng
-```
-
----
-
-## An toàn — vì sao cài skill lạ là chuyện đáng cân nhắc
-
-**Skill không phải phần mềm. Nó là văn bản ra lệnh cho AI** — và con AI đó đang ngồi trong máy bạn với quyền đọc file, chạy lệnh, gọi API. Cài skill của người lạ nghĩa là để họ viết chỉ thị cho nó.
-
-41 skill nhóm `tong-hop` đã được soi trước khi đưa vào gói:
-
-| Soi gì | Kết quả |
-|---|---|
-| File chạy được (`.sh`, `.py`, `.js`…) | **0** — toàn bộ chỉ là `.md` |
-| Hook · MCP server · LSP *(thứ tự chạy, không cần bạn gõ gì)* | **0** |
-| Lệnh phá hoại, leo quyền, tải-rồi-chạy | **0** |
-| Endpoint gửi dữ liệu ra ngoài | **0** |
-| Lệnh đọc `~/.ssh`, `.aws/credentials`, keychain | **0** |
-| Chỉ thị ngầm (prompt injection) | 1 chỗ khớp mẫu — đã đọc tận nơi, là skill **dạy cách CHỐNG** injection |
-| Đối chiếu với bản gốc trên GitHub | **41/41 khớp bit-for-bit** |
-
-Bạn tự soi lại được, đừng tin lời tôi:
+Tự soi lại được, đừng tin lời tôi:
 
 ```bash
-./scripts/soi-an-toan.sh tong-hop
+./scripts/soi-an-toan.sh
 ```
 
-Chạy được trên **bất kỳ** thư mục skill nào — kể cả skill bạn tải từ nơi khác.
-
-### Ba điều máy quét KHÔNG che được
-
-1. **Sạch theo máy quét ≠ an toàn tuyệt đối.** Skill vẫn là chỉ thị cho AI. Một skill hoàn toàn "sạch" vẫn có thể dạy AI làm việc theo cách bạn không muốn. Không gì thay được việc đọc `SKILL.md` của skill bạn dùng nhiều nhất.
-2. **Bản cập nhật tương lai là bản chưa ai soi.** Repo bên thứ ba có thể đổi chủ hoặc bị chiếm. Vì thế skill được **chép cứng vào repo này** thay vì tải lúc chạy — và `cap-nhat-nguon.sh` **tự soi rồi dừng** nếu bản mới có gì đáng ngờ.
-3. **`/soi-ads` tiêu tiền thật.** Đây là rủi ro lớn nhất trong cả gói, và nó nằm ở gói `ban-hang` của Đoàn chứ không phải nhóm `tong-hop`. Nó khoá cứng cho tới khi bạn tự điền `luat.json`, và không bao giờ áp thay đổi nếu bạn chưa gật **trong chính cuộc hội thoại đó**.
+Máy quét sẽ liệt kê các file chạy được ở trên (cùng chỗ gọi mạng và chỗ đọc khoá của các skill đó). Đó là chủ ý, bạn đọc từng cái. Chạy được trên bất kỳ thư mục skill nào, kể cả skill bạn tải từ nơi khác. Sạch theo máy quét không có nghĩa là an toàn tuyệt đối, vì skill vẫn là chỉ thị cho AI. Không gì thay được việc đọc `SKILL.md`.
 
 ## Bản quyền
 
 - **Tám vai của Đoàn** — © Tô Hải Đoàn, giấy phép [MIT](LICENSE).
-- **Nhóm `tong-hop`** — © Corey Haines, giấy phép MIT, giữ nguyên bản gốc kèm [file giấy phép](tong-hop/LICENSE-marketingskills).
+- Riêng `/soi-doi-thu` phái sinh từ skill của Corey Haines (MIT), thông báo bản quyền kèm trong [thư mục skill](nghien-cuu/skills/soi-doi-thu/LICENSE-marketingskills).
 
-Chi tiết đầy đủ và cách cập nhật từ nguồn gốc: [NGUON-VA-BAN-QUYEN.md](NGUON-VA-BAN-QUYEN.md).
+Chi tiết đầy đủ: [NGUON-VA-BAN-QUYEN.md](NGUON-VA-BAN-QUYEN.md).

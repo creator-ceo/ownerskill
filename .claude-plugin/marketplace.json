@@ -5,8 +5,8 @@
     "url": "https://github.com/creator-ceo"
   },
   "metadata": {
-    "description": "Bộ skill cho người làm thương hiệu cá nhân, chia theo từng vai trong đội nhân sự A.I (Thủ thư, Nghiên cứu, Tổng giám đốc, Content, Editor, Bán hàng, Chăm sóc, Phát triển sản phẩm), mỗi vai cài riêng được, cộng nhóm marketing tổng hợp từ nguồn mở",
-    "version": "2.0.0",
+    "description": "Bộ skill của Tô Hải Đoàn cho người làm thương hiệu cá nhân, chia theo từng vai trong đội nhân sự A.I (Thủ thư, Nghiên cứu, Tổng giám đốc, Content, Editor, Bán hàng, Chăm sóc, Phát triển sản phẩm), mỗi vai cài riêng được",
+    "version": "2.1.0",
     "repository": "https://github.com/creator-ceo/ownerskill"
   },
   "plugins": [
@@ -56,12 +56,6 @@
       "name": "phat-trien-san-pham",
       "description": "Vai Phát triển sản phẩm: viết bài giảng, slide, kịch bản quay bài học và bài tập (/lam-khoa-hoc), biến khái niệm khó thành một trang có hình (/giai-thich-de-hieu). Cần vai Thủ thư.",
       "source": "./phat-trien-san-pham",
-      "strict": false
-    },
-    {
-      "name": "tong-hop",
-      "description": "41 skill marketing tổng hợp từ nguồn mở MIT chất lượng cao (marketingskills của Corey Haines, 45.8k sao): thiết kế offer, định giá, copywriting, email, lead magnet, launch, cộng đồng, tâm lý marketing, nghiên cứu khách hàng, quảng cáo, SEO, PR và đo lường. Bằng tiếng Anh.",
-      "source": "./tong-hop",
       "strict": false
     }
   ]
